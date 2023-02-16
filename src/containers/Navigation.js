@@ -2,9 +2,10 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
+
 const Navigation = () => {
   return (
-    <nav>
+    <nav className='flex w-full h-20 bg-[#003032] text-white'>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/properties">Properties</Link>

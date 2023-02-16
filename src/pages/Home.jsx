@@ -5,9 +5,7 @@ import { Topbar, Navbar, LandingSlider } from '../components/home'
 const Home = () => {
   return (
     <div className="home">
-      <Topbar />
-      <Navbar />
-      <LandingSlider />
+      
     </div>
 
   )
