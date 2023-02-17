@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from 'react-router-dom'
 
-import logo_light from '../assets/images/logos/logo-light.png'
-import logo_dark from '../assets/images/logos/logo-dark.png'
+import logo from '../../../assets/images/logos/logo1.png'
 
 
-function Navigation() {
+
+function Navbar() {
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const [navbarFixed, setNavbarFixed] = useState(false);
@@ -25,14 +26,12 @@ function Navigation() {
   }, []);
 
   return (
-    <div>
       <nav className={`${navbarFixed ?"fixed top-0 left-0 right-0 shadow-md z-50":"relative"} bg-[#043334] `}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 py-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center md:justify-between md:w-full">
-              <div className="flex-shrink-0">
-                <img src={logo_light} alt="logo" className="w-10" />
-                <span className="text-sm text-white dark:text-yellow-500 md:text-base font-bold rounded-md ml-2 ">Masterclass <span className='bg-yellow-900 dark:text-gray-200'>Emlak</span></span>
+            <div className="flex items-center md:justify-between md:w-full ">
+              <div className="flex-shrink-0 justify-center">
+                <img src={logo} alt="logo" className="w-24 md:w-28 lg:w-32" />
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4  md:flex md:flex-row  md:gap-6  lg:gap-10 xl:gap-12 2xl:gap-16">
@@ -154,7 +153,7 @@ function Navigation() {
                 </Link>
 
                 <Link
-                   to="/properties" onClick={() => setMenuOpen(false)}
+                    to="/properties" onClick={() => setMenuOpen(false)}
                   className="text-gray-300 dark:hover:bg-[#014649] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Properties
@@ -184,23 +183,7 @@ function Navigation() {
           )}
         </Transition>
       </nav>
-
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        </div>
-      </header>
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          {/* <!-- Replace with your content --> */}
-          <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
-          </div>
-          {/* <!-- /End replace --> */}
-        </div>
-      </main>
-    </div>
   );
 }
 
-export default Navigation;
+export default Navbar;

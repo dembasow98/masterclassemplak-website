@@ -1,5 +1,5 @@
 import React from 'react'
-import Languages from '../components/home/dropdown/Languages'
+import Languages from '../components/common/dropdown/Languages'
 
 const About = () => {
   return (

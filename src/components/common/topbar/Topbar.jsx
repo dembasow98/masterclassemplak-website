@@ -5,7 +5,7 @@ import {SiBitcoin, SiLitecoin} from "react-icons/si";
 import {TiGroup} from "react-icons/ti";
 
 //import Languages from '../dropdown/Languages';
-import Languages from '../dropdown/Languages';
+import Languages from '../../common/dropdown/Languages';
 
 
 

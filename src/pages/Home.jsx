@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Topbar, Navbar, LandingSlider } from '../components/home'
-import Languages from '../components/home/dropdown/Languages'
+import Languages from '../components/common/dropdown/Languages'
 
 const Home = () => {
   return (
