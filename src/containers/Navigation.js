@@ -29,7 +29,7 @@ const Navigation = () => {
     <nav 
     className={`${navbarFixed ? 'fixed top-0 left-0 right-0 bg-[#003032] shadow-md z-50 ' : 'relative'
     } flex w-full h-20 bg-[#003032]  text-white items-center  px-4 py-3`}>
-        <div className='MENU flex items-center md:justify-between  w-full h-fit left-2'>
+        <div className='MENU flex items-center md:justify-between w-full h-fit'>
           <div className="LOGO flex flex-col items-center w-48">
             <img src={logo_light} alt="logo" className="w-10" />
             <span className="text-sm md:text-base font-bold rounded-md ml-2 ">Masterclass <span className='bg-yellow-900'>Emlak</span></span>
@@ -69,24 +69,24 @@ const Navigation = () => {
             </button>
           </div>
           
-          <div className={`MENU-ITEMS md:inline-flex  items-center sticky-top  ${menuOpen ? 'block' : 'hidden'}`}>
-            <ul className='md:flex md:flex-row  md:gap-6  lg:gap-10 xl:gap-12 2xl:gap-16'>
-              <li className='flex flex-col  items-center'>
+          <div className={`MENU-ITEMS w-full z-20 md:z-0 md:inline-flex items-center md:w-auto ${menuOpen ? 'block' : 'hidden'}`}>
+            <ul className='flex flex-col p-4 mt-4 border-gray-100 bg-gray-50  md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-[#003032] md:dark:bg-[#003032] md:flex md:flex-row  md:gap-6  lg:gap-10 xl:gap-12 2xl:gap-16'>
+              <li className='block  items-center'>
                 <Link to="/" onClick={() => setMenuOpen(false)} >Home</Link>
               </li>
-              <li className='flex flex-col items-center'>
+              <li className='block items-center'>
                 <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
               </li>
-              <li className='flex flex-col items-center'>
+              <li className='block items-center'>
                 <Link to="/properties" onClick={() => setMenuOpen(false)}>Properties</Link>
               </li>
-              <li className='flex flex-col items-center'>
+              <li className='block items-center'>
                 <Link to="/news" onClick={() => setMenuOpen(false)}>News</Link>
               </li>
-              <li className='flex flex-col items-center'>
+              <li className='block items-center'>
                 <Link to="/blogs" onClick={() => setMenuOpen(false)}>Blogs</Link>
               </li>
-              <li className='flex flex-col items-center'>
+              <li className='block items-center'>
                 <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
               </li>
             </ul>
