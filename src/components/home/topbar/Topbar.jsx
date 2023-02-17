@@ -40,7 +40,7 @@ const Topbar = () => {
           </div>
          
           <div className='BUY-ONLINE flex w-full  justify-end place-items-center'>
-            <button type="button" className="w-fit focus:outline-none text-white bg-red-800 hover:bg-red-900 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+            <button type="button" className="w-fit text-xs focus:outline-none text-white bg-red-800 hover:bg-red-900 focus:ring-4 focus:ring-red-300 font-medium rounded-lg md:text-sm px-5 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
               BUY ONLINE
             </button>
           </div>
@@ -49,7 +49,7 @@ const Topbar = () => {
 
         <div className='BOTTOM-PART md:order-1 flex flex-row items-center justify-center gap-3 w-full px-4 mx-auto '>
 
-          <div className='USER flex flex-row  p-2 gap-3'>
+          <div className='USER flex flex-row p-2 gap-3'>
             <div  className='flex w-full md:bg-yellow-800 px-3 md:py-2 rounded-md justify-center items-center'>
               <a className='flex w-full items-center gap-2' href="https://www.facebook.com/">
                 <TiGroup className='text-xl md:text-2xl'/>
@@ -62,21 +62,21 @@ const Topbar = () => {
             <ul className='flex flex-row gap-3'>
               <li>
                 <a href="https://www.instagram.com/">
-                  <SiBitcoin className='text-xl md:text-2xl'/>
+                  <SiBitcoin className='text-xl sm:text-base md:text-xl'/>
                 </a>
               </li>
               <li>
                 <a href="https://www.facebook.com/">
-                  <FaEthereum className='text-xl md:text-2xl'/>
+                  <FaEthereum className='text-xl sm:text-base md:text-xl'/>
                 </a>
               </li>
               
               <li>
                 <a href="https://www.twitter.com/">
-                  <SiLitecoin className='text-xl md:text-2xl'/>
+                  <SiLitecoin className='text-xl sm:text-base md:text-xl'/>
                 </a>
               </li>
-              <span className='text-sm md:text-lg '>Accepted here</span>
+              <span className='text-sm text-gray-300 sm:text-sm  md:text-base sm:hidden xl:inline-flex'>Accepted here</span>
             </ul>
             
           </div>
