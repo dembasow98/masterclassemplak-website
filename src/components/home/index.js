@@ -1,2 +1,2 @@
 //Home Components
-export {default as Landing} from './slider/Landing';
+export {default as Banner} from './sliders/Banner'

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from 'react-router-dom'
 
@@ -11,6 +11,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const [navbarFixed, setNavbarFixed] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.pageYOffset > 24) {
@@ -137,7 +138,7 @@ function Navbar() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div ref= {(node) =>ref.current = node } className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link
                   to="/" onClick={() => setMenuOpen(false)} 
                   className="text-gray-300 dark:hover:bg-[#014649] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
