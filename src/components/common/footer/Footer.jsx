@@ -1,6 +1,9 @@
 import React from 'react'
 import logo from '../../../assets/images/logos/logo1.png'
 import { Link } from 'react-router-dom'
+import yel1 from '../../../assets/images/separators/yellow/yel1.png'
+import yel2 from '../../../assets/images/separators/yellow/yel2.png'
+import gr5 from '../../../assets/images/separators/gray/gr5.png'
 
 //import {RiSeparator} from 'react-icons/ri'
 //import {MdPanoramaHorizontalSelect} from 'react-icons/md'
@@ -58,7 +61,9 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <hr/>
+        <div class="flex my-2 w-full justify-center items-center space-x-2">
+            <img src={yel2} alt="visa" />
+        </div>
         <div class="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Company</h2>
@@ -126,22 +131,29 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
-        <hr/>
+        <div class="flex my-2 w-full justify-center items-center space-x-2">
+            <img src={gr5} alt="visa" />
+        </div>
         <div class="px-4 py-6 bg-gray-100 dark:bg-gray-900 md:flex md:items-center md:justify-between">
             <div class="flex flex-col justify-center items-center space-x-6 md:order-2">
                 <span class="text-sm text-center font-medium text-gray-500 dark:text-gray-300">
                     Copyright © 2023 <Link to="/">Master Class Emlak</Link>. All Rights Reserved.
                 </span>
                 {/* Add a short separator */}
-                <BsEmojiHeartEyesFill className="font-bold text-[#043334]" />
-                <span class="text-sm font-sm text-gray-500 dark:text-gray-300 sm:text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </span>
-                {/* Add a short separator */}
-                <BsEmojiHeartEyesFill className="font-bold text-[#043334]" />
+                <div class="flex my-2 w-full justify-center items-center space-x-2">
+                    <img src={yel1} alt="visa" />
+                </div>
+                <div className='md:px-48 justify-center items-center text-sm font-sm text-gray-500 dark:text-gray-300 sm:text-center'>
+                    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                
+                </div>
+                <div class="flex my-2  w-full justify-center items-center space-x-2">
+                    <img src={yel1} alt="visa" />
+                </div>
                 <span class="text-sm font-bold text-gray-500 dark:text-gray-300 sm:text-center">
                     Made with ❤️ by <a href="https://www.linkedin.com/in/demba-sow-95903a22a/" target='_blank' class="hover:underline">Demba Sow</a>
                 </span>   
