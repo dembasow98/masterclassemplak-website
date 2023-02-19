@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from "react";
+import React, {useRef, useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from 'react-router-dom'
 
@@ -12,9 +12,10 @@ function Navbar() {
 
   const [navbarFixed, setNavbarFixed] = useState(false);
 
+
   useEffect(() => {
     const handleScroll = () => {
-      if (window.pageYOffset > 24) {
+      if (window.pageYOffset > 100) {
         setNavbarFixed(true);
       } else {
         setNavbarFixed(false);

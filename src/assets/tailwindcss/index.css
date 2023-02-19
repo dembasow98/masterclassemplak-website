@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/*
+Do it for all the breakpoints
+
+*/
+body {
+    overflow-x: hidden;
+}

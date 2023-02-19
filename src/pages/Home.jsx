@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Topbar, Navbar, Banner } from '../components/home'
+import { Banner } from '../components/home'
 import Languages from '../components/common/dropdown/Languages'
 
 const Home = () => {
   return (
-    <main className='flex items-center justify-center'>
-      <Banner/>
+    <main className="bg-gray-100 dark:bg-gray-900">
+      <Banner />
     </main>
   )
 }
