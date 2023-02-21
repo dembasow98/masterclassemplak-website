@@ -15,10 +15,10 @@ const Image = ({ title, source, description, tags }) => {
   };
 
   return (
-    <div className="relative left-0 right-0">
-      <img src={source} alt={title} className="w-full h-[530px] md:h-[500px] lg:h-[540px]" />
+    <div className="relative mx-auto">
+      <img src={source} alt={title} className="w-full h-[530px] md:h-[500px] lg:h-[540px] object-cover" />
       <div className="flex left-0 items-center justify-center  right-0 px-4 w-full ">
-        <div className="absolute top-10 w-fit max-w-full sm:mx-10 sm:px-10  md:px-20 flex items-center flex-col py-3 bg-gray-900 bg-opacity-25">
+        <div className="absolute top-10 w-fit max-w-full  mx-5 px-10  md:mx-10 md:px-20 flex items-center flex-col py-3 bg-gray-900 bg-opacity-25">
             <div className="text-xl font-bold text-white">{title}</div>
             <div className="text-gray-300 dark:text-gray-100">{description}</div>
             <div className="mt-2">

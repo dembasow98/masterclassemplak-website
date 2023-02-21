@@ -22,8 +22,7 @@ const Banner = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    dotsClass: "slick-dots my-10 bg-gray-900 bg-opacity-25",
-    
+    dotsClass: "slick-dots slick-dots-top my-10 text-white bg-gray-900 bg-opacity-25",
   };
 
   return (
