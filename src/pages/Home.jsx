@@ -1,6 +1,6 @@
 import React from 'react'
 import { Banner } from '../components/home'
-import Languages from '../components/common/dropdown/Languages'
+//import Languages from '../components/common/dropdown/Languages'
 
 const Home = () => {
   return (

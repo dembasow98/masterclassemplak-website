@@ -13,8 +13,11 @@ module.exports = {
     require('tw-elements/dist/plugin')
   ]
 }
+HELP LINKS
+https://flowbite.com/docs/components/carousel/#indicators
+https://openbase.com/js/react-image-gallery
 
-
+https://openbase.com/categories/js/best-react-image-viewer-libraries?vs=react-image-magnify%2Creact-image-gallery%2Creact-photo-gallery
  <div className="relative mx-auto">
       <img src={source} alt={title} className="w-full h-[530px] md:h-[500px] lg:h-[540px] " />
       <div className="flex left-0 items-center justify-center  right-0 px-4 w-full ">

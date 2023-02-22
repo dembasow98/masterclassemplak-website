@@ -5,15 +5,16 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import {Image} from './components';
 
-import bannerData from '../../../data/slides/banner.json';
+import data from '../../../data/slides/data.json';
 
-//import { PreviousArrow, NextArrow } from './components/arrows';
-import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+
+
+
 
 const Banner = () => {
 
   //Get the images from the json file
-  const images = bannerData.images;
+  const images = data.properties;
 
 
   const settings = {
@@ -22,7 +23,7 @@ const Banner = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    dotsClass: "slick-dots slick-dots-top my-10 text-white bg-gray-900 bg-opacity-25",
+    dotsClass: "slick-dots my-10 text-white bg-gray-900 bg-opacity-25",
   };
 
   return (
