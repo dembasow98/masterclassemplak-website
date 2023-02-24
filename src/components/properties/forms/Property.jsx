@@ -1,28 +1,61 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {AiTwotoneHeart} from "react-icons/ai";
+import {Link} from "react-router-dom";
 
-const Property = ({ type, favoriteButton, title, description, profileImage, location, toilets, bedrooms }) => {
+const Property = (
+    {
+        type, 
+        isFavorite, 
+        title, 
+        description, 
+        profileImage, 
+        location, 
+        toilets, 
+        bedrooms, 
+        bathrooms,
+        area, 
+        hasPool,
+        hasGarden,
+        hasParking,
+    }) => {
+
+        const [isLiked, setIsLiked] = useState(false);
+
+        const handleLikeClick = () => {
+            setIsLiked(!isLiked);
+        };
+
+        //image click handler
+        const slugify = (string) => {
+            return string
+                .toString()
+                .toLowerCase()
+                .replace(/\s+/g, "-") // Replace spaces with -
+                .replace(/[^\w\-]+/g, "") // Remove all non-word chars
+                .replace(/\-\-+/g, "-") // Replace multiple - with single -
+                .replace(/^-+/, "") // Trim - from start of text
+                .replace(/-+$/, ""); // Trim - from end of text
+        };
+
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <div className="relative">
-        <div className="absolute top-0 left-0 bg-blue-700 text-white rounded-bl-lg py-1 px-2">{type}</div>
-            <button className="absolute top-0 right-0 p-1">
-            {favoriteButton ? (
-                <svg className="w-6 h-6 fill-current text-blue-700" viewBox="0 0 24 24">
-                <path d="M12 2C7.03 2 3 6.13 3 11c0 4.17 2.67 7.74 6.39 9.02L12 22l2.61-1.98C18.33 18.74 21 15.17 21 11c0-4.87-4.03-9-9-9zm4.61 13.87l-.61.47-.61-.47C13.22 15.25 12.64 15 12 15c-.64 0-1.22.25-1.61.87l-.61.47-.61-.47C7.78 14.25 6.36 12.89 6.08 11c-.06-.45.09-.92.43-1.27.35-.35.82-.54 1.3-.47L9 9.35l.92-.72C10.35 8.25 11.67 8.25 13 8.25s2.65 0 3.08.38l.92.72 1.19-.92c.48-.07.95.12 1.3.47.34.35.49.82.43 1.27-.28 1.89-1.7 3.25-3.39 3.87z" />
-                </svg>
-            ) : (
-                <svg className="w-6 h-6 fill-current text-gray-400" viewBox="0 0 24 24">
-                <path d="M17.66 4.34a6 6 0 00-8.48 0L12 5.16l1.82-1.82a6 6 0 000 8.48L12 17.12l-1.82-1.82a6 6 0 00-8.48 0 6 6 0 000 8.48l10.6 10.6a6 6 0 008.48 0l10.6-10.6a6 6 0 000-8.48l-10.6-10.6zM12 15.66l-4.24-4.24a4 4 0 015.66 0L12 15.66z" />
-                </svg>
-            )}
+        <div className="absolute top-0 left-0 bg-blue-700 dark:bg-[#059669] text-white rounded-bl-lg py-1 px-2">{type}</div>
+            <button className="absolute top-0 right-0 m-1 p-2 rounded-full  hover:bg-gray-800 dark:bg-gray-700 border-gray-500">
+                <AiTwotoneHeart 
+                    {...isFavorite}
+                    className={`w-5 h-5 fill-current ${isLiked ? "text-red-600" : "text-gray-400"}`}
+                    onClick={handleLikeClick}
+                /> 
             </button>
-            <a href="#">
-            <img className="rounded-t-lg" src={profileImage} alt={title} />
-            </a>
+           
+            <Link to= {`/properties/${slugify(title)}`}>
+                <img className="rounded-t-lg" src={profileImage} alt={title} />
+            </Link>
         </div>
         <div className="p-5">
             <a href="#">
-            <h5 className="mb-2 text-2xl font-bold">{title}</h5>
+            <h5 className="mb-2 text-2xl dark:text-slate-100 font-bold">{title}</h5>
             </a>
             <p className="mb-2 text-gray-600">{description}</p>
             <div className="flex items-center mb-2">

@@ -2,7 +2,6 @@ import React from 'react'
 import {Home, Blogs, Contact, About, Properties, News} from  '../../../pages'
 
 import {Routes, Route } from 'react-router-dom'
-//import {Property} from '../../../components/properties/property/Property'
 
 const Content = () => {
   return (
