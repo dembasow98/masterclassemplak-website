@@ -34,46 +34,43 @@ const Property = (
     }) => {
         
 
-        //Get all the property details and store them in a variable
-        const property = {
-            type,
-            isFavorite,
-            title,
-            description,
-            profileImage,
-            gallery,
-            location,
-            price,
-            reference,
-            createdAt,
-            updatedAt,
-            overview,
-            benefits,
-            details,
-            //convert features to an array using json.stringify
-            features: JSON.stringify(features)
-        };
+    //Get all the property details and store them in a variable
+    const property = {
+        type,
+        isFavorite,
+        title,
+        description,
+        profileImage,
+        gallery,
+        location,
+        price,
+        reference,
+        createdAt,
+        updatedAt,
+        overview,
+        benefits,
+        details,
+        //convert features to an array using json.stringify
+        features: JSON.stringify(features)
+    };
 
-        const [isLiked, setIsLiked] = useState(false);
+    const [isLiked, setIsLiked] = useState(false);
 
-        const handleLikeClick = () => {
-            setIsLiked(!isLiked);
-        };
+    const handleLikeClick = () => {
+        setIsLiked(!isLiked);
+    };
 
-        
-
-        //image(image title) click handler
-        const slugify = (string) => {
-            return string
-              .toString()
-              .toLowerCase()
-              .replace(/\s+/g, '-') // Replace spaces with -
-              .replace(/[^\w-]+/g, '') // Remove all non-word chars except -
-              .replace(/--+/g, '-') // Replace multiple - with single -
-              .replace(/^-+/, '') // Trim - from start of text
-              .replace(/-+$/, ''); // Trim - from end of text
-          };
-          
+    //image(image title) click handler
+    const slugify = (string) => {
+        return string
+            .toString()
+            .toLowerCase()
+            .replace(/\s+/g, '-') // Replace spaces with -
+            .replace(/[^\w-]+/g, '') // Remove all non-word chars except -
+            .replace(/--+/g, '-') // Replace multiple - with single -
+            .replace(/^-+/, '') // Trim - from start of text
+            .replace(/-+$/, ''); // Trim - from end of text
+    };
 
     return (
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
