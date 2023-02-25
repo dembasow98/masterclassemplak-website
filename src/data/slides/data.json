@@ -2,7 +2,7 @@
     "properties": [
         {
             
-            "reference":"",
+            "reference":"PTRSV-0001",
             "id": "1",
             "source": "https://mdbootstrap.com/img/Photos/Slides/img%20(21).jpg",
             "title": "First slide label",
@@ -12,32 +12,49 @@
                 "tag2",
                 "tag3"
             ],
+            "createdAt": "2018-01-01",
+            "updatedAt": "2020-01-01",
+            "price": "$ 1,000,000",
             "features":[
                 {
+                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
                 {
+                    "name":"Parking",
+                    "value":"2"
+                },
+                {
+                
                     "name":"Bathrooms",
                     "value":"2"
                 },
                 {
+                    "name":"Toilets",
+                    "value":"2"
+                },
+                {
+                  
                     "name":"Area",
                     "value":"120m2"
                 },
                 {
-                    "name":"Price",
-                    "value":"$ 1,000,000"
-                },
-                {
+                
                     "name":"City",
                     "value":"Miami"
                 },
                 {
+                    "name":"Garden",
+                    "value":"yes"
+                },
+                {
+                 
                     "name":"Pool",
                     "value":"yes"
                 },
                 {
+                  
                     "name":"Other",
                     "value":"other"
                 }
@@ -77,7 +94,7 @@
             ]
         },
         {
-            "reference":"",
+            "reference":"PTRSV-0002",
             "id": "2",
             "source": "https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg",
             "title": "Second slide label",
@@ -87,6 +104,9 @@
                 "tag2",
                 "tag3"
             ],
+            "createdAt": "2018-01-01",
+            "updatedAt": "2020-01-01",
+            "price": "$ 2,000,000",
             "features":[
                 {
                     "name":"Bedrooms",
@@ -99,10 +119,6 @@
                 {
                     "name":"Area",
                     "value":"120m2"
-                },
-                {
-                    "name":"Price",
-                    "value":"$ 1,000,000"
                 },
                 {
                     "name":"City",
@@ -153,7 +169,7 @@
             ]
         },
         {
-            "reference":"",
+            "reference":"PTRSV-0003",
             "id":"3",
             "source": "https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg",
             "title": "Third slide label",
@@ -163,6 +179,9 @@
                 "tag2",
                 "tag3"
             ],
+            "createdAt": "2018-01-01",
+            "updatedAt": "2020-01-01",
+            "price": "$ 3,000,000",
             "features":[
                 {
                     "name":"Bedrooms",
@@ -175,10 +194,6 @@
                 {
                     "name":"Area",
                     "value":"120m2"
-                },
-                {
-                    "name":"Price",
-                    "value":"$ 1,000,000"
                 },
                 {
                     "name":"City",
@@ -229,7 +244,7 @@
             ]
         },
         {
-            "reference":"",
+            "reference":"PTRSV-0004",
             "id": "4",
             "source": "https://mdbootstrap.com/img/Photos/Slides/img%20(24).jpg",
             "title": "Fourth slide label",
@@ -239,6 +254,9 @@
                 "tag2",
                 "tag3"
             ],
+            "createdAt": "2018-01-01",
+            "updatedAt": "2020-01-01",
+            "price": "$ 4,000,000",
             "features":[
                 {
                     "name":"Bedrooms",
@@ -251,10 +269,6 @@
                 {
                     "name":"Area",
                     "value":"120m2"
-                },
-                {
-                    "name":"Price",
-                    "value":"$ 1,000,000"
                 },
                 {
                     "name":"City",
@@ -305,7 +319,7 @@
             ]
         },
         {
-            "reference":"",
+            "reference":"PTRSV-0005",
             "id": "5",
             "source": "https://mdbootstrap.com/img/Photos/Slides/img%20(25).jpg",
             "title": "Fifth slide label",
@@ -315,6 +329,9 @@
                 "tag2",
                 "tag3"
             ],
+            "createdAt": "2018-01-01",
+            "updatedAt": "2020-01-01",
+            "price": "$ 5,000,000",
             "features":[
                 {
                     "name":"Bedrooms",
@@ -327,10 +344,6 @@
                 {
                     "name":"Area",
                     "value":"120m2"
-                },
-                {
-                    "name":"Price",
-                    "value":"$ 1,000,000"
                 },
                 {
                     "name":"City",
@@ -381,7 +394,7 @@
             ]
         },
         {
-            "reference":"",
+            "reference":"PTRSV-0006",
             "id": "6",
             "source": "https://mdbootstrap.com/img/Photos/Slides/img%20(26).jpg",
             "title": "Sixth slide label",
@@ -392,6 +405,9 @@
                 "tag2",
                 "tag3"
             ],
+            "createdAt": "2018-01-01",
+            "updatedAt": "2018-01-01",
+            "price": "$ 5,000,000",
             "features":[
                 {
                     "name":"Bedrooms",
@@ -404,10 +420,6 @@
                 {
                     "name":"Area",
                     "value":"120m2"
-                },
-                {
-                    "name":"Price",
-                    "value":"$ 1,000,000"
                 },
                 {
                     "name":"City",
@@ -458,7 +470,7 @@
             ]
         },
         {
-            "reference":"",
+            "reference":"PTRSV-0007",
             "id": "7",
             "source": "https://mdbootstrap.com/img/Photos/Slides/img%20(27).jpg",
             "title": "Seventh slide label",
@@ -468,6 +480,9 @@
                 "tag2",
                 "tag3"
             ],
+            "createdAt": "2018-01-01",
+            "updatedAt": "2020-01-01",
+            "price": "$ 6,000,000",
             "features":[
                 {
                     "name":"Bedrooms",
@@ -480,10 +495,6 @@
                 {
                     "name":"Area",
                     "value":"120m2"
-                },
-                {
-                    "name":"Price",
-                    "value":"$ 1,000,000"
                 },
                 {
                     "name":"City",
@@ -534,7 +545,7 @@
             ]
         },
         {
-            "reference":"",
+            "reference":"PTRSV-0008",
             "id": "8",
             "source": "https://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg",
             "title": "Eighth slide label",
@@ -544,6 +555,9 @@
                 "tag2",
                 "tag3"
             ],
+            "createdAt": "2018-01-01",
+            "updatedAt": "2018-01-01",
+            "price": "$ 7,000,000",
             "features":[
                 {
                     "name":"Bedrooms",
@@ -556,10 +570,6 @@
                 {
                     "name":"Area",
                     "value":"120m2"
-                },
-                {
-                    "name":"Price",
-                    "value":"$ 1,000,000"
                 },
                 {
                     "name":"City",

@@ -19,19 +19,22 @@ const Properties = () => {
                     
                     properties.map((property) => (
                         <Property
-                            key={property?.id}
-                            type = {property?.type} 
-                            title={property?.title}
-                            profileImage={property?.source}
-                            price={property?.price} 
-                            reference={property?.reference} 
-                            additionDate={property?.additionDate} 
-                            gallery={property?.gallery} 
-                            description={property?.description} 
-                            overview={property?.overview} 
-                            features={property?.features} 
-                            benefits={property?.benefits}
-                            details={property?.details}
+                            key = {property?.id}
+                            type = {property?.type}
+                            isFavorite = {property?.isFavorite}
+                            title = {property?.title}
+                            description = {property?.description}
+                            profileImage = {property?.source}
+                            gallery = {property?.gallery}
+                            location = {property?.location}
+                            price = {property?.price}
+                            reference = {property?.reference}
+                            createdAt = {property?.createdAt}
+                            updatedAt = {property?.updatedAt}
+                            overview = {property?.overview}
+                            benefits = {property?.benefits}
+                            details = {property?.details}
+                            features = {property?.features}
                         />
                     ))
                

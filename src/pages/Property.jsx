@@ -9,33 +9,20 @@ const Property = () => {
   
   const { state } = useLocation();
   console.log(state);
+
   //Get property details from the state
-
-  const { title, price, reference, additionDate, gallery, description, overview, features, benefits, details } = state;
-
-  /*const galleryImages = [
-    {
-      original: 'https://picsum.photos/id/1018/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1018/250/150/',
-    },
-    {
-      original: 'https://picsum.photos/id/1015/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1015/250/150/',
-    },
-    {
-      original: 'https://picsum.photos/id/1019/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1019/250/150/',
-    },
-  ];*/
+  const { title, price, reference, createdAt, updatedAt, gallery, description, overview, features, benefits, details } = state;
 
   return (
-    <main className="bg-gray-100 mx-auto px-8 py-8 dark:bg-gray-900">
+    <main className="bg-gray-100 mx-auto px-auto dark:bg-gray-900">
       <Route component="Properties" breadcrumbs={title} />
       <Head
         title={title}
+        description={description}
         price={price}
         reference={reference}
-        additionDate={additionDate}
+        createdAt={createdAt}
+        updatedAt={updatedAt}
       />
       <Gallery images={gallery} />
       <Details

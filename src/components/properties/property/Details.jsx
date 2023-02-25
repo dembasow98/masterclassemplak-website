@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Details = ({description, overview, features, benefits, details}) => {
+//Above the features parameter is an array of objects
+//So it will be represented as: fe
+const Details = ({description, overview, features=[], benefits, details}) => {
   return (
-    <div className="flex flex-col w-full border-1 border-gray-400 bg-gray-700 justify-center items-center">
+    <div className="flex flex-col w-full border-gray-400 bg-gray-700 justify-center items-center">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">{description}</h1>
         <div className="flex flex-row justify-center items-center">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">{overview}</h2>

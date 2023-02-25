@@ -1,23 +1,36 @@
 import React, {useState} from 'react';
 import {AiTwotoneHeart} from "react-icons/ai";
 import {Link} from "react-router-dom";
+import {IoBedOutline} from "react-icons/io5";
+import {BiBath} from "react-icons/bi";
+import {FaToilet} from "react-icons/fa";
+import {GiModernCity} from "react-icons/gi";
+import {MdOutlinePool} from "react-icons/md";
+import {BsTextarea} from "react-icons/bs";
+import {RiParkingBoxLine} from "react-icons/ri";
+import {MdRealEstateAgent} from "react-icons/md";
+import {SiProtodotio} from "react-icons/si";
+import {MdPriceChange} from "react-icons/md";
+
+
 
 const Property = (
     {
-        type, 
-        isFavorite, 
-        title, 
-        description, 
+        type,
+        isFavorite,
+        title,
+        description,
         profileImage,
         gallery,
-        location, 
-        toilets, 
-        bedrooms, 
-        bathrooms,
-        area, 
-        hasPool,
-        hasGarden,
-        hasParking,
+        location,
+        price,
+        reference,
+        createdAt,
+        updatedAt,
+        overview,
+        benefits,
+        details,
+        features,
     }) => {
         
 
@@ -30,27 +43,21 @@ const Property = (
             profileImage,
             gallery,
             location,
-            toilets,
-            bedrooms,
-            bathrooms,
-            area,
-            hasPool,
-            hasGarden,
-            hasParking,
+            price,
+            reference,
+            createdAt,
+            updatedAt,
+            overview,
+            benefits,
+            details,
+            //convert features to an array using json.stringify
+            features: JSON.stringify(features)
         };
 
         const [isLiked, setIsLiked] = useState(false);
-        //const history = useHistory();
 
         const handleLikeClick = () => {
-
             setIsLiked(!isLiked);
-
-            //Add the property info to the history state
-            /*history.push({
-                pathname: `/properties/${slugify(title)}`,
-                state: { property: property }
-              });*/
         };
 
         
@@ -74,14 +81,12 @@ const Property = (
                 <div className="absolute top-0 left-0 bg-blue-700 dark:bg-[#059669] text-white rounded-bl-lg py-1 px-2">{type}</div>
                     <button className="absolute top-0 right-0 m-1 p-2 rounded-full  hover:bg-gray-800 dark:bg-gray-700 border-gray-500">
                         <AiTwotoneHeart 
-                            {...isFavorite}
+                            
                             className={`w-5 h-5 fill-current ${isLiked ? "text-red-600" : "text-gray-400"}`}
                             onClick={handleLikeClick}
                         /> 
                     </button>
-                    {/**
-                    * After clicking on thee image or the title, the user will be redirected to the property page
-                    */}
+                   
                     <Link 
                         to= {`/properties/${slugify(title)}`}  
                         state = {property}
@@ -94,25 +99,36 @@ const Property = (
                         to= {`/properties/${slugify(title)}`}  
                         state = {property}
                     >
-                        <h5 className="mb-2 text-2xl dark:text-slate-100 font-bold">{title}</h5>
+                        <h5 className="mb-2 text-2xl dark:text-gray-300 font-bold">{title}</h5>
                     </Link>
-                    <p className="mb-2 text-gray-600">{description}</p>
-                    <div className="flex items-center mb-2">
-                        <svg className="w-5 h-5 fill-current text-gray-400" viewBox="0 0 24 24">
-                            <path d="M11 3.05v2.94a8.001 8.001 0 016 7.74V19h-2v-5.27a6 6 0 10-4 0V19H5v-5.27a8.001 8.001 0 016-7.74zM12 13a3 3 0 100-6 3 3 0 000 6z" />
-                        </svg>
-                        <span className="ml-2 text-gray-600">{location}</span>
+                    <p className="mb-2 text-gray-600 dark:text-slate-400">{description}</p>
+                    <div className="flex justify-center items-center mb-2 dark:text-gray-500">
+                        <div className='ml-2 flex items-center  justify-center '>
+                            <div className = "flex items-center  justify-center w-8 h-8 mr-2 text-white bg-blue-700 dark:bg-green-500 rounded-full">
+                            <MdPriceChange />
+                            </div>
+                            <span className="text-gray-400">Price: </span>
+                            <span className=' dark:text-green-600'>{price}</span>
+                        </div>
                     </div>
-                    <div className="flex items-center">
-                        <svg className="w-5 h-5 fill-current text-gray-400" viewBox="0 0 24 24">
-                            <path d="M18 9v7H6V9H4v9a1 1 0 001 1h14a1 1 0 001-1V9h-2zm-4-7a1 1 0 011 1v1h-2V3a1 1 0 011-1z" />
-                        </svg>
-                        <span className="ml-2 text-gray-600">{toilets} toilets</span>
-                        <span className="mx-2 text-gray-400">-</span>
-                        <svg className="w-5 h-5 fill-current text-gray-400" viewBox="0 0 24 24">
-                            <path d="M18 4v7a3 3 0 01-3 3H9a3 3 0 01-3-3V4h2v7a1 1 0 001 1h4a1 1 0 001-1V4h2zm-8 0v7h4V4h-4z" />
-                        </svg>
-                        <span className="ml-2 text-gray-600">{bedrooms} bedrooms</span>
+                    <div className="grid justify-center  grid-cols-2 gap-2 items-center">
+                        {features.map((feature, index) => (
+                            <div key={index} className="flex items-center mr-4">
+                                <div className="flex items-center justify-center mx-2 text-green-800">
+                                    {feature.name === "Bedrooms" && <IoBedOutline />}
+                                    {feature.name === "Bathrooms" && <BiBath />}
+                                    {feature.name === "Toilets" && <FaToilet />}
+                                    {feature.name === "Parking" && <RiParkingBoxLine />}
+                                    {feature.name === "Pool" && <MdOutlinePool />}
+                                    {feature.name === "City" && <GiModernCity />}
+                                    {feature.name === "Garden" && <BsTextarea/>}
+                                    {feature.name === "Area" && <MdRealEstateAgent />}
+                                    {feature.name === "Other" && <SiProtodotio />}
+                                </div>
+                                <span className="text-gray-500">{feature.name}: </span>
+                                <span className="text-gray-500">{feature.value}</span>
+                            </div>
+                        ))}
                     </div>
                 </div>
         </div>
