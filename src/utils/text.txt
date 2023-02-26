@@ -14,6 +14,11 @@ module.exports = {
   ]
 }
 HELP LINKS
+https://flowbite.com/blocks/publisher/blog-templates/
+https://flowbite.com/blocks/application/crud-read-modals/
+https://flowbite.com/blocks/application/crud-create-modals/
+https://flowbite.com/blocks/marketing/social-proof/
+https://flowbite.com/blocks/marketing/login/
 https://flowbite.com/docs/components/carousel/#indicators
 https://openbase.com/js/react-image-gallery
 https://www.material-tailwind.com/docs/react/installation

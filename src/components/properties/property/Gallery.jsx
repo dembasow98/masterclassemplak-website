@@ -5,8 +5,6 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 import ImageGallery from 'react-image-gallery';
 
-
-
 const Gallery = ({images}) => {
 
   //Create thumbnails from the images
@@ -27,9 +25,8 @@ const Gallery = ({images}) => {
 
   
   return (
-    <div className="w-full mt-10">
+    <div className="w-full p-4 rounded-md mt-6">
       <ImageGallery
-
         items={images} 
         showPlayButton={false}
         showFullscreenButton={false}
