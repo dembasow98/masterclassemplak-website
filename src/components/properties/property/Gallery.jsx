@@ -25,7 +25,7 @@ const Gallery = ({images}) => {
 
   
   return (
-    <div className="w-full p-4 rounded-md mt-6">
+    <div className="w-full rounded-md mt-6">
       <ImageGallery
         items={images} 
         showPlayButton={false}

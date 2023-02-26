@@ -25,8 +25,8 @@ const Property = () => {
         createdAt={createdAt}
         updatedAt={updatedAt}
       />
-      <section className="w-full flex flex-col items-center justify-center">
-        <div className="w-full flex flex-col items-center justify-center">
+      <section className="w-full md:px-14 lg:px-18 px-4 sm:px-10 xl:px-24 flex flex-col md:flex-row items-center justify-center">
+        <div className="w-full flex flex-col items-center md:w-2/3 justify-center">
           <Gallery images={gallery} />
           <Details
             overview={overview}
@@ -36,7 +36,7 @@ const Property = () => {
             details={details}
           />
         </div>
-        <div className="w-full flex flex-col items-center justify-center">
+        <div className="w-full flex flex-col items-center md:w-1/3 justify-center">
           <Enquire />
         </div>
       </section>

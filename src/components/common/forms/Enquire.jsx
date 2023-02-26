@@ -5,6 +5,7 @@ import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 const  Enquire =() =>{
 
   const [name, setName] = useState("");
+  const [surname, setSurname] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [note, setNote] = useState("");
@@ -37,43 +38,61 @@ const  Enquire =() =>{
             </div>
             <div className="flex w-full flex-col justify-center items-center">
                 <form onSubmit={handleSubmit} className="flex flex-col w-full items-center my-4 px-4">
-                    <div className="form-group w-full flex">
-                        <input 
-                            type="text"
-                            className="form-control w-full rounded-full focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
-                            required
-                            placeholder="First & Last Name"
-                            name="name"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
-                        />
-                        <div id="sideContactForm_info_error" className="hidden text-shadow-md text-sm pt-5 text-red-500">
-                            Please enter your first and last name separated by a space (e.g. Jane Miller)
+                    <div className="form-group w-full flex flex-col sm:grid sm:grid-cols-2 md:flex sm:gap-3 md:gap-0">
+                        <div className="form-group w-full flex ">
+                            <input 
+                                type="text"
+                                className="form-control w-full rounded-full focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                                required
+                                placeholder="First Name"
+                                name="name"
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                            />
+                            <div id="sideContactForm_info_error" className="hidden text-shadow-md text-sm pt-5 text-red-500">
+                                Please enter your first
+                            </div>
+                        </div>
+                        <div className="form-group w-full flex">
+                            <input 
+                                type="text"
+                                className="form-control w-full rounded-full focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                                required
+                                placeholder="Last Name"
+                                name="surname"
+                                value={surname}
+                                onChange={(e) => setSurname(e.target.value)}
+                            />
+                            <div id="sideContactForm_info_error" className="hidden text-shadow-md text-sm pt-5 text-red-500">
+                                Please enter your last name
+                            </div>
                         </div>
                     </div>
-                    <div className="form-group w-full flex">
-                        <input
-                            type="email"
-                            className="form-control w-full rounded-full focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
-                            required
-                            placeholder="Email"
-                            name="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                        />
-                    </div>
-                    <div className="form-group w-full flex">
-                        <PhoneInput
-                            placeholder="Phone"
-                            className="form-control w-full rounded-full focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
-                            name="phone"
-                            required
-                            value={phone}
-                            onChange={setPhone}
-                        />
-                        <span id="sideContactForm_phone_error" className="vision hidden text-xs pt-5 text-white text-shadow-sm">
-                            Please Write Your Full Phone Number
-                        </span> 
+                    <div className="form-group w-full flex flex-col sm:grid sm:grid-cols-2 md:flex sm:gap-3 md:gap-0">
+                        <div className="form-group w-full flex">
+                            <input
+                                type="email"
+                                className="form-control w-full rounded-full focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                                required
+                                placeholder="Email"
+                                name="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                        </div>
+                        <div className="form-group w-full flex">
+                            <PhoneInput
+                                placeholder="Phone"
+                                className="form-control w-full rounded-full focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                                name="phone"
+                                required
+                                value={phone}
+                                onChange={setPhone}
+                            />
+                            <span id="sideContactForm_phone_error" className="vision hidden text-xs pt-5 text-white text-shadow-sm">
+                                Please Write Your Full Phone Number
+                            </span> 
+                        </div>
                     </div>
                     <div className="w-full flex form-group" id="note">
                         <textarea
