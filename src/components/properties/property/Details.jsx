@@ -19,27 +19,36 @@ const Details = ({overview, features, benefits, details}) => {
 
   return (
     <section className="w-full flex flex-col items-center p-4 gap-2 justify-center">
-      <div className="w-full p-4 border border-gray-700 flex flex-col items-center justify-center bg-gray-800 rounded-md">
-        <p className="text-lg font-bold md:text-xl w-full text-center  border-b-2 border-gray-400 md:border-r-2 pb-2 mb-2 text-gray-800 dark:text-gray-300">Overview</p>
-        <p className=" text-gray-800 dark:text-gray-300">{overview}</p>
+      <div className="w-full p-4 border border-gray-700 flex flex-col lg:flex-row  items-center justify-center bg-gray-800 rounded-md">
+        
+        <div className="w-full items-center justify-center lg:w-1/4">
+          <p className="text-lg font-bold md:text-xl text-center text-gray-800 dark:text-gray-300">Overview</p>
+        </div>
+
+        <div className="flex flex-col items-center justify-center lg:w-3/4 lg:h-full border-t-2 border-gray-400 mt-2 pt-2 lg:pl-4 lg:pt-0 lg:border-t-0 lg:border-l-2 ">
+          <p className=" text-gray-800 dark:text-gray-300">{overview}</p>
+        </div>
+
       </div>
 
-      <div className="w-full p-4 flex flex-col items-center justify-center border border-gray-700 bg-gray-800 rounded-md">
-        <p className="text-lg font-bold md:text-xl w-full text-center border-b-2 md:border-r-2 pb-2 mb-2 border-gray-400 text-gray-800 dark:text-gray-300">Features</p>
-        <div className="w-full flex flex-col ">
+      <div className="w-full p-4 flex flex-col lg:flex-row items-center justify-center border border-gray-700 bg-gray-800 rounded-md">
+        <div className="w-full items-center justify-center lg:w-1/4">
+          <p className="text-lg font-bold md:text-xl text-center text-gray-800 dark:text-gray-300">Features</p>
+        </div>
+        <div className="w-full flex flex-col lg:w-3/4 lg:h-full border-t-2 border-gray-400 mt-2 pt-2 lg:pl-2 lg:pt-0 lg:border-t-0 lg:border-l-2">
           {
             Array.isArray(features) && features.map((feature, index) => (
               <div key={index} className="flex items-center mr-4 my-1">
                   <div className="flex items-center justify-center mx-2 text-green-600">
-                      {feature.name === "Bedrooms" && <IoBedOutline />}
-                      {feature.name === "Bathrooms" && <BiBath />}
-                      {feature.name === "Toilets" && <FaToilet />}
-                      {feature.name === "Parking" && <RiParkingBoxLine />}
-                      {feature.name === "Pool" && <MdOutlinePool />}
-                      {feature.name === "City" && <GiModernCity />}
-                      {feature.name === "Garden" && <BsTextarea/>}
-                      {feature.name === "Area" && <MdRealEstateAgent />}
-                      {feature.name === "Other" && <SiProtodotio />}
+                    {feature.name === "Bedrooms" && <IoBedOutline />}
+                    {feature.name === "Bathrooms" && <BiBath />}
+                    {feature.name === "Toilets" && <FaToilet />}
+                    {feature.name === "Parking" && <RiParkingBoxLine />}
+                    {feature.name === "Pool" && <MdOutlinePool />}
+                    {feature.name === "City" && <GiModernCity />}
+                    {feature.name === "Garden" && <BsTextarea/>}
+                    {feature.name === "Area" && <MdRealEstateAgent />}
+                    {feature.name === "Other" && <SiProtodotio />}
                   </div>
                   <span className="text-gray-400 font-bold mr-2">{feature.name}: </span>
                   <span className="text-gray-500">{feature.value}</span>
@@ -49,15 +58,24 @@ const Details = ({overview, features, benefits, details}) => {
         </div>
       </div>
 
-      <div className="w-full p-4 flex flex-col items-center justify-center border border-gray-700 bg-gray-800 rounded-md">
-      <p className="text-lg font-bold md:text-xl w-full text-center  border-b-2 md:border-r-2 pb-2 mb-2 border-gray-400  text-gray-800 dark:text-gray-300">Benefits of Buying this Property</p>
-        <p className=" text-gray-800 dark:text-gray-300">{benefits}</p>
+      <div className="w-full p-4 flex flex-col lg:flex-row items-center justify-center border border-gray-700 bg-gray-800 rounded-md">
+        <div className="w-full items-center justify-center lg:w-1/4">
+          <p className="text-lg font-bold md:text-xl text-center text-gray-800 dark:text-gray-300">Benefits of Buying this Property</p>
+        </div>
+        <div className="w-full flex flex-col lg:w-3/4 lg:h-full border-t-2 border-gray-400 mt-2 pt-2 lg:pl-4 lg:pt-0 lg:border-t-0 lg:border-l-2">
+          <p className="text-gray-800 dark:text-gray-300">{benefits}</p>
+        </div>
       </div>
 
-      <div className="w-full p-4 flex flex-col items-center justify-center border border-gray-700 bg-gray-800 rounded-md">
-        <p className="text-lg font-bold md:text-xl w-full text-center  border-b-2 md:border-r-2 pb-2 mb-2 border-gray-400  text-gray-800 dark:text-gray-300">More Details</p>
-        <p className=" text-gray-800 dark:text-gray-300">{details}</p>
+      <div className="w-full p-4 flex flex-col lg:flex-row items-center justify-center border border-gray-700 bg-gray-800 rounded-md">
+        <div className="w-full items-center justify-center lg:w-1/4">
+          <p className="text-lg font-bold md:text-xl text-center text-gray-800 dark:text-gray-300">More Details</p>
+        </div>
+        <div className="w-full flex flex-col lg:w-3/4 lg:h-full border-t-2 border-gray-400 mt-2 pt-2 lg:pl-4 lg:pt-0 lg:border-t-0 lg:border-l-2">
+          <p className=" text-gray-800 dark:text-gray-300">{details}</p>
+        </div>
       </div>
+      
     </section>
   )
 }
