@@ -97,6 +97,8 @@ const Image = ({
     setModalIsOpen(false);
   }
 
+  //The title is a span tag:
+  const titleCase = <span className="text-2xl font-bold text-white">CONTACT US FOR FREE <br/> CONSULTATION</span>;
 
 
   return (
@@ -145,7 +147,7 @@ const Image = ({
             //stop the background from functioning when the modal is open
             ariaHideApp={false}
           >
-            <Enquire title={"CONTACT US FOR FREE CONSULTATION"} isModal={true} handleCloseModal={closeModal}/>
+            <Enquire title={titleCase} isModal={true} handleCloseModal={closeModal}/>
           </Modal>
         </div>
         

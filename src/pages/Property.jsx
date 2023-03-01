@@ -15,8 +15,8 @@ const Property = () => {
   const { title, price, reference, createdAt, updatedAt, gallery, description, overview, features, benefits, details } = state;
   //console.log("From details:"+features);
 
-  //this is to PREVENT the Enquire component from scrolling to the top of the page
-
+  //The titleCase is a span tag:
+  const titleCase = <span className="text-2xl font-bold text-gray-900 dark:text-gray-100">"Enquire About <br  /> This Property"</span>;
   //This happens starting from the middle breakpoint
   const [scroll, setScroll] = useState(false);
 
@@ -52,7 +52,7 @@ const Property = () => {
           className="w-full flex flex-col items-center md:mt-4 md:w-1/3 justify-center"
           style={{ position: scroll ? "sticky" : "relative", top: scroll ? "6rem" : "0" }}
         >
-          <Enquire title={"Enquire About <br  /> This Property"} isModal={false} />
+          <Enquire title={titleCase} isModal={false} />
         </div>
       </section>
     </main>
