@@ -28,13 +28,25 @@ const Banner = () => {
 
   return (
     <Slider {...settings}>
-      {images.map((image) => (
+      {images.map((property) => (
         <Image
-          key={image.id}
-          title={image.title}
-          source={image.source}
-          description={image.description}
-          tags={image.tags}
+          key = {property?.id}
+          type = {property?.type}
+          isFavorite = {property?.isFavorite}
+          title = {property?.title}
+          description = {property?.description}
+          source = {property?.source}
+          gallery = {property?.gallery}
+          location = {property?.location}
+          price = {property?.price}
+          reference = {property?.reference}
+          createdAt = {property?.createdAt}
+          updatedAt = {property?.updatedAt}
+          overview = {property?.overview}
+          benefits = {property?.benefits}
+          details = {property?.details}
+          features = {property?.features}
+          tags={property?.tags}
         />
       ))}
     </Slider>

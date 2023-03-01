@@ -62,3 +62,110 @@ https://openbase.com/categories/js/best-react-image-viewer-libraries?vs=react-im
         </div>
       </div>
     </div>
+
+
+
+
+Here's a breakdown of what each folder and file is for:
+
+client/: This is the root folder for the frontend (React) of the application.
+
+node_modules/: This is where all the dependencies for the frontend live.
+public/: This is where static files like the index.html and favicon.ico live.
+src/: This is where all the frontend code lives.
+components/: This is where all the reusable UI components live.
+common/: This is where common components like headers and footers live.
+auth/: This is where authentication-related components like login and register forms live.
+dashboard/: This is where components related to the application's main dashboard live.
+layout/: This is where the main layout components like the landing page live.
+not-found/: This is where the component for 404 errors live.
+private-route/: This is where the component for protecting routes that require authentication live.
+contexts/: This is where all the global contexts for the frontend live.
+helpers/: This is where helper functions for the frontend live.
+styles/: This is where all the global styles like variables and mixins live.
+App.js: This is the main entry point for the frontend.
+index.js: This is where React is rendered onto the DOM.
+setupTests.js: This is where Jest configuration for testing is done.
+.env: This is where environment variables live for the frontend.
+.env.development: This is where environment variables for the development environment live.
+.env.production: This is where environment variables for the production environment live.
+.gitignore: This tells Git which files to ignore when committing changes.
+package-lock.json: This is an automatically generated file that keeps track of the exact version of each package used in the frontend.
+package.json: This is where all the frontend dependencies and scripts live.
+server/: This is the root folder for the backend (Node.js and Express) of the application.
+
+controllers/: This is where all the controllers for the backend live.
+middleware/: This is where all
+
+
+Foolder structure:
+
+root/
+  client/
+    node_modules/
+    public/
+      index.html
+      favicon.ico
+    src/
+      components/
+        common/
+          Footer.js
+          Header.js
+          Navbar.js
+        auth/
+          Login.js
+          Register.js
+        dashboard/
+          Dashboard.js
+          DashboardHeader.js
+          DashboardSidebar.js
+        layout/
+          Landing.js
+        not-found/
+          NotFound.js
+        private-route/
+          PrivateRoute.js
+      contexts/
+        auth-context.js
+      helpers/
+        api.js
+        auth.js
+      styles/
+        variables.scss
+      App.js
+      index.js
+      setupTests.js
+    .env
+    .env.development
+    .env.production
+    .gitignore
+    package-lock.json
+    package.json
+  server/
+    controllers/
+      auth.js
+      profile.js
+      posts.js
+    middleware/
+      auth.js
+      logger.js
+    models/
+      User.js
+      Profile.js
+      Post.js
+    routes/
+      api/
+        auth.js
+        profile.js
+        posts.js
+      index.js
+    utils/
+      errors.js
+    config.js
+    index.js
+    package-lock.json
+    package.json
+  .gitignore
+  package-lock.json
+  package.json
+  README.md

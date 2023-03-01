@@ -1,10 +1,46 @@
 import React, {useState} from 'react';
-//import { Link } from 'react-router-dom';
-
-//import Inquire from '../../forms/Inquire';
+import { Link } from 'react-router-dom';
 
 
-const Image = ({ title, source, description, tags }) => {
+const Image = ({ 
+  type,
+  isFavorite,
+  title,
+  description,
+  source,
+  gallery,
+  location,
+  price,
+  reference,
+  createdAt,
+  updatedAt,
+  overview,
+  benefits,
+  details,
+  features,
+  tags
+ }) => {
+
+   //Get all the property details and store them in a variable
+   const property = {
+    type,
+    isFavorite,
+    title,
+    description,
+    source,
+    gallery,
+    location,
+    price,
+    reference,
+    createdAt,
+    updatedAt,
+    overview,
+    benefits,
+    details,
+    tags,
+    //convert features to an array using json.stringify
+    features: JSON.stringify(features)
+  };
   // Function to convert the title to a slug
   const slugify = (string) => {
     return string
@@ -16,11 +52,13 @@ const Image = ({ title, source, description, tags }) => {
       .replace(/^-+/, '') // Trim - from start of text
       .replace(/-+$/, ''); // Trim - from end of text
   };
-
-  //Each clicked image will redirect to the page of the image
+  
+  //Each clicked image will redirect to clicked image's detail page
   const handleClick = () => {
-    window.location.href = `/properties/${slugify(title)}`;
-    //<Link to={`/properties/${slugify(title)}`} />;
+    //Add the the path
+    const path = `/properties/${slugify(title)}`;
+    //Redirect to the path
+    window.location.href = path;
   };
   //After clicking the inquire button it will show a popup which is the inquire form
   const [showInquireForm, setShowInquireForm] = useState(false);
@@ -34,7 +72,12 @@ const Image = ({ title, source, description, tags }) => {
 
   return (
     <div className="relative mx-auto">
-      <img src={source} alt={title} onClick={handleClick} className="w-full cursor-pointer h-[530px] md:h-[500px] lg:h-[540px] object-cover" />
+      <Link 
+        to= {`/properties/${slugify(title)}`}  
+        state = {property}
+      >
+        <img src={source} alt={title} onClick={handleClick} className="w-full cursor-pointer h-[530px] md:h-[500px] lg:h-[540px] object-cover" />
+      </Link>
       <div className="flex left-0 items-center justify-center  right-0 px-4 w-full ">
         <div className="absolute top-10 w-fit max-w-full  mx-5 px-10  md:mx-10 md:px-20 flex items-center flex-col py-3 bg-gray-900 bg-opacity-25">
             <div className="text-xl font-bold text-white">{title}</div>
@@ -55,7 +98,7 @@ const Image = ({ title, source, description, tags }) => {
             //Here after clicking the button it will show a popup which is the inquire form
             className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
           >
-            INQUIRE NOW!
+            ENQUIRE NOW!
           </button>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Property = () => {
   //const { slug } = useParams(); // access the "id" parameter from the URL
   
   const { state } = useLocation();
-  console.log(state);
+  //console.log(state);
 
   //Get property details from the state
   const { title, price, reference, createdAt, updatedAt, gallery, description, overview, features, benefits, details } = state;
