@@ -9,13 +9,10 @@ import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 //Google recaptcha
 import ReCAPTCHA from "react-google-recaptcha";
 
-//dotend configuration
+import {IoCloseSharp} from "react-icons/io5";
 
-/*import dotenv from 'dotenv';
-dotenv.config();
-*/
 
-const  Enquire =() =>{
+const  Enquire =({title, isModal, handleCloseModal}) =>{
 
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
@@ -57,11 +54,26 @@ const  Enquire =() =>{
     <div className="flex flex-col w-full mb-6">
         <div className="rounded-md m-4 bg-[#043334] my-2" id="side-contact-us">
             <hr className="border-1 mt-2 border-gray-500" />
-            <div className="mt-3 mb-1 text-center font-bold text-2xl text-gray-200">
-                Enquire About
-                <br />
-                This Property
+            {
+                isModal ? (
+                <div className="w-full mt-3 mb-1 flex flex-row justify-center items-center text-center font-bold text-2xl text-gray-200 relative">
+                    <div className="fle w-full justify-center items-center">
+                        {title}
+                    </div>
+                    <div className="absolute right-2 justify-center items-center">
+                        <button className="hover:text-gray-100" onClick={handleCloseModal}>
+                            <IoCloseSharp className="text-2xl text-gray-300" />
+                        </button>
+                    </div>
+                </div>
+            ):(
+                <div className="mt-3 mb-1 text-center font-bold text-2xl text-gray-200">
+                <div className="flex justify-center items-center">
+                    {title}
+                </div>
             </div>
+            )}
+            
             <div className="w-full flex justify-center items-center">
                 <img src = {yel2} alt = "separator" />
             </div>

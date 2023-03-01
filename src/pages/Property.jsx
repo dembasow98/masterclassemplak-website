@@ -52,7 +52,7 @@ const Property = () => {
           className="w-full flex flex-col items-center md:mt-4 md:w-1/3 justify-center"
           style={{ position: scroll ? "sticky" : "relative", top: scroll ? "6rem" : "0" }}
         >
-          <Enquire />
+          <Enquire title={"Enquire About <br  /> This Property"} isModal={false} />
         </div>
       </section>
     </main>

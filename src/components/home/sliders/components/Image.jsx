@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
+import Modal from "react-modal";
+
+import { Enquire } from '../../../common';
+
 
 const Image = ({ 
   type,
@@ -60,15 +64,40 @@ const Image = ({
     //Redirect to the path
     window.location.href = path;
   };
-  //After clicking the inquire button it will show a popup which is the inquire form
-  const [showInquireForm, setShowInquireForm] = useState(false);
+  //Handle the enquire button (modal popup)
 
-  const handleShowInquireForm = () => {
-    setShowInquireForm(true);
+  //Customize the modal
+  const customStyles = {
+    content: {
+      top: '53%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      
+      
+    },
   };
-  const handleCloseInquireForm = () => {
-    setShowInquireForm(false);
-  };
+
+
+  let subtitle;
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  function openModal() {
+    setModalIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setModalIsOpen(false);
+  }
+
+
 
   return (
     <div className="relative mx-auto">
@@ -93,14 +122,34 @@ const Image = ({
                 ))}
             </div>
         </div>
+        
         <div className="absolute bottom-14 inline-flex items-center justify-center p-0.5 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br  from-red-900 to-pink-700 bg-red-900 group-hover:from-pink-700 group-hover:to-red-900 hover:text-white dark:text-white focus:outline-none">
           <button
             //Here after clicking the button it will show a popup which is the inquire form
             className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+            onClick={() => openModal()}
           >
             ENQUIRE NOW!
           </button>
+          <Modal
+            isOpen={modalIsOpen}
+            onAfterOpen={afterOpenModal}
+            onRequestClose={closeModal}
+            style={customStyles}
+            contentLabel="Enquire Modal"
+            //make the modal to be in the center of the screen
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            //Stop the background from scrolling when the modal is open
+            bodyOpenClassName="overflow-y-hidden"
+            overlayClassName="fixed inset-0 bg-black bg-opacity-60"
+            //stop the background from functioning when the modal is open
+            ariaHideApp={false}
+          >
+            <Enquire title={"CONTACT US FOR FREE CONSULTATION"} isModal={true} handleCloseModal={closeModal}/>
+          </Modal>
         </div>
+        
+        
       </div>
     </div>
   );
