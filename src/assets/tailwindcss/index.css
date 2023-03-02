@@ -8,3 +8,12 @@
 Do it for all the breakpoints
 
 */
+
+.filter-shadow-inset {
+    box-shadow: inset 10px 10px 0px 0px rgb(4, 51, 52);
+}
+  
+
+.enquire-shadow-inset {
+    box-shadow: inset 0px 0px 10px 10px rgb(4, 51, 52);
+}

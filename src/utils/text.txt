@@ -13,6 +13,21 @@ module.exports = {
     require('tw-elements/dist/plugin')
   ]
 }
+
+city,
+district,
+price, 
+gross(square meter), 
+net(square meter), 
+number of rooms, 
+age, 
+floor, 
+number of floors, 
+heating system, 
+toilets, 
+has balcony?, 
+on site?
+
 HELP LINKS
 https://flowbite.com/blocks/publisher/blog-templates/
 https://flowbite.com/blocks/application/crud-read-modals/
