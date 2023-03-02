@@ -1,4 +1,5 @@
 import React from 'react'
+import yel1 from '../../../assets/images/separators/yellow/yel1.png'
 
 const Comment = () => {
   return (
@@ -12,6 +13,12 @@ const Comment = () => {
                     <p className="text-2xl font-bold italic text-gray-600 dark:text-gray-400 text-center">
                         "The destination of your dream property"
                     </p>
+                    {
+                        //Add separator
+                    }
+                    <div className="flex py-2 justify-center">
+                        <img src={yel1} alt="yel1" />
+                    </div>
                 </div>
                 
                 <div className="w-full flex ">

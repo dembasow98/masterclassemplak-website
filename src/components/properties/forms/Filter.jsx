@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {HiSelector} from "react-icons/hi";
-
+import separator from "../../../assets/images/separators/yellow/yel3.png";
 
 const Filter = () => {
 
@@ -45,11 +45,16 @@ const Filter = () => {
   };
 
   return (
-    <section className="w-full mt-8 flex  justify-center items-center">
+    <section className="w-full my-6 flex justify-center items-center">
       <div className = "w-full flex justify-center items-center">
         <form onChange={handleFilterChange} className="w-full flex  flex-col bg-white dark:bg-gray-800 px-6 pt-4 pb-2 rounded-lg shadow-md filter-shadow-inset">
-          <div className = "w-full flex justify-center py-2 items-center">
-            <span className="w-full text-center text-2xl py-2  font-bold text-gray-700 dark:text-gray-200">Find Your Appropriate Property</span>
+          <div className = "w-full flex justify-center pt-2 items-center">
+            <span className="w-full text-center text-2xl font-bold text-gray-700 dark:text-gray-200">
+              Find Your Appropriate Property
+            </span>
+          </div>
+          <div className="flex pb-4 justify-center">
+                <img src={separator} alt="yel1" />
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
             <div className="mb-4">

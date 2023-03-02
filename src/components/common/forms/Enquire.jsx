@@ -22,6 +22,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
   const [captcha, setCaptcha] = useState("");
 
   function handleSubmit(event) {
+
     event.preventDefault();
     console.log({
       name,
@@ -38,8 +39,6 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
 
     const SITE_KEY = "6LfngbwkAAAAACV2WmeXRt9Pr951pXY-6xLMBpIZ";
 
-
-    //console.log("Site key: "+SITE_KEY);
 
     const recaptchaRef = useRef(null);
     //const recaptchaValue = recaptchaRef.current.getValue();
@@ -68,10 +67,10 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                 </div>
             ):(
                 <div className="mt-3 mb-1 text-center font-bold text-2xl text-gray-200">
-                <div className="flex justify-center items-center">
-                    {title}
+                    <div className="flex justify-center items-center">
+                        {title}
+                    </div>
                 </div>
-            </div>
             )}
             
             <div className="w-full flex justify-center items-center">

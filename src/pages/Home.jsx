@@ -1,5 +1,5 @@
 import React from 'react'
-import { Banner, Comment } from '../components/home'
+import { Banner, Comment, Consultancy } from '../components/home'
 
 import {Filter } from '../components/properties/forms'
 
@@ -11,6 +11,7 @@ const Home = () => {
       <Banner />
       <Filter />
       <Comment />
+      <Consultancy />
     </main>
   )
 }

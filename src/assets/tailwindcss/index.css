@@ -10,10 +10,12 @@ Do it for all the breakpoints
 */
 
 .filter-shadow-inset {
-    box-shadow: inset 10px 10px 0px 0px rgb(4, 51, 52);
+    box-shadow: inset 10px 10px 0px 0px rgb(6, 255, 85);
 }
   
-
-.enquire-shadow-inset {
-    box-shadow: inset 0px 0px 10px 10px rgb(4, 51, 52);
+/*
+Here add the box-shadow on the right and bottom side of the element
+*/
+.consultancy-shadow-inset {
+    box-shadow: inset 0px 10px 0px 0px rgb(6, 255, 85);
 }
