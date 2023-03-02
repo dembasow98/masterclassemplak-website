@@ -29,6 +29,7 @@ has balcony?,
 on site?
 
 HELP LINKS
+https://flowbite.com/blocks/application/crud-read-sections/
 https://flowbite.com/blocks/publisher/blog-templates/
 https://flowbite.com/blocks/application/crud-read-modals/
 https://flowbite.com/blocks/application/crud-create-modals/

@@ -59,13 +59,14 @@ const Filter = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
             <div className="mb-4">
               <div className="relative">
-                <input placeholder="Reference ID" type="text" name="referenceId" value={filterData?.referenceId} className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:border-gray-400 focus:shadow-outline" id="referenceId" />
+                <input placeholder="Reference ID"  type="text" name="referenceId" value={filterData?.referenceId} className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:border-gray-400 focus:shadow-outline" id="referenceId" />
               </div>
             </div>
             <div className="mb-4">
                 <div className="relative">
                     <select 
-                      value={filterData?.city}
+                      
+                      value={filterData.city}
                       name="city"
                       className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                         <option>City</option>
@@ -86,15 +87,16 @@ const Filter = () => {
               <div className="mb-4">
                   <div className="relative">
                       <select 
-                        value={filterData?.type}
+                        
+                        value={filterData.type}
                         name="type"
                         className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                           <option>Type</option>
                           <option>All</option>
-                          <option>Gas</option>
-                          <option>Electric</option>
-                          <option>Oil</option>
-                          <option>Wood</option>
+                          <option>Apartment</option>
+                          <option>House</option>
+                          <option>Basement</option>
+                          <option>Office</option>
                           <option>Other</option>
                       </select>
                       <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
@@ -106,15 +108,16 @@ const Filter = () => {
               <div className="mb-4">
                   <div className="relative">
                       <select 
-                        value={filterData?.bedrooms}
-                        name="bedrooms"
+                        
+                        value={filterData.minPrice}
+                        name="minPrice"
                         className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                           <option>Minimum Price</option> 
-                          <option>Gas</option>
-                          <option>Electric</option>
-                          <option>Oil</option>
-                          <option>Wood</option>
-                          <option>Other</option>
+                          <option>$3000</option>
+                          <option>$4000</option>
+                          <option>$5000</option>
+                          <option>$6000</option>
+                          <option>$7000</option>
                       </select>
                       <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                         <HiSelector className="dark:text-gray-100"/>
@@ -124,15 +127,16 @@ const Filter = () => {
               <div className="mb-4">
                   <div className="relative">
                       <select 
-                        value={filterData?.bedrooms}
-                        name="bedrooms"
+                        
+                        value={filterData.maxPrice}
+                        name="maxPrice"
                         className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                           <option>Maximum Price</option>
-                          <option>Gas</option>
-                          <option>Electric</option>
-                          <option>Oil</option>
-                          <option>Wood</option>
-                          <option>Other</option>
+                          <option>$6000</option>
+                          <option>$7000</option>
+                          <option>$8000</option>
+                          <option>$9000</option>
+                          <option>$10000</option>
                       </select>
                       <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                         <HiSelector className="dark:text-gray-100"/>
@@ -144,7 +148,7 @@ const Filter = () => {
               <div className="mb-4">
                   <div className="relative">
                       <select 
-                        value={filterData?.bedrooms}
+                        value={filterData.bedrooms}
                         name="bedrooms"
                         className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                           <option> Bedrooms</option>

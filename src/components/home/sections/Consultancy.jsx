@@ -1,18 +1,13 @@
 import React, {useState, useRef} from "react";
-import {HiSelector} from "react-icons/hi";
 import separator from "../../../assets/images/separators/yellow/yel3.png";
-
 
 //React phone input
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
-
-import yel2 from "../../../assets/images/separators/yellow/yel2.png";
-
 //Google recaptcha
 import ReCAPTCHA from "react-google-recaptcha";
 
-import {IoCloseSharp} from "react-icons/io5";
+
 
 const Consultancy = () => {
 
@@ -24,7 +19,7 @@ const Consultancy = () => {
   const [note, setNote] = useState("");
   const [captcha, setCaptcha] = useState("");
 
-  function handleSubmit(event) {
+  function handleConsultancySubmit(event) {
 
     event.preventDefault();
     console.log({
@@ -47,53 +42,19 @@ const Consultancy = () => {
   //const recaptchaValue = recaptchaRef.current.getValue();
 
   const captchaOnChange = (value) => {
-      console.log("Captcha value:", value);
-      setCaptcha(value);
+    console.log("Captcha value:", value);
+    setCaptcha(value);
   }
 
-  const [consultancyData, setConsultancyData] = useState({
-    referenceId: "",
-    city: "",
-    type: "",
-    minPrice: "",
-    maxPrice: "",
-    bedrooms: "",
-  });
-
-  //Handle the form input changes
-  const handleConsultancyDataChange = (e) => {
-    const {name, value} = e.target;
-    setConsultancyData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
 
 
-  //Get the data after the form is submitted
-  const handleConsultancySubmit = (e) => {
-    e.preventDefault();
-    console.log(consultancyData);
 
-
-    //TODO: Send the data to the backend
-
-
-    //TODO: Reset the form
-    setConsultancyData({
-      referenceId: "",
-      city: "",
-      type: "",
-      minPrice: "",
-      maxPrice: "",
-      bedrooms: "",
-    });
-  };
+ 
 
   return (
     <section className="w-full mt-8 flex  justify-center items-center">
       <div className = "w-full flex justify-center items-center">
-        <form onChange={handleConsultancyDataChange} className="w-full flex  flex-col bg-white  dark:bg-gray-800 p-6  rounded-lg shadow-md consultancy-shadow-inset">
+        <form className="w-full flex  flex-col bg-white  dark:bg-gray-800 p-6  rounded-lg shadow-md consultancy-shadow-inset">
           <div className = "w-full flex justify-center pt-2 items-center">
             <span className="w-full text-center text-2xl font-bold text-gray-700 dark:text-gray-200">Contact us for Free Consultancy</span>
           </div>
@@ -137,8 +98,7 @@ const Consultancy = () => {
             </div>
             <div className="relative flex w-full justify-center items-center">
                 <PhoneInput
-                //Change captcha bg color to bg-gray-900
-                    inputStyle={{width: '100%', height: '100%', backgroundColor: '#1F2937'}}
+                    inputStyle={{width: '100%', height: '100%'}}
                     country={'tr'}
                     placeholder="Phone"
                     className="form-control w-full dark:text-gray-200 dark:bg-gray-900 h-10 rounded-sm border hover:focus:ring-1 focus:ring-red-300 bg-gray-200"

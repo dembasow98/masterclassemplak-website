@@ -1,0 +1,46 @@
+{
+    "testimonials": [
+        {
+            "fullName": "John Doe",
+            "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
+            "countryCode": "US",
+            "countryName": "United States"
+        },
+        {
+            "fullName": "James Bond",
+            "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
+            "countryCode": "GB",
+            "countryName": "United Kingdom"
+        },
+        {
+            "fullName": "Bill Gates",
+            "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
+            "countryCode": "US",
+            "countryName": "United States"
+        },
+        {
+            "fullName":"Steve Jobs",
+            "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
+            "countryCode": "US",
+            "countryName": "United States"
+        },
+        {
+            "fullName": "Mark Zuckerberg",
+            "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
+            "countryCode": "US",
+            "countryName": "United States"
+        },
+        {
+            "fullName": "Elon Musk",
+            "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
+            "countryCode": "US",
+            "countryName": "United States"
+        }
+    ]
+}
