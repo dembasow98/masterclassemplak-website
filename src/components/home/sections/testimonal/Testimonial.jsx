@@ -14,7 +14,7 @@ const Testimonial = ({fullName, profilePicture, content, countryCode, countryNam
                 </p>
             </blockquote>
             <figcaption className="flex items-center justify-center mt-6 space-x-3">
-              <img className="w-6 h-6 rounded-full" src={profilePicture} alt="profile picture"/>
+              <img className="w-6 h-6 rounded-full" src={profilePicture} alt="profile"/>
               <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                   <div className="pr-3 font-medium text-gray-900 dark:text-white">{fullName}</div>
                   <div className="pl-3 flex  text-sm gap-2 font-light text-gray-500 dark:text-gray-400">
