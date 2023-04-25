@@ -19,3 +19,14 @@ Here add the box-shadow on the right and bottom side of the element
 .consultancy-shadow-inset {
     box-shadow: inset 0px 10px 0px 0px rgb(6, 255, 85);
 }
+
+
+/* TURKISH FLAG BACKGROUND */
+.bg-real-estate {
+    background-image: url('D:/Work/masterclassemlak/website/frontend/src/assets/images/others/real-estate.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*Add opacity to the background image*/
+    background-color: rgba(0, 0, 0, 0.5);
+  }

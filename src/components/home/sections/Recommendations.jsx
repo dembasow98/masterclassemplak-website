@@ -9,6 +9,9 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Recommendations = () => {
 
+  //Test if the data is being fetched
+  console.log(data);
+
   const properties = data.properties;
   var settings = {
     dots: false,
@@ -40,7 +43,7 @@ const Recommendations = () => {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 480,  
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -55,7 +58,7 @@ const Recommendations = () => {
         <div className="w-full flex justify-center items-center">
             <p className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-gray-100">Recommendations</p>
         </div>
-        <div className = "w-full p-8  justify-center items-center">
+        <div className = "w-full p-8 justify-center items-center">
           <Slider {...settings}>
             {
               properties.map((property) => (

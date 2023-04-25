@@ -31,8 +31,8 @@ const Search = () => {
                     <img src={separator} alt="yel1" />
                 </div>
             </div>
-            <div className="flex w-full flex-col sm:flex-row md:flex-col lg:flex-row p-2  lg:items-center">
-                <div className="flex w-full h-full lg:h-fit">
+            <div className="flex w-full flex-col sm:flex-row md:flex-col lg:flex-row p-2 lg:items-center">
+                <div className="flex w-full h-full lg:h-fit  md:pt-2">
                     <input 
                         type="text"
                         className="form-control px-2 w-full rounded-sm focus:ring-1 dark:text-gray-200 dark:bg-gray-900 focus:ring-red-300 py-3 m-1 bg-gray-200"

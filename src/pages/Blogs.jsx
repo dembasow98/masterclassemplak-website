@@ -7,18 +7,13 @@ const Blogs = () => {
     return (
       <main className="bg-gray-100 dark:bg-gray-900">
         <Banner />
-        <section className="px-2 lg:px-8 lg:py-8">
           <Search />
-          <div className='flex flex-col mx-auto px-8 py-8 bg-yellow-200 items-center justify-center w-full h-full'>
-            <section class="LEFT bg-white dark:bg-gray-900">
-              
-              <Card />
-            </section>
-            <section class="RIGHT bg-white dark:bg-gray-900">
-            
-            </section>
+          <div className='flex flex-col md:flex-row mx-auto  px-8 py-8 bg-yellow-200 items-center justify-center w-full h-full'>
+            <Card />
+            <Related />
           </div>
-        </section>
+        
+        
       </main>
     );
 };
