@@ -5,7 +5,7 @@ const Card = () => {
 
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 md:bg-red-600 lg:bg-green-400">
             <div className="grid gap-6 w-full ">
-                <div className='flex flex-col  content-center justify-center sm:flex-row rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+                <div className='flex flex-col  content-center justify-center sm:flex-row  md:flex-col lg:flex-row rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                     <div className="flex w-full">
                         <img className="w-full rounded-none" src = "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
                     </div>
@@ -33,7 +33,7 @@ const Card = () => {
                         </div>
                     </article> 
                 </div>
-                <div className='flex flex-col content-center justify-center sm:flex-row rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                     <div className="flex w-full bg-yellow-200">
                         <img className="w-full rounded-none" src = "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Jese Leos avatar" />
                     </div>
@@ -61,7 +61,7 @@ const Card = () => {
                         </div>
                     </article> 
                 </div>
-                <div className='flex flex-col content-center justify-center sm:flex-row rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                     <div className="flex w-full bg-yellow-200">
                         <img className="w-full rounded-none" src = "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
                     </div>
@@ -89,7 +89,7 @@ const Card = () => {
                         </div>
                     </article> 
                 </div>
-                <div className='flex flex-col content-center justify-center sm:flex-row rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                     <div className="flex w-full bg-yellow-200">
                         <img className="w-full rounded-none" src = "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Jese Leos avatar" />
                     </div>

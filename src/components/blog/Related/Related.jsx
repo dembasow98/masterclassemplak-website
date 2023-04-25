@@ -23,13 +23,78 @@ const Related = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
+
+    responsive: [
+        
+        {
+            //For the breakpoint of 1200px and above
+            breakpoint: 1200,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+
+      
+    /*responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          //Put gap between slides
+            
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,  
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]*/
   };
 
 
   return (
     <section className="w-full flex flex-col justify-center items-center">
-        <div className = "w-full bg-real-estate px-6 py-2 justify-center items-center">
-            <p className="text-3xl lg:text-4xl font-bold text-gray-800 text-center dark:text-gray-100">
+        <div className = "w-full bg-real-estate px-6 py-2 rounded-lg justify-center items-center">
+            <p className="text-3xl lg:text-4xl font-bold text-gray-800 text-center dark:text-gray-200">
                 Find your dream home in Türkiye
             </p>
             <img src = {separator} alt = "separator" className = "w-full mx-auto py-2" />
