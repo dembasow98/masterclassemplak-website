@@ -1,13 +1,21 @@
 import React from "react";
 
-import Languages from '../components/common/dropdown/Languages'
+import {Banner, Card, Detail, Related} from '../components/blog/'
 
 const Blogs = () => {
 
     return (
-        <div className='flex w-full flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900'>
-      <Languages />
-    </div>
+      <>
+        <Banner />
+        <div className='flex flex-col bg-yellow-200 items-center justify-center w-full h-full'>
+          <section class="LEFT bg-white dark:bg-gray-900">
+            <Card />
+          </section>
+          <section class="RIGHT bg-white dark:bg-gray-900">
+           
+          </section>
+        </div>
+      </>
     );
 };
 
