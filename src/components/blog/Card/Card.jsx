@@ -3,13 +3,13 @@ import React from 'react'
 const Card = () => {
   return (
 
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 md:bg-red-600 lg:bg-green-400">
+        <div className="md:min-h-screen py-8 px-4 md:py-0 md:my-0 mx-auto max-w-screen-xl lg:py-16 lg:px-6 md:bg-red-600 lg:bg-green-400">
             <div className="grid gap-6 w-full ">
                 <div className='flex flex-col  content-center justify-center sm:flex-row  md:flex-col lg:flex-row rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                     <div className="flex w-full">
                         <img className="w-full rounded-none" src = "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
                     </div>
-                    <article className="flex flex-col bg-yellow-800 p-6">
+                    <article className="flex flex-col p-6">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                                 <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
@@ -33,7 +33,7 @@ const Card = () => {
                         </div>
                     </article> 
                 </div>
-                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg shadow-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                     <div className="flex w-full bg-yellow-200">
                         <img className="w-full rounded-none" src = "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Jese Leos avatar" />
                     </div>
@@ -61,7 +61,7 @@ const Card = () => {
                         </div>
                     </article> 
                 </div>
-                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg shadow-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                     <div className="flex w-full bg-yellow-200">
                         <img className="w-full rounded-none" src = "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
                     </div>
@@ -89,7 +89,7 @@ const Card = () => {
                         </div>
                     </article> 
                 </div>
-                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
+                <div className='flex flex-col content-center justify-center sm:flex-row  md:flex-col lg:flex-row  rounded-lg shadow-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                     <div className="flex w-full bg-yellow-200">
                         <img className="w-full rounded-none" src = "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Jese Leos avatar" />
                     </div>
