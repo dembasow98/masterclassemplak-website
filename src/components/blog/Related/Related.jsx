@@ -30,31 +30,34 @@ const Related = () => {
             //For the breakpoint of 1200px and above
             breakpoint: 1200,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+    
           }
         },
         {
           breakpoint: 992,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            infinite: true,
           }
         },
         {
           breakpoint: 768,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            infinite: true,
           }
         },
         {
           breakpoint: 576,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            infinite: true,
           }
         }
       ]
@@ -92,8 +95,8 @@ const Related = () => {
 
 
   return (
-    <section className="w-full flex flex-col justify-center items-center">
-        <div className = "w-full bg-real-estate px-6 py-2 rounded-lg justify-center items-center">
+    <section className="lg:mx-10 flex flex-col justify-center items-center">
+        <div className = "w-full bg-real-estate px-10 py-2 rounded-lg justify-center items-center">
             <p className="text-3xl lg:text-4xl font-bold text-gray-800 text-center dark:text-gray-200">
                 Find your dream home in Türkiye
             </p>

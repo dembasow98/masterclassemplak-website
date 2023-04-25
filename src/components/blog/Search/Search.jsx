@@ -19,7 +19,7 @@ const Search = () => {
   }
   return (
     <section className="w-full flex justify-center items-center">
-      <div className = "w-full flex justify-center items-center">
+      <div className = "w-full md:mx-4 lg:mx-8 flex justify-center items-center">
         <form className="w-full my-4 flex flex-col md:flex-row bg-white  dark:bg-gray-800 lg:p-3 rounded-lg shadow-md consultancy-shadow-inset">
             <div className="flex flex-col content-center justify-center p-4 ">
                 <div className = "w-full flex justify-center items-center">
