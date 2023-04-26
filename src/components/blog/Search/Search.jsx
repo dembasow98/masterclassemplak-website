@@ -19,7 +19,7 @@ const Search = () => {
   }
   return (
     <section className="w-full flex justify-center items-center">
-      <div className = "w-full md:mx-4 lg:mx-8 flex justify-center items-center">
+      <div className = "w-full mx-4 md:mx-4 lg:mx-8 flex justify-center items-center">
         <form className="w-full my-4 flex flex-col md:flex-row bg-white  dark:bg-gray-800 lg:p-3 rounded-lg shadow-md consultancy-shadow-inset">
             <div className="flex flex-col content-center justify-center p-4 ">
                 <div className = "w-full flex justify-center items-center">
@@ -35,7 +35,7 @@ const Search = () => {
                 <div className="flex w-full h-full lg:h-fit  md:pt-2">
                     <input 
                         type="text"
-                        className="form-control px-2 w-full rounded-sm focus:ring-1 dark:text-gray-200 dark:bg-gray-900 focus:ring-red-300 py-3 m-1 bg-gray-200"
+                        className="form-control px-2 w-full rounded-sm focus:ring-1 dark:text-gray-200 dark:bg-gray-900 focus:ring-red-600 py-3 m-1 bg-gray-200"
                         required
                         placeholder="First Name"
                         name="name"
