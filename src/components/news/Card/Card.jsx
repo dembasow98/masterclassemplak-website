@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className="my-6 md:mx-10 min-h-screen dark:bg-gray-800 border border-gray-500 px-10 py-6 rounded-md shadow-3xl grid place-items-center">
+    <div className="my-6 md:mx-10 min-h-screen dark:bg-gray-800 border border-gray-700 px-10 py-6 rounded-md shadow-3xl grid place-items-center">
         <div className=''>
             <p className="text-3xl lg:text-4xl font-bold text-gray-800 text-center dark:text-gray-200">
                 Latest News

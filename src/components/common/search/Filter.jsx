@@ -45,9 +45,9 @@ const Filter = () => {
   };
 
   return (
-    <section className="w-full my-6 flex justify-center items-center">
+    <section className="w-full flex justify-center items-center">
       <div className = "w-full flex justify-center items-center">
-        <form onChange={handleFilterChange} className="w-full flex  flex-col bg-white dark:bg-gray-800 px-6 pt-4 pb-2 rounded-lg shadow-md filter-shadow-inset">
+        <form onChange={handleFilterChange} className="w-full flex  flex-col bg-white dark:bg-gray-800 px-6 pt-4 pb-2 mb-6 rounded-lg shadow-md filter-shadow-inset">
           <div className = "w-full flex justify-center pt-2 items-center">
             <span className="w-full text-center text-2xl font-bold text-gray-700 dark:text-gray-200">
               Find Your Appropriate Property

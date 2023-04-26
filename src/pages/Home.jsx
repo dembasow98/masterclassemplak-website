@@ -1,7 +1,7 @@
 import React from 'react'
 import { Banner, Comment, Consultancy, Recommendations, Testimonials } from '../components/home'
 
-import {Filter } from '../components/properties/forms'
+import {Filter} from '../components/common'
 
 const Home = () => {
 
