@@ -1,13 +1,14 @@
 import React from 'react'
 
-import data from './../../../data/slides/data.json'
-import { Property } from './../../properties/forms'
+import data from '../../../data/properties/data.json'
+import { Property } from '../../properties/forms'
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 //import a separator
 import separator from './../../../assets/images/separators/yellow/yel2.png'
+
 const Related = () => {
 
   //Test if the data is being fetched
@@ -63,40 +64,12 @@ const Related = () => {
       ]
 
       
-    /*responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          //Put gap between slides
-            
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,  
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]*/
   };
 
 
   return (
     <section className="lg:mx-10 flex flex-col justify-center items-center">
-        <div className = "w-full bg-real-estate px-10 py-2 rounded-lg justify-center items-center">
+        <div className = "w-full bg-real-estate px-10 pt-2 pb-10 rounded-lg justify-center items-center">
             <p className="text-3xl lg:text-4xl font-bold text-gray-800 text-center dark:text-gray-200">
                 Find your dream home in Türkiye
             </p>

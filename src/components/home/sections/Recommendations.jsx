@@ -1,6 +1,6 @@
 import React from 'react'
 
-import data from './../../../data/slides/data.json'
+import data from './../../../data/properties/data.json'
 import { Property } from './../../properties/forms'
 
 import Slider from 'react-slick';

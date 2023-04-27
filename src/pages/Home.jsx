@@ -7,7 +7,7 @@ const Home = () => {
 
   const testimonalDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt luctus, nunc est lacinia nisl, nec ultricies nisl lorem eget nisl."
   return (
-    <main className="bg-gray-100 mx-auto px-8 py-8 dark:bg-gray-900">
+    <main className="bg-gray-100 mx-auto px-8 py-8  dark:bg-gray-900">
       <Banner />
       <Filter />
       <Comment />

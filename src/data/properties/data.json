@@ -51,11 +51,6 @@
                  
                     "name":"Pool",
                     "value":"yes"
-                },
-                {
-                  
-                    "name":"Other",
-                    "value":"other"
                 }
             ],
             "map" : {
@@ -108,28 +103,41 @@
             "price": "$ 2,000,000",
             "features":[
                 {
+                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
                 {
+                    "name":"Parking",
+                    "value":"2"
+                },
+                {
+                
                     "name":"Bathrooms",
                     "value":"2"
                 },
                 {
+                    "name":"Toilets",
+                    "value":"2"
+                },
+                {
+                  
                     "name":"Area",
                     "value":"120m2"
                 },
                 {
+                
                     "name":"City",
                     "value":"Miami"
                 },
                 {
-                    "name":"Pool",
+                    "name":"Garden",
                     "value":"yes"
                 },
                 {
-                    "name":"Other",
-                    "value":"other"
+                 
+                    "name":"Pool",
+                    "value":"yes"
                 }
             ],
             
@@ -183,28 +191,41 @@
             "price": "$ 3,000,000",
             "features":[
                 {
+                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
                 {
+                    "name":"Parking",
+                    "value":"2"
+                },
+                {
+                
                     "name":"Bathrooms",
                     "value":"2"
                 },
                 {
+                    "name":"Toilets",
+                    "value":"2"
+                },
+                {
+                  
                     "name":"Area",
                     "value":"120m2"
                 },
                 {
+                
                     "name":"City",
                     "value":"Miami"
                 },
                 {
-                    "name":"Pool",
+                    "name":"Garden",
                     "value":"yes"
                 },
                 {
-                    "name":"Other",
-                    "value":"other"
+                 
+                    "name":"Pool",
+                    "value":"yes"
                 }
             ],
             
@@ -258,28 +279,41 @@
             "price": "$ 4,000,000",
             "features":[
                 {
+                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
                 {
+                    "name":"Parking",
+                    "value":"2"
+                },
+                {
+                
                     "name":"Bathrooms",
                     "value":"2"
                 },
                 {
+                    "name":"Toilets",
+                    "value":"2"
+                },
+                {
+                  
                     "name":"Area",
                     "value":"120m2"
                 },
                 {
+                
                     "name":"City",
                     "value":"Miami"
                 },
                 {
-                    "name":"Pool",
+                    "name":"Garden",
                     "value":"yes"
                 },
                 {
-                    "name":"Other",
-                    "value":"other"
+                 
+                    "name":"Pool",
+                    "value":"yes"
                 }
             ],
             
@@ -333,28 +367,41 @@
             "price": "$ 5,000,000",
             "features":[
                 {
+                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
                 {
+                    "name":"Parking",
+                    "value":"2"
+                },
+                {
+                
                     "name":"Bathrooms",
                     "value":"2"
                 },
                 {
+                    "name":"Toilets",
+                    "value":"2"
+                },
+                {
+                  
                     "name":"Area",
                     "value":"120m2"
                 },
                 {
+                
                     "name":"City",
                     "value":"Miami"
                 },
                 {
-                    "name":"Pool",
+                    "name":"Garden",
                     "value":"yes"
                 },
                 {
-                    "name":"Other",
-                    "value":"other"
+                 
+                    "name":"Pool",
+                    "value":"yes"
                 }
             ],
             
@@ -409,28 +456,41 @@
             "price": "$ 5,000,000",
             "features":[
                 {
+                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
                 {
+                    "name":"Parking",
+                    "value":"2"
+                },
+                {
+                
                     "name":"Bathrooms",
                     "value":"2"
                 },
                 {
+                    "name":"Toilets",
+                    "value":"2"
+                },
+                {
+                  
                     "name":"Area",
                     "value":"120m2"
                 },
                 {
+                
                     "name":"City",
                     "value":"Miami"
                 },
                 {
-                    "name":"Pool",
+                    "name":"Garden",
                     "value":"yes"
                 },
                 {
-                    "name":"Other",
-                    "value":"other"
+                 
+                    "name":"Pool",
+                    "value":"yes"
                 }
             ],
             
@@ -484,28 +544,41 @@
             "price": "$ 6,000,000",
             "features":[
                 {
+                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
                 {
+                    "name":"Parking",
+                    "value":"2"
+                },
+                {
+                
                     "name":"Bathrooms",
                     "value":"2"
                 },
                 {
+                    "name":"Toilets",
+                    "value":"2"
+                },
+                {
+                  
                     "name":"Area",
                     "value":"120m2"
                 },
                 {
+                
                     "name":"City",
                     "value":"Miami"
                 },
                 {
-                    "name":"Pool",
+                    "name":"Garden",
                     "value":"yes"
                 },
                 {
-                    "name":"Other",
-                    "value":"other"
+                 
+                    "name":"Pool",
+                    "value":"yes"
                 }
             ],
             
@@ -559,28 +632,41 @@
             "price": "$ 7,000,000",
             "features":[
                 {
+                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
                 {
+                    "name":"Parking",
+                    "value":"2"
+                },
+                {
+                
                     "name":"Bathrooms",
                     "value":"2"
                 },
                 {
+                    "name":"Toilets",
+                    "value":"2"
+                },
+                {
+                  
                     "name":"Area",
                     "value":"120m2"
                 },
                 {
+                
                     "name":"City",
                     "value":"Miami"
                 },
                 {
-                    "name":"Pool",
+                    "name":"Garden",
                     "value":"yes"
                 },
                 {
-                    "name":"Other",
-                    "value":"other"
+                 
+                    "name":"Pool",
+                    "value":"yes"
                 }
             ],
             

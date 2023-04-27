@@ -1,4 +1,4 @@
-export {default as Card} from './Card/Card';
-export {default as Detail} from './Detail/Detail';
-export {default as Search} from './Search/Search';
-export {default as Related} from './Related/Related';
+export {default as Card} from './card/Card';
+export {default as Detail} from './view/Details';
+export {default as Search} from './search/Search';
+export {default as Related} from './related/Related';

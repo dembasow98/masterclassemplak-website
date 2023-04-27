@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {useLocation } from 'react-router-dom';
 
-import { Head, Gallery, Details } from './../components/properties/property';
-import {Route, Enquire} from './../components/common';
+import { Head, Details } from './../components/properties/property';
+import {Route, Enquire, Gallery} from './../components/common';
 
 
 const Property = () => {

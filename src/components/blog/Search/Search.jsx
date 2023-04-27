@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import React, {useState} from "react";
 import separator from "../../../assets/images/separators/yellow/yel3.png";
 
 

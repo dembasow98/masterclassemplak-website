@@ -5,7 +5,7 @@ import Property from "./../components/properties/forms/Property";
 import { Banner, Filter } from "./../components/common";
 
 //Get the properties from the json file
-import data from "./../data/slides/data.json";
+import data from "./../data/properties/data.json";
 
 import banner from "./../assets/images/banner/banner5.png";
 
@@ -17,9 +17,9 @@ const Properties = () => {
     return (
         <main className="w-full flex flex-col items-center justify-center dark:bg-gray-900">
             <Banner title="PROPERTIES IN TÜRKİYE" image={banner} description="Find your dream home in Türkiye's wonderful cities" />
-            <section className="px-8 py-8">
+            <section className="px-8">
                 <Filter />
-                <div className = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+                <div className = "py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
                     {
                         properties.map((property) => (
                             <Property
