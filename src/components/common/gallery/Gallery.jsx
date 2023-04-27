@@ -3,12 +3,12 @@ import React from 'react'
 import "react-image-gallery/styles/css/image-gallery.css";
 
 
-
-
 import ImageGallery from 'react-image-gallery';
 
 const Gallery = ({images}) => {
 
+  //Test images:
+  //console.log(images)
   //Create thumbnails from the images
   images = images.map(image => {
     return {
@@ -20,6 +20,7 @@ const Gallery = ({images}) => {
   
   return (
     <div className="w-full rounded-md mt-6">
+      
       <ImageGallery
         items={images} 
         showPlayButton={false}

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Home, Blogs, Contact, About, Properties, News, Property} from  '../../../pages'
+import {Home, Blogs, Blog, Contact, About, Properties,Property, News, New} from  '../../../pages'
 
 import {Routes, Route } from 'react-router-dom'
 
@@ -10,6 +10,7 @@ const Content = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/blogs/:slug" element={<Blog />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
       <Route path="/properties" element={<Properties />}/>

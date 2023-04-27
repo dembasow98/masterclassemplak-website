@@ -9,7 +9,7 @@ const Route = ({component, breadcrumbs }) =>{
         <Link to= "/" className="opacity-60 hover:hover:opacity-100 hover:text-red-600">
           <AiFillHome className="text-xl md:text-2xl " />
         </Link>
-        <Link to= "/properties" className="opacity-60 text-md md:text-xl hover:opacity-100 hover:text-red-600" >
+        <Link to={`/${component}`} className="opacity-60 text-md md:text-xl hover:opacity-100 hover:text-red-600" >
           <span>{component}</span>
         </Link>
         <span className='opacity-60 hover:opacity-100 hover:text-red-600 text-md md:text-xl'>{breadcrumbs}</span>
