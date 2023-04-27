@@ -11,7 +11,6 @@ import banner from "./../assets/images/banner/banner5.png";
 
 const properties = data.properties;
 
-//Title will be the route name
 
 const Properties = () => {
     return (
