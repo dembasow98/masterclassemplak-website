@@ -1,133 +1,62 @@
-import React, {useState} from 'react';
-import {AiTwotoneHeart} from "react-icons/ai";
-import {Link} from "react-router-dom";
-import {IoBedOutline} from "react-icons/io5";
-import {BiBath} from "react-icons/bi";
-import {FaToilet} from "react-icons/fa";
-import {GiModernCity} from "react-icons/gi";
-import {MdOutlinePool} from "react-icons/md";
-import {BsTextarea} from "react-icons/bs";
-import {RiParkingBoxLine} from "react-icons/ri";
-import {MdRealEstateAgent} from "react-icons/md";
-import {SiProtodotio} from "react-icons/si";
-import {MdPriceChange} from "react-icons/md";
+import React, {useState, useEffect} from 'react';
+import {useLocation } from 'react-router-dom';
+
+import { Head, Details } from './../components/blog/Blog';
+import {Route, Enquire, Gallery} from './../components/common';
 
 
+const Blog = () => {
+  //const { slug } = useParams(); // access the "id" parameter from the URL
+  
+  const { state } = useLocation();
+  //console.log(state);
 
-const Property = (
-    {
-        type,
-        isFavorite,
-        title,
-        description,
-        profileImage,
-        gallery,
-        location,
-        price,
-        reference,
-        createdAt,
-        updatedAt,
-        overview,
-        benefits,
-        details,
-        features,
-    }) => {
-        
+  //Get Blog details from the state
+  const { title, price, reference, createdAt, updatedAt, gallery, description, overview, features, benefits, details } = state;
+  //console.log("From details:"+features);
 
-    //Get all the property details and store them in a variable
-    const property = {
-        type,
-        isFavorite,
-        title,
-        description,
-        profileImage,
-        gallery,
-        location,
-        price,
-        reference,
-        createdAt,
-        updatedAt,
-        overview,
-        benefits,
-        details,
-        
-    };
+  //The titleCase is a span tag:
+  const titleCase = <span className="text-2xl font-bold text-gray-900 dark:text-gray-100">"Enquire About <br  /> This Blog"</span>;
+  //This happens starting from the middle breakpoint
+  const [scroll, setScroll] = useState(false);
 
-    const [isLiked, setIsLiked] = useState(false);
+  useEffect(() => {
+    if (window.innerWidth > 768) {
+      setScroll(true);
+    }
+  }, [scroll]);
 
-    const handleLikeClick = () => {
-        setIsLiked(!isLiked);
-    };
-
-    //image(image title) click handler
-    const slugify = (string) => {
-        return string
-            .toString()
-            .toLowerCase()
-            .replace(/\s+/g, '-') // Replace spaces with -
-            .replace(/[^\w-]+/g, '') // Remove all non-word chars except -
-            .replace(/--+/g, '-') // Replace multiple - with single -
-            .replace(/^-+/, '') // Trim - from start of text
-            .replace(/-+$/, ''); // Trim - from end of text
-    };
-
-    return (
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <div className="relative">
-                <div className="absolute top-0 left-0 bg-blue-700 dark:bg-[#059669] text-white rounded-bl-lg py-1 px-2">{type}</div>
-                    <button className="absolute top-0 right-0 m-1 p-2 rounded-full  hover:bg-gray-800 dark:bg-gray-700 border-gray-500">
-                        <AiTwotoneHeart 
-                            className={`w-5 h-5 fill-current ${isLiked ? "text-red-600" : "text-gray-400"}`}
-                            onClick={handleLikeClick}
-                        /> 
-                    </button>
-                   
-                    <Link 
-                        to= {`/blogs/${slugify(title)}`}  
-                        state = {property}
-                    >
-                        <img className="rounded-t-lg" src={profileImage} alt={title} />
-                    </Link>
-                </div>
-                <div className="p-5">
-                    <Link
-                        to= {`/blogs/${slugify(title)}`}  
-                        state = {property}
-                    >
-                        <h5 className="mb-2 text-2xl dark:text-gray-300 font-bold">{title}</h5>
-                    </Link>
-                    <p className="mb-2 text-gray-600 dark:text-slate-400">{description}</p>
-                    <div className="flex justify-center items-center mb-2 dark:text-gray-500">
-                        <div className='ml-2 flex items-center  justify-center '>
-                            <div className = "flex items-center  justify-center w-8 h-8 mr-2 text-white bg-blue-700 dark:bg-green-500 rounded-full">
-                            <MdPriceChange />
-                            </div>
-                            <span className="text-gray-400">Price: </span>
-                            <span className=' dark:text-green-600'>{price}</span>
-                        </div>
-                    </div>
-                    <div className="grid justify-center  grid-cols-2 gap-2 items-center">
-                        {features.map((feature, index) => (
-                            <div key={index} className="flex items-center mr-4">
-                                <div className="flex items-center justify-center mx-2 text-green-800">
-                                    {feature.name === "Bedrooms" && <IoBedOutline />}
-                                    {feature.name === "Bathrooms" && <BiBath />}
-                                    {feature.name === "Toilets" && <FaToilet />}
-                                    {feature.name === "Parking" && <RiParkingBoxLine />}
-                                    {feature.name === "Pool" && <MdOutlinePool />}
-                                    {feature.name === "City" && <GiModernCity />}
-                                    {feature.name === "Garden" && <BsTextarea/>}
-                                    {feature.name === "Area" && <MdRealEstateAgent />}
-                                    {feature.name === "Other" && <SiProtodotio />}
-                                </div>
-                                <span className="text-gray-500">{feature.name}: </span>
-                                <span className="text-gray-500">{feature.value}</span>
-                            </div>
-                        ))}
-                    </div>
-                </div>
+  return (
+    <main className="bg-gray-100 mx-auto px-auto dark:bg-gray-900">
+      <Route component="Properties" breadcrumbs={title} />
+      <Head
+        title={title}
+        description={description}
+        price={price}
+        reference={reference}
+        createdAt={createdAt}
+        updatedAt={updatedAt}
+      />
+      <section className="w-full md:px-14 lg:px-18 px-4 sm:px-10 xl:px-24 flex flex-col md:flex-row md:items-start md:justify-start items-center justify-center">
+        <div className="w-full flex flex-col items-center md:w-2/3 justify-center">
+          <Gallery images={gallery} />
+          <Details
+            overview={overview}
+            //convert features to an array using json.parse
+            features={JSON.parse(features)}
+            benefits={benefits}
+            details={details}
+          />
         </div>
-    );
+        <div 
+          className="w-full flex flex-col items-center md:mt-4 md:w-1/3 justify-center"
+          style={{ position: scroll ? "sticky" : "relative", top: scroll ? "6rem" : "0" }}
+        >
+          <Enquire title={titleCase} isModal={false} />
+        </div>
+      </section>
+    </main>
+  );
 };
 
-export default Property;
+export default Blog;
