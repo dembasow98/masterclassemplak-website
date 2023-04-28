@@ -4,10 +4,10 @@ const Hero = ({fullname, title, image, presentation}) => {
   return (
     <div className="wrapper antialiased text-gray-900 mt-10">
         <div className="py-10 md:py-16">
-            <div className="flex flex-col px-8 md:px-10 lg:px-12 items-center justify-center shadow-md">
+            <div className="flex flex-col px-8 md:px-10 lg:px-12 items-center justify-center h-64 bg-white dark:bg-gray-800 shadow-md">
                 <img src={image} alt={title} className="w-full md:w-96 md:h-96 lg:w-[550px] lg:h-[500px] object-cover object-center rounded-xl shadow-md"/>
             </div>
-            <div className="relative w-full flex  -mt-2 md:-mt-14 lg:-mt-20 items-center justify-center">
+            <div className="relative w-full flex  -mt-8 items-center justify-center  md:-mt-0">
                 <div className="bg-white dark:bg-gray-700 p-6 rounded-lg md:mt-12 md:w-[500px]  md:min-h-[300px] lg:w-[700px]  shadow-lg">
                     <div className="flex items-baseline text-md md:text-xl lg:text-2xl">
                         <span className="bg-teal-200 text-teal-800 m-4  px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">

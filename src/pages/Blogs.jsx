@@ -3,7 +3,7 @@ import React from "react";
 import {Banner} from '../components/common/'
 
 import {Card, Related, Search} from '../components/blog/'
-import {NewsCard} from '../components/news/'
+import {NewCard} from '../components/news/'
 
 import banner from '../assets/images/banner/banner3.png'
 
@@ -49,7 +49,7 @@ const Blogs = () => {
           
             <section className='flex flex-col md:w-1/3 w-full'>
               <Related />
-              <NewsCard />
+              <NewCard />
             </section>
 
           </div>

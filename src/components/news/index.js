@@ -1,1 +1,2 @@
-export {default as NewsCard} from './Card/Card';
+export {default as Info} from './info/Info'
+export {default as NewCard} from './card/Card'
