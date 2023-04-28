@@ -10,7 +10,7 @@ const About = () => {
   const about = data.about
 
   return (
-    <main className="bg-gray-100 dark:bg-gray-900">
+    <main className="w-full px-auto mx-auto h-full bg-gray-100 dark:bg-gray-900">
       <Banner 
           title = "WHO ARE WE?" 
           image={banner} 
