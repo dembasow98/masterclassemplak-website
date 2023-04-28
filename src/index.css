@@ -30,3 +30,12 @@ Here add the box-shadow on the right and bottom side of the element
     /*Add opacity of 40 to the background image*/
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+
+/* For the about page */
+
+.wrapper{
+    display:grid;
+    height:100vh;
+    place-items:center
+}
