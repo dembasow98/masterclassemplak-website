@@ -20,7 +20,7 @@ const About = () => {
         title={about.title}
         banner={about.banner}
         overview={about.overview}
-        details={about.details}
+        details={about.heroes}
       />
     </main>
   )

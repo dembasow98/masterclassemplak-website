@@ -4,7 +4,7 @@ import Hero from '../hero/Hero'
 
 const Info = ({title, banner, overview, details}) => {
   return (
-    <section className="w-full flex flex-col justify-center items-center my-4 px-4 bg-yellow-300">
+    <section className="w-full flex flex-col justify-center items-center my-4 md:my-6 lg:my-10 xl:my-14 px-4 md:px-10 lg:px-20 bg-yellow-300">
         <div className="flex  flex-col bg-white dark:bg-gray-800 px-6 pt-4 pb-2 mb-6 rounded-md shadow-md consultancy-shadow-inset">
             <div className = "w-full flex justify-center pt-2 items-center">
                 <span className="w-full text-center text-2xl font-bold text-gray-700 dark:text-gray-200">
@@ -26,9 +26,9 @@ const Info = ({title, banner, overview, details}) => {
             </div>
         </div>
 
-        <div className="w-full flex  flex-col bg-white dark:bg-gray-800 px-6 pt-4 pb-2 mb-6 rounded-lg shadow-md">
+        <div className="w-full flex flex-col bg-white dark:bg-gray-800 px-6 pt-4 pb-2 mb-6 rounded-lg shadow-md">
             {
-                /*details.map((detail, index) => {
+                details.map((detail, index) => {
                     return (
                         <Hero 
                             key={index} 
@@ -38,7 +38,7 @@ const Info = ({title, banner, overview, details}) => {
                             presentation={detail.presentation}
                         />
                     )
-                })*/
+                })
             }
         </div>
 

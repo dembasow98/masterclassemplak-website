@@ -15,7 +15,6 @@ const Hero = ({fullname, title, image, presentation}) => {
                             {title}
                         </div>  
                     </div>
-                
             
                     <div class="mt-1">
                         <span class="text-sm text-gray-600">
