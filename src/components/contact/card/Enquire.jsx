@@ -10,6 +10,7 @@ import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 import ReCAPTCHA from "react-google-recaptcha";
 
 import {IoCloseSharp} from "react-icons/io5";
+import LazyLoad from "react-lazy-load";
 
 
 const  Enquire =({title, isModal, handleCloseModal}) =>{
@@ -101,7 +102,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                                 name="surname"
                                 value={surname}
                                 onChange={(e) => setSurname(e.target.value)}
-                            />
+                            />  
                             <div id="sideContactForm_info_error" className="hidden text-shadow-md text-sm pt-5 text-red-500">
                                 Please enter your last name
                             </div>
@@ -144,15 +145,16 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                             onChange={(e) => setNote(e.target.value)}
                         ></textarea>
                     </div>
-                    <div className="w-full flex flex-row justify-center gap-4 items-center">
-                        <div className="form-group w-full flex justify-center my-4 items-center">
-                            <ReCAPTCHA
-                                //inputStyle={{width: '100%', height: '100%'}}
-                                ref = {recaptchaRef}
-                                sitekey = {SITE_KEY}
-                                onChange = {captchaOnChange}
-                                className="w-full flex justify-center"
-                            />
+                    <div className="w-full flex flex-col xl:flex-row justify-center gap-4 items-center">
+                        <div className="form-group  w-[200px] xl:w-full items-cover  flex justify-center my-4 items-center">
+                           <LazyLoad>
+                                <ReCAPTCHA
+                                    ref = {recaptchaRef}
+                                    sitekey = {SITE_KEY}
+                                    onChange = {captchaOnChange}
+                                    className="w-full flex justify-center"
+                                />
+                            </LazyLoad>
                         </div>
                         <div className="form-group flex w-full mb-2">
                             <button

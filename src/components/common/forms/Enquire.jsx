@@ -10,6 +10,7 @@ import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 import ReCAPTCHA from "react-google-recaptcha";
 
 import {IoCloseSharp} from "react-icons/io5";
+import LazyLoad from "react-lazy-load";
 
 
 const  Enquire =({title, isModal, handleCloseModal}) =>{
@@ -51,8 +52,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
 
   return (
     <div className="flex flex-col w-full mb-6">
-        <div className="rounded-md m-4 bg-[#043334] my-2" id="side-contact-us">
-            <hr className="border-1 mt-2 border-gray-500" />
+        <div className="rounded-3xl m-4 bg-[#043334] my-2" id="side-contact-us">
             {
                 isModal ? (
                 <div className="w-full mt-3 mb-1 flex flex-row justify-center items-center text-center font-bold text-2xl text-gray-200 relative">
@@ -146,13 +146,19 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                         ></textarea>
                     </div>
                     <div className="form-group w-full flex justify-center my-4 items-center">
-                        <ReCAPTCHA
-                            //inputStyle={{width: '100%', height: '100%'}}
-                            ref = {recaptchaRef}
-                            sitekey = {SITE_KEY}
-                            onChange = {captchaOnChange}
-                            className="w-full flex justify-center"
-                        />
+                        <LazyLoad>                       
+                            <ReCAPTCHA
+                                //inputStyle={{width: '100%', height: '100%'}}
+                                ref = {recaptchaRef}
+                                sitekey = {SITE_KEY}
+                                onChange = {captchaOnChange}
+                                className="w-full flex justify-center"
+                                //Add size
+                                size = "normal"
+                                //Add theme
+                                theme = "dark"
+                            />
+                         </LazyLoad>
                     </div>
                     <div className="form-group flex w-full mb-2">
                         <button
@@ -165,7 +171,6 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                     </div>
                 </form>
             </div>
-            <hr className="border-1 mb-2 border-gray-500" />
         </div>
     </div>
 )}
