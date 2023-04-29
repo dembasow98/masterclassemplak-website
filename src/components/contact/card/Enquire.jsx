@@ -153,6 +153,10 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                                     sitekey = {SITE_KEY}
                                     onChange = {captchaOnChange}
                                     className="w-full flex justify-center"
+                                    //Add size
+                                    size = "normal"
+                                    //Add theme
+                                    theme = "dark"
                                 />
                             </LazyLoad>
                         </div>

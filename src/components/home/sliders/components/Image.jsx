@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 import Modal from "react-modal";
@@ -79,16 +79,18 @@ const Image = ({
   };
 
 
-  let subtitle;
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   function openModal() {
     setModalIsOpen(true);
   }
 
+  
+ 
+
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
-    subtitle.style.color = '#f00';
+    
   }
 
   function closeModal() {
@@ -135,7 +137,7 @@ const Image = ({
             isOpen={modalIsOpen}
             onAfterOpen={afterOpenModal}
             onRequestClose={closeModal}
-            style={customStyles}
+            //style={customStyles}
             contentLabel="Enquire Modal"
             //make the modal to be in the center of the screen
             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
@@ -145,7 +147,7 @@ const Image = ({
             //stop the background from functioning when the modal is open
             ariaHideApp={false}
           >
-            <Enquire title={titleCase} isModal={true} handleCloseModal={closeModal}/>
+            <Enquire title={titleCase} isModal={true} handleCloseModal={closeModal} />
           </Modal>
         </div>
         

@@ -41,7 +41,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
     const SITE_KEY = "6LfngbwkAAAAACV2WmeXRt9Pr951pXY-6xLMBpIZ";
 
 
-    const recaptchaRef = useRef(null);
+    const recaptchaRef = useRef();
     //const recaptchaValue = recaptchaRef.current.getValue();
 
     const captchaOnChange = (value) => {
