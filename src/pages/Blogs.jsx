@@ -21,9 +21,9 @@ const Blogs = () => {
           />
           
           <Search />
-          <div className='flex flex-col md:flex-row mx-auto md:justify-start md:items-start  px-8 py-8 items-center justify-center w-full h-full'>
+          <div className='flex flex-col md:flex-row mx-auto md:justify-start md:items-start  px-4 py-2 items-center justify-center w-full h-full'>
     
-            <section className="flex flex-col md:w-2/3 w-full md:min-h-screen my-8 px-4 md:py-0 md:my-0 mx-auto max-w-screen-xl  lg:px-6">
+            <section className="flex flex-col md:w-2/3 w-full md:min-h-screen my-8 md:py-0 md:my-0 mx-auto max-w-screen-xl  lg:px-6">
               <div className="grid gap-6 w-full">
                 {
                   blogs.map((blog) => (

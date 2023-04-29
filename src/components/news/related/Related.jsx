@@ -11,6 +11,8 @@ import separator from './../../../assets/images/separators/yellow/yel2.png'
 
 const Related = () => {
 
+  //Test if the data is being fetched
+  console.log(data);
 
   const properties = data.properties;
   var settings = {
@@ -66,8 +68,8 @@ const Related = () => {
 
 
   return (
-    <section className="flex flex-col justify-center items-center">
-        <div className = "w-full bg-real-estate px-10 pb-10 rounded-lg justify-center items-center">
+    <section className="lg:mx-10 flex flex-col justify-center items-center">
+        <div className = "w-full bg-real-estate px-10 pt-2 pb-10 rounded-lg justify-center items-center">
             <p className="text-3xl lg:text-4xl font-bold text-gray-800 text-center dark:text-gray-200">
                 Find your dream home in Türkiye
             </p>

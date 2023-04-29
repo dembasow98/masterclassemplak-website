@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 
+/*
+General font family to sans serif
+*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 /*
 Do it for all the breakpoints
 

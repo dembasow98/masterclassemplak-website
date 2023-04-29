@@ -4,7 +4,7 @@ import {HiOutlineShare} from "react-icons/hi";
 
 const Head = ({title, tags, createdAt, updatedAt}) => {
   return (
-    <section className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 w-full p-4 shadow-3xl border-b border-gray-800">
+    <section className="grid grid-rows-2 md:grid-rows-1 mb-4 md:grid-cols-2 w-full p-4 border-b border-gray-500">
         <section className="flex flex-col gap-y-1 justify-center items-center">
           <div className="flex w-full flex-row md:px-14 lg:px-18 px-4 sm:px-10 xl:px-24 justify-center md:justify-start items-center">
             <p className=" text-center text-lg md:text-xl text-gray-900 dark:text-gray-300">{title}</p>

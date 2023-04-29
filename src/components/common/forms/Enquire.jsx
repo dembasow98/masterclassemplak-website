@@ -145,7 +145,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                             onChange={(e) => setNote(e.target.value)}
                         ></textarea>
                     </div>
-                    <div className="form-group w-full flex justify-center my-4 items-center">
+                    <div className="form-group w-full flex justify-center my-2 items-center">
                         <LazyLoad>                       
                             <ReCAPTCHA
                                 //inputStyle={{width: '100%', height: '100%'}}
@@ -160,7 +160,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                             />
                          </LazyLoad>
                     </div>
-                    <div className="form-group flex w-full mb-2">
+                    <div className="form-group flex w-full my-2">
                         <button
                             type="submit"
                             className="text-white w-full bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-sm text-sm py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"

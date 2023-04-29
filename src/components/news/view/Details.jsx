@@ -6,7 +6,7 @@ import { Gallery } from '../../common'
 const Details = ({banner, tags, content1, content2 }) => {
 
   return (
-    <section className="border shadow-3xl border-gray-600 w-full flex flex-col items-center p-4 gap-2 justify-center">
+    <section className="border border-gray-600 w-full flex flex-col items-center p-4 gap-2 justify-center">
       <div className="w-full p-4 border border-gray-700 flex flex-col lg:flex-row  items-center justify-center bg-gray-800 rounded-md">
         <div className="w-full items-center justify-center lg:w-1/3">
           {
@@ -20,8 +20,8 @@ const Details = ({banner, tags, content1, content2 }) => {
             ))
           }
         </div>
-        <div className="items-center justify-center lg:w-2/3">
-          <img src = {banner} alt="banner" className=" object-cover rounded-md" />
+        <div className="w-full items-center justify-center lg:w-2/3">
+          <img src = {banner} alt="banner" className="w-full h-full object-cover rounded-md" />
         </div>
       </div>
 
