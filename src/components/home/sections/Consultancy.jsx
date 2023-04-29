@@ -61,7 +61,7 @@ const Consultancy = () => {
           <div className="flex pb-4 justify-center">
             <img src={separator} alt="yel1" />
           </div>
-          <div className="grid  md:grid-cols-2 xl:grid-cols-4 gap-3">
+          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-3">
             <div className="relative">
               <input 
                   type="text"
@@ -97,40 +97,47 @@ const Consultancy = () => {
                 />
             </div>
             <div className="relative flex w-full justify-center items-center">
-                <PhoneInput
-                    inputStyle={{width: '100%', height: '100%'}}
-                    country={'tr'}
-                    placeholder="Phone"
-                    className="form-control w-full dark:text-gray-200 dark:bg-gray-900 h-10 rounded-sm border hover:focus:ring-1 focus:ring-red-300 bg-gray-200"
-                    name="phone"
-                    required
-                    value={phone}
-                    onChange={phone => setPhone(phone)}
-                />
-            </div>
+                  <PhoneInput
+                      inputStyle={{width: '100%', height: '100%', color: 'black',}}
+                      country={'tr'}
+                      placeholder="Phone"
+                      className="form-control   w-full text-black dark:text-gray-200 dark:bg-gray-900 h-10 rounded-sm border hover:focus:ring-1 focus:ring-red-300 bg-gray-200"
+                      name="phone"
+                      required
+                      value={phone}
+                      
+                      onChange={phone => setPhone(phone)}
+                  />
+              </div>
+            
           </div>
-          <div className="relative flex w-full justify-center itemss-center">
-              <textarea
-                  className="form-control w-full dark:text-gray-200 dark:bg-gray-900 md:w-[600px] rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
-                  placeholder="Note"
-                  name="note"
-                  value={note}
-                  onChange={(e) => setNote(e.target.value)}
-              ></textarea>
-            </div>
-            <div className="relative  justify-center my-4 items-center">
-                <ReCAPTCHA
-                  ref = {recaptchaRef}
-                  sitekey = {SITE_KEY}
-                  onChange = {captchaOnChange}
-                  className="w-full  flex justify-center"
-                />
-            </div>
-          <div className = "w-full  flex justify-center items-center pt-4">
-            <button onClick={handleConsultancySubmit} className="w-full sm:w-[400] md:w-[500px] bg-blue-500 mx-4 dark:bg-red-600  hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-              SEND
-            </button>
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full items-center">
+            <div className=" flex w-full justify-center items-center">
+                <textarea
+                    className="form-control w-full dark:text-gray-200 dark:bg-gray-900 md:w-[600px] rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                    placeholder="Note"
+                    name="note"
+                    value={note}
+                    onChange={(e) => setNote(e.target.value)}
+                ></textarea>
+              </div>
+              <div className="justify-center flex items-center">
+                  <ReCAPTCHA
+                    ref = {recaptchaRef}
+                    sitekey = {SITE_KEY}
+                    onChange = {captchaOnChange}
+                    className="w-full flex justify-center"
+                    theme="dark"
+                    size = "normal"
+                  />
+              </div>
+               <div className = "w-full justify-end flex items-center">
+                <button onClick={handleConsultancySubmit} className="w-full py-4 bg-blue-500 dark:bg-red-600  hover:bg-red-700 text-white font-bold rounded">
+                  SEND
+                </button>
+              </div>
           </div>
+            
         </form>
       </div>
     </section>      

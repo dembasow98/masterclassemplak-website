@@ -30,3 +30,10 @@ Here add the box-shadow on the right and bottom side of the element
     /*Add opacity of 40 to the background image*/
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+
+/* Setting the PhoneInpput to dark theme*/
+/* Set the background color to dark gray */
+.phone-input-dark input {
+    background-color: #2d2d2d;
+  }

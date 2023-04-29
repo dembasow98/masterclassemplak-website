@@ -5,7 +5,7 @@ import Hero from '../hero/Hero'
 const Info = ({title, banner, overview, details}) => {
   return (
     <section className="w-full flex flex-col justify-center items-center dark:bg-gray-900">
-        <div className="flex  flex-col bg-white md:px-10 dark:bg-gray-800 px-6 pt-4 pb-2 m-4 mb-6 rounded-md shadow-md consultancy-shadow-inset">
+        <div className="flex  flex-col bg-white md:px-10 dark:bg-gray-800 px-6 pt-4 pb-2 m-4 md:mx-10 lg:mx-20 xl:mx-24 lg:mt-6 rounded-md shadow-md consultancy-shadow-inset">
             <div className = "w-full flex justify-center pt-2 items-center">
                 <span className="w-full m-4 text-center text-2xl md:text-3xl font-bold text-gray-700 dark:text-gray-200">
                     {title}
