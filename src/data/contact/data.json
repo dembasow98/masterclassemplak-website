@@ -1,5 +1,15 @@
 {
     "contact":{
+        "phone":"+90 555 555 55 55",
+        "email":"info@masterclassemlak.com",
+        "address":{
+                "title":"Mevlana, Çelebi Mehmet Cad., 34515 Esenyurt/İstanbul",
+                "lattitude":"41.0092873",
+                "longitude":"28.6552264",
+                "country":"Türkiye",
+                "zoomLevel":"15",
+                "testLocation":"https://goo.gl/maps/nBXGMMM7zpXhr6926"
+            }
         
     }
 }

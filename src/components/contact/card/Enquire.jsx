@@ -50,8 +50,8 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
 
 
   return (
-    <div className="flex flex-col w-full mb-6">
-        <div className="rounded-3xl m-4 bg-[#043334] my-2" id="side-contact-us">
+    <div className="flex flex-col w-full mb-8">
+        <div className="rounded-3xl bg-[#043334]" id="side-contact-us">
             {
                 isModal ? (
                 <div className="w-full mt-3 mb-1 flex flex-row justify-center items-center text-center font-bold text-2xl text-gray-200 relative">
