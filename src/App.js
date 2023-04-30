@@ -11,7 +11,6 @@ function App() {
     <Router>
       <Topbar/>
       <Navbar />
-      
       <Content />
       <Footer/>
     </Router>

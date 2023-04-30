@@ -12,8 +12,8 @@ import Languages from '../../common/dropdown/Languages';
 const Topbar = () => {
   return (
     <div className='flex w-full h-24 sm:h-22 md:h-16 lg:h-14 bg-white text-black dark:text-white dark:bg-gray-900  border-b dark:border-gray-300'>
-      <div className='flex flex-col md:flex-row w-full items-center justify-center md:mx-6 lg:mx-4'>
-        
+      <div className='flex flex-col md:flex-row w-full items-center justify-center '>
+
         <div className='TOP-PART md:order-2 flex items-center justify-between md:justify-center w-full px-4 '>
           <div className='LEFT-PART flex flex-row p-2 gap-3'>
             

@@ -66,18 +66,6 @@ const Image = ({
   };
   //Handle the enquire button (modal popup)
 
-  //Customize the modal
-  const customStyles = {
-    content: {
-      top: '53%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      marginRight: '-50%',
-      transform: 'translate(-50%, -50%)',
-    },
-  };
-
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -90,7 +78,6 @@ const Image = ({
 
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
-    
   }
 
   function closeModal() {
@@ -102,7 +89,8 @@ const Image = ({
 
 
   return (
-    <div className="relative mx-auto">
+    
+    <div className="relative">
       <Link 
         to= {`/properties/${slugify(title)}`}  
         state = {property}

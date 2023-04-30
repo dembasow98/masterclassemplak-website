@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import {Image} from './components';
 
 import data from '../../../data/properties/data.json';
+import Design from '../../design/Design';
 
 
 
@@ -24,12 +25,13 @@ const Banner = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    dotsClass: "slick-dots my-10 text-white bg-gray-900 bg-opacity-25",
-    
+    arrows: false
+
   };
 
  
   return (
+    <div className="w-full pb-6 bg-[#043334] rounded-b-3xl">
       <Slider {...settings}>
         {images.map((property) => (
           <Image
@@ -53,7 +55,8 @@ const Banner = () => {
           />
         ))}
       </Slider>
-  
+      
+    </div>
   );
 };
 

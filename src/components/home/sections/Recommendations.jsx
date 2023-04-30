@@ -54,7 +54,7 @@ const Recommendations = () => {
 
 
   return (
-    <section className="w-full my-10 flex  flex-col justify-center items-center">
+    <section className="w-full py-10 flex  flex-col justify-center items-center">
         <div className="w-full flex justify-center items-center">
             <p className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-gray-100">Recommendations</p>
         </div>

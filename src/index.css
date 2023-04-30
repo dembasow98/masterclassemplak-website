@@ -46,4 +46,13 @@ Here add the box-shadow on the right and bottom side of the element
     background-color: #2d2d2d;
 }
 
-  
+
+/*Add background image for a given component*/
+.bg-real-estate {
+    background-image: url('./assets/images/backgroundd/realestatebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*Add opacity of 40 to the background image*/
+    background-color: rgba(0, 0, 0, 0.4);
+}

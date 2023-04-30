@@ -1,6 +1,6 @@
 import React from 'react'
 import { Banner } from '../components/common'
-import banner from '../assets/images/banner/banner3.png'
+import banner from '../assets/images/about/banner.jpg'
 import {Info} from '../components/about'
 
 //Import about data

@@ -15,7 +15,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.pageYOffset > 100) {
+      if (window.pageYOffset > 50) {
         setNavbarFixed(true);
       } else {
         setNavbarFixed(false);

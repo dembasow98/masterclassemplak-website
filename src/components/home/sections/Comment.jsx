@@ -4,8 +4,8 @@ import yel1 from '../../../assets/images/separators/yellow/yel1.png'
 const Comment = () => {
   return (
     <section className="bg-gray-100 dark:bg-gray-900">
-        <div className="container  mx-auto px-6 py-20">
-            <div className="w-full flex flex-col mb-10 md:px-2 lg:px-10">
+        <div className="container  mx-auto ">
+            <div className="w-full flex flex-col md:px-2 lg:px-10">
                 <div className="flex flex-col mb-5">
                     <h2 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-5">
                         Master Class Emlak
