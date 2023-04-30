@@ -18,14 +18,14 @@ Do it for all the breakpoints
 */
 
 .filter-shadow-inset {
-    box-shadow: inset 10px 10px 0px 0px rgb(6, 255, 85);
+    box-shadow: inset 10px 10px 0px 0px rgb(4, 51, 52)
 }
   
 /*
 Here add the box-shadow on the right and bottom side of the element
 */
 .consultancy-shadow-inset {
-    box-shadow: inset 0px 10px 0px 0px rgb(6, 255, 85);
+    box-shadow: inset 0px 10px 0px 0px rgb(4, 51, 52)
 }
 
 
@@ -42,6 +42,8 @@ Here add the box-shadow on the right and bottom side of the element
 
 /* Setting the PhoneInpput to dark theme*/
 /* Set the background color to dark gray */
-.phone-input-dark input {
+.phone-input-dark {
     background-color: #2d2d2d;
-  }
+}
+
+  
