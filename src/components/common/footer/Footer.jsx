@@ -10,7 +10,7 @@ import {BiMailSend} from 'react-icons/bi'
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-[#043334] ">
+    <footer className="bg-white dark:bg-[#043334]">
         <div className="flex flex-col items-center mx-6 py-3 justify-between md:flex-row">
             <div className="flex-shrink-0 justify-center">
                 <img src={logo} alt="logo" className=" w-42 h-36 " />
@@ -141,7 +141,7 @@ const Footer = () => {
                     <img src={yel1} alt="visa" />
                 </div>
                 <div className='md:px-48 justify-center items-center text-sm font-sm text-gray-500 dark:text-gray-300 sm:text-center'>
-                    
+                        
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 

@@ -32,8 +32,10 @@ function Navbar() {
         <div className="max-w-7xl mx-auto px-4 py-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center md:justify-between md:w-full ">
-              <div className="flex-shrink-0 justify-center">
-                <img src={logo} alt="logo" className="w-24 md:w-28 lg:w-32" />
+              <div className="flex-shrink-0 justify-center cursor-pointer">
+                <Link to="/">
+                  <img src={logo} alt="logo" className="w-24 md:w-28 lg:w-32" />
+                </Link>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4  md:flex md:flex-row  md:gap-6  lg:gap-10 xl:gap-12 2xl:gap-16">
