@@ -49,7 +49,7 @@ Here add the box-shadow on the right and bottom side of the element
 
 /*Add background image for a given component*/
 .bg-real-estate {
-    background-image: url('./assets/images/backgroundd/realestatebg.jpg');
+    background-image: url('./assets/images/background/realestatebg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
