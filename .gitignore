@@ -27,3 +27,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Ignore GITHUB_SSH_KEY
+GITHUB_SSH_KEY
+```
+# Ignore GITHUB_SSH_KEY.pub
+GITHUB_SSH_KEY.pub
+```
