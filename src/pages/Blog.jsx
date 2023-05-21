@@ -15,14 +15,14 @@ const Blog = () => {
 
   //Get Blog details from the state
   const {
-    id,
+    //id,
     title,
     description,
     banner,
     createdAt,
     updatedAt,
-    author,
-    avatar,
+    //author,
+    //avatar,
     content1,
     content2,
     gallery,
