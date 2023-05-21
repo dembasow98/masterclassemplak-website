@@ -7,7 +7,7 @@ import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 //Google recaptcha
 import ReCAPTCHA from "react-google-recaptcha";
 
-import {IoCloseSharp} from "react-icons/io5";
+
 import LazyLoad from "react-lazy-load";
 
 
@@ -15,7 +15,7 @@ const  Comment =({title}) =>{
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
+  //const [phone, setPhone] = useState("");
   const [note, setNote] = useState("");
   const [captcha, setCaptcha] = useState("");
 
@@ -25,7 +25,7 @@ const  Comment =({title}) =>{
     console.log({
       name,
       email,
-      phone,
+      //phone,
       note,
       captcha,
     });
