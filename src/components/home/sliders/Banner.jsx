@@ -6,7 +6,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import {Image} from './components';
 
 import data from '../../../data/properties/data.json';
-import Design from '../../design/Design';
 
 
 

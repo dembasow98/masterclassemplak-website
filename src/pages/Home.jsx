@@ -2,7 +2,6 @@ import React from 'react'
 import { Banner, Comment, Consultancy, Recommendations, Testimonials } from '../components/home'
 
 import {Filter} from '../components/common'
-import Design from '../components/design/Design'
 
 const Home = () => {
 

@@ -2,7 +2,8 @@ import React from "react";
 
 import {Banner} from '../components/common/'
 
-import {Card, Related, Search} from '../components/blog/'
+import {BlogCard, Related, Search} from '../components/blog/'
+
 import {NewCard} from '../components/news/'
 
 import banner from '../assets/images/banner/banner3.png'
@@ -27,7 +28,7 @@ const Blogs = () => {
               <div className="grid gap-6 w-full">
                 {
                   blogs.map((blog) => (
-                    <Card 
+                    <BlogCard 
                       key = {blog?.id}
                       title = {blog?.title}
                       description = {blog?.description}
