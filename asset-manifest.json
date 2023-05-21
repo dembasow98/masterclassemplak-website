@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/masterclassemplak-website/static/css/main.1b51bd5a.css",
+    "main.js": "/masterclassemplak-website/static/js/main.31182f2b.js",
+    "static/media/banner3.png": "/masterclassemplak-website/static/media/banner3.201f85c3359cc5c313bf.png",
+    "static/media/banner5.png": "/masterclassemplak-website/static/media/banner5.3447dc17b21a5518fbd2.png",
+    "static/media/underdev.gif": "/masterclassemplak-website/static/media/underdev.f4841752b8c993e65739.gif",
+    "static/media/banner1.png": "/masterclassemplak-website/static/media/banner1.f975b7b16558197113cb.png",
+    "static/media/banner.jpg": "/masterclassemplak-website/static/media/banner.1021bd353ab1b6995c1e.jpg",
+    "static/media/real-estate.jpg": "/masterclassemplak-website/static/media/real-estate.ed0f1f3f2db8e422fa22.jpg",
+    "static/media/logo1.png": "/masterclassemplak-website/static/media/logo1.a1e549f6437c499a5d30.png",
+    "static/media/location.png": "/masterclassemplak-website/static/media/location.c692deccdbbc0583948f.png",
+    "static/media/realestatebg.jpg": "/masterclassemplak-website/static/media/realestatebg.3872579657852ccdf016.jpg",
+    "static/media/email.png": "/masterclassemplak-website/static/media/email.ae6fc4fde00bab8603d4.png",
+    "static/media/phone.png": "/masterclassemplak-website/static/media/phone.17deba7437f5909224b5.png",
+    "static/media/slick.svg": "/masterclassemplak-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/masterclassemplak-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/masterclassemplak-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/masterclassemplak-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/masterclassemplak-website/index.html",
+    "main.1b51bd5a.css.map": "/masterclassemplak-website/static/css/main.1b51bd5a.css.map",
+    "main.31182f2b.js.map": "/masterclassemplak-website/static/js/main.31182f2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b51bd5a.css",
+    "static/js/main.31182f2b.js"
+  ]
+}
