@@ -1,14 +1,11 @@
-import React, { useState, useRef } from "react";
-
-
+import React, { useState, useRef, Suspense } from "react";
 
 import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 
 //Google recaptcha
 import ReCAPTCHA from "react-google-recaptcha";
+import { Spinner } from "../../common";
 
-
-import LazyLoad from "react-lazy-load";
 
 
 const  Comment =({title}) =>{
@@ -100,7 +97,7 @@ const  Comment =({title}) =>{
                     </div>
                     <div className = "w-full flex flex-col lg:flex-row  sm:gap-3 md:gap-4">
                     <div className="form-group w-full flex justify-center my-2 items-center">
-                        <LazyLoad>                       
+                        <Suspense fallback={<Spinner/>}>         
                             <ReCAPTCHA
                                 //inputStyle={{width: '100%', height: '100%'}}
                                 ref = {recaptchaRef}
@@ -112,7 +109,7 @@ const  Comment =({title}) =>{
                                 //Add theme
                                 theme = "dark"
                             />
-                         </LazyLoad>
+                         </Suspense>
                     </div>
                     <div className="form-group flex w-full my-2 lg:my-4 lg:mx-6 lg:px-6">
                         <button

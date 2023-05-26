@@ -37,7 +37,7 @@ const Search = () => {
                         type="text"
                         className="form-control px-2 w-full rounded-sm focus:ring-1 dark:text-gray-200 dark:bg-gray-900 focus:ring-red-600 py-3 m-1 bg-gray-200"
                         required
-                        placeholder="First Name"
+                        placeholder="Please write your search words"
                         name="name"
                         value={name}
                         onChange={(e) => setName(e.target.value)}

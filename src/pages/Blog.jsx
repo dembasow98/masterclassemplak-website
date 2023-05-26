@@ -1,15 +1,17 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, Suspense, lazy} from 'react';
 import {useLocation } from 'react-router-dom';
+import  Spinner  from './../components/common/loader/Spinner.jsx';
 
-import { Head } from './../components/blog/view';
-import {Route, Gallery} from './../components/common';
-import {Comment, Related} from './../components/blog/';
+const Comment = lazy(() => import("./../components/blog/form/Comment.jsx"));
+const Related = lazy(() => import("./../components/blog/similar/Related.jsx"));
 
-
+const Head = lazy(() => import("./../components/blog/view/Head.jsx"));
+const Route = lazy(() => import("./../components/common/route/Route.jsx"));
+const Gallery = lazy(() => import("./../components/common/gallery/Gallery.jsx"));
 
 const Blog = () => {
   //const { slug } = useParams(); // access the "id" parameter from the URL
-  
+
   const { state } = useLocation();
   //console.log(state);
 
@@ -43,14 +45,17 @@ const Blog = () => {
 
   return (
     <main className="dark:bg-gray-900">
-      
-      <Route component="Blogs" breadcrumbs={title} />
-      <Head
-          title={title}
-          tags={tags}
-          createdAt={createdAt}
-          updatedAt={updatedAt}
-       />
+      <Suspense fallback={<Spinner />}>
+        <Route component="Blogs" breadcrumbs={title} />
+      </Suspense>
+      <Suspense fallback={<Spinner />}>
+        <Head
+            title={title}
+            tags={tags}
+            createdAt={createdAt}
+            updatedAt={updatedAt}
+        />
+      </Suspense>
         <section className="w-full mt-4 md:px-10 flex flex-col md:flex-row md:items-start md:justify-start items-center justify-center">
           <div className="w-full flex md:w-2/3 flex-col md:px-4 lg:px-6">
             <div className='flex flex-col w-full border border-[#043334] mb-6 pb-4 rounded-xl md:items-start md:justify-start items-center justify-center'>
@@ -64,7 +69,9 @@ const Blog = () => {
                     <p className="text-sm md:text-md font-sm md:font-md lg:font-bold text-gray-900 dark:text-gray-100">{content1}</p>
                 </div>
                 <div className="w-full p-4 flex flex-col items-center justify-center">
+                  <Suspense fallback={<Spinner />}>
                     <Gallery images={gallery} />
+                  </Suspense>
                 </div>
 
                 <div className="w-full flex flex-col items-center p-4 justify-center">
@@ -72,18 +79,22 @@ const Blog = () => {
                 </div>
             </div>
             <div className="w-full flex flex-col items-center md:mt-4 px-3 justify-center">
-            <Comment title={titleCase} />
+              <Suspense fallback={<Spinner />}>
+                <Comment title={titleCase} />
+              </Suspense>
             </div>
-           
+
           </div>
-          
-            
+
+
           <div className="w-full md:w-1/3 px-4 md:px-1 lg:px-2 xl:px-6 2xl:px-10 pb-6 items-center pjustify-center">
-            <Related />
+            <Suspense fallback={<Spinner />}>
+              <Related />
+            </Suspense>
           </div>
-          
+
         </section>
-        
+
     </main>
   );
 };
