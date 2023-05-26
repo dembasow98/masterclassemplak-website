@@ -1,16 +1,18 @@
 import React from "react";
-import Design from "../components/design/Design";
-import underdev from "../assets/images/error/underdev.gif";
+import { Spinner } from "../components/common";
+
+
 
 const News = () => {
     return (
-        <div class="w-full">
-            <div class="w-full my-48 lg:my-10">
-                <img src={underdev} alt="under construction" class="w-full object-cover" />
+        <div class="bg-gray-100 w-full dark:bg-gray-900 ">
+            <div class="w-full py-48 lg:py-10">
+                <img src = "https://media.giphy.com/media/ife1KAKHhExUUSlzs8/giphy.gif" alt="news" class="w-full h-96 object-cover object-center" />
             </div>
-            <Design />
+            <div class="pb-20">
+                <Spinner />
+            </div>
         </div>
-
     );
 };
 

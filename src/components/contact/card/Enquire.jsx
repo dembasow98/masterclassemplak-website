@@ -1,17 +1,18 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, Suspense, lazy} from "react";
 
 //React phone input
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 
+
+
+import {IoCloseSharp} from "react-icons/io5";
+
+import { Spinner } from "../../common";
 import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 
 //Google recaptcha
-import ReCAPTCHA from "react-google-recaptcha";
-
-import {IoCloseSharp} from "react-icons/io5";
-import LazyLoad from "react-lazy-load";
-
+const ReCAPTCHA = lazy(()=>import("react-google-recaptcha"));
 
 const  Enquire =({title, isModal, handleCloseModal}) =>{
 
@@ -147,7 +148,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                     </div>
                     <div className="w-full flex flex-col xl:flex-row justify-center gap-4 items-center">
                         <div className="form-group  w-[200px] xl:w-full items-cover  flex justify-center my-4 items-center">
-                           <LazyLoad>
+                           <Suspense fallback={<Spinner/>}>
                                 <ReCAPTCHA
                                     ref = {recaptchaRef}
                                     sitekey = {SITE_KEY}
@@ -158,7 +159,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                                     //Add theme
                                     theme = "dark"
                                 />
-                            </LazyLoad>
+                            </Suspense>
                         </div>
                         <div className="form-group flex w-full mb-2">
                             <button

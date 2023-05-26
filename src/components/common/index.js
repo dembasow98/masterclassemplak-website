@@ -11,3 +11,5 @@ export {default as Gallery} from './gallery/Gallery';
 //Common between Blogs and news
 export {default as Banner} from './banner/Banner';
 export {default as Filter} from './search/Filter';
+export {default as Spinner} from './loader/Spinner';
+
