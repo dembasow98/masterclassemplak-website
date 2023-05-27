@@ -10,7 +10,6 @@ const Route = lazy(() => import("./../components/common/route/Route.jsx"));
 const Gallery = lazy(() => import("./../components/common/gallery/Gallery.jsx"));
 
 const Blog = () => {
-  //const { slug } = useParams(); // access the "id" parameter from the URL
 
   const { state } = useLocation();
   //console.log(state);
@@ -34,6 +33,7 @@ const Blog = () => {
 
   //The titleCase is a span tag:
   const titleCase = <span className="text-2xl font-bold text-gray-900 dark:text-gray-100">Please Share Your Thought With Us</span>;
+  
   //This happens starting from the middle breakpoint
   const [scroll, setScroll] = useState(false);
 
@@ -85,8 +85,6 @@ const Blog = () => {
             </div>
 
           </div>
-
-
           <div className="w-full md:w-1/3 px-4 md:px-1 lg:px-2 xl:px-6 2xl:px-10 pb-6 items-center pjustify-center">
             <Suspense fallback={<Spinner />}>
               <Related />

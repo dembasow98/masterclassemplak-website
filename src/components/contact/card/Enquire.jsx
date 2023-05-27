@@ -12,7 +12,8 @@ import { Spinner } from "../../common";
 import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 
 //Google recaptcha
-const ReCAPTCHA = lazy(()=>import("react-google-recaptcha"));
+// Lazy load the ReCAPTCHA component
+const LazyReCAPTCHA = lazy(() => import('react-google-recaptcha'));
 
 const  Enquire =({title, isModal, handleCloseModal}) =>{
 
@@ -46,7 +47,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
     //const recaptchaValue = recaptchaRef.current.getValue();
 
     const captchaOnChange = (value) => {
-        console.log("Captcha value:", value);
+        //console.log("Captcha value:", value);
         setCaptcha(value);
     }
 
@@ -149,7 +150,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                     <div className="w-full flex flex-col xl:flex-row justify-center gap-4 items-center">
                         <div className="form-group  w-[200px] xl:w-full items-cover  flex justify-center my-4 items-center">
                            <Suspense fallback={<Spinner/>}>
-                                <ReCAPTCHA
+                                <LazyReCAPTCHA
                                     ref = {recaptchaRef}
                                     sitekey = {SITE_KEY}
                                     onChange = {captchaOnChange}
@@ -157,7 +158,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                                     //Add size
                                     size = "normal"
                                     //Add theme
-                                    theme = "dark"
+                                    //theme = "dark"
                                 />
                             </Suspense>
                         </div>

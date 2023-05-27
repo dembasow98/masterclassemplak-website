@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { Spinner } from "../components/common/index.js";
+import Spinner from "../components/common/loader/Spinner.jsx";
 
 import data from "../data/blogs/data.json"
 
@@ -20,23 +20,25 @@ const Blogs = () => {
 
     return (
       <main className="bg-gray-100 dark:bg-gray-900">
-          <Banner 
-            title = "MASTER CLASS PROPERTY BLOG" 
-            image={banner} 
-            description="Read some super important articles on property investment here in Türkiye."
-          />
+          <Suspense fallback={<Spinner />}>
+            <Banner 
+              title = "MASTER CLASS PROPERTY BLOG" 
+              image={banner} 
+              description="Read some super important articles on property investment here in Türkiye."
+            />
+          </Suspense>
           <Suspense fallback={<Spinner />}>
             <Search />
           </Suspense>
           
           <div className='flex flex-col md:flex-row mx-auto md:justify-start md:items-start  px-4 py-2 items-center justify-center w-full h-full'>
-          <Suspense fallback={<Spinner />}>
+      
             <section className="flex flex-col md:w-2/3 w-full md:min-h-screen my-8 md:py-0 md:my-0 mx-auto max-w-screen-xl  lg:px-6">
               <div className="grid gap-6 w-full">
               
                 {
                   blogs.map((blog) => (
-                    
+                    <Suspense fallback={<Spinner />}>
                       <BlogCard 
                         key = {blog?.id}
                         title = {blog?.title}
@@ -51,16 +53,18 @@ const Blogs = () => {
                         gallery={blog?.gallery}
                         tags = {blog?.tags}
                       />
-                    
+                    </Suspense>
                   ))  
                 }
          
               </div>
             </section>
-            </Suspense>
+
             <section className='flex flex-col md:w-1/3 w-full'>
               <Suspense fallback={<Spinner />}>
                 <Related />
+              </Suspense>
+              <Suspense fallback={<Spinner />}>
                 <NewCard />
               </Suspense>
             </section>

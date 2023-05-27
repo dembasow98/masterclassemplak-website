@@ -1,11 +1,12 @@
-import React, { useState, useRef, Suspense } from "react";
+import React, { useState, useRef, lazy, Suspense } from "react";
 
 import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 
-//Google recaptcha
-import ReCAPTCHA from "react-google-recaptcha";
-import { Spinner } from "../../common";
 
+
+import Spinner from "../../common/loader/Spinner.jsx";
+//Google recaptcha
+const ReCAPTCHA = lazy(() => import("react-google-recaptcha"));
 
 
 const  Comment =({title}) =>{
