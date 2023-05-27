@@ -21,7 +21,7 @@ const Properties = () => {
             <Suspense fallback={<Spinner/>}>
                 <Banner title="PROPERTIES IN TÜRKİYE" image={banner} description="Find your dream home in Türkiye's wonderful cities" />
             </Suspense>
-            <section className="px-8">
+            <section className="px-8 py-4">
                 <Suspense fallback={<Spinner/>}>
                     <Filter />
                 </Suspense>

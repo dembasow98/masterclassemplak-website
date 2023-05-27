@@ -25,7 +25,7 @@ const Footer = () => {
                     <span className="text-gray-700 text-xl dark:text-gray-200">Email Us</span>
                     <BiMailSend className='w-10 h-10 text-gray-400'/>
                     <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
-                        <a href="mailto:masterclassemlak@gmail.com"> masterclassemlak@gmail.com</a>
+                        <a href="mailto:info@masterclassproperty.com"> info@masterclassproperty.com</a>
                     </span>
                 </div>
 
