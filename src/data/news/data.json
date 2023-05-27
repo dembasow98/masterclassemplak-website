@@ -5,8 +5,8 @@
             "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(21).jpg",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "First Blog Post",
-           
+            "title": "First News Post",
+            "date":"2020-01-01",
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
                 "tag1",
@@ -48,7 +48,8 @@
             "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Second Blog Post",
+            "title": "Second News Post",
+            "date": "2020-01-01",
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
                 "tag1",
@@ -92,8 +93,8 @@
             "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Third Blog Post",
-           
+            "title": "Third News Post",
+            "date": "2020-01-01",
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
                 "tag1",
@@ -137,8 +138,8 @@
             "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(24).jpg",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Fourth Blog Post",
-           
+            "title": "Fourth News Post",
+            "date": "2020-01-01",
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
                 "tag1",
@@ -182,8 +183,8 @@
             "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(25).jpg",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Fifth Blog Post",
-           
+            "title": "Fifth News Post",
+            "date": "2020-01-01",
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
                 "tag1",
@@ -227,8 +228,8 @@
             "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(26).jpg",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Sixth Blog Post",
-           
+            "title": "Sixth News Post",
+            "date": "2020-01-01",
 
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
@@ -273,8 +274,8 @@
             "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(27).jpg",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Seventh Blog Post",
-           
+            "title": "Seventh News Post",
+            "date": "2020-01-01",
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
                 "tag1",
@@ -318,7 +319,8 @@
             "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Eighth Blog Post",
+            "title": "Eighth News Post",
+            "date": "2020-01-01",
         
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [

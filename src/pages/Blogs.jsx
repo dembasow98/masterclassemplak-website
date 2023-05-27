@@ -11,7 +11,7 @@ const Banner = lazy(()=>import("../components/common/banner/Banner.jsx"))
 const BlogCard = lazy(()=>import("../components/blog/form/BlogCard.jsx"))
 const Related = lazy(()=>import("../components/blog/similar/Related.jsx"))
 const Search = lazy(()=>import("../components/blog/find/Search.jsx"))
-const NewCard = lazy(()=>import("../components/news/card/Card.jsx"))
+const SideNews = lazy(()=>import("../components/news/card/SideNews.jsx"))
 
 
 
@@ -65,7 +65,7 @@ const Blogs = () => {
                 <Related />
               </Suspense>
               <Suspense fallback={<Spinner />}>
-                <NewCard />
+                <SideNews />
               </Suspense>
             </section>
 

@@ -58,7 +58,6 @@ const Property = ({type, isFavorite, title,description,profileImage, gallery,loc
                 <div className="absolute top-0 left-0 bg-blue-700 dark:bg-[#059669] text-white rounded-bl-lg py-1 px-2">{type}</div>
                     <button className="absolute top-0 right-0 m-1 p-2 rounded-full  hover:bg-gray-800 dark:bg-gray-700 border-gray-500">
                         <AiTwotoneHeart 
-                            
                             className={`w-5 h-5 fill-current ${isLiked ? "text-red-600" : "text-gray-400"}`}
                             onClick={handleLikeClick}
                         /> 
