@@ -1,7 +1,7 @@
 import React, {lazy, Suspense} from 'react'
 
 import "react-image-gallery/styles/css/image-gallery.css";
-import Spinner from '../loader/Spinner';
+import Spinner from '../loader/Spinner.jsx';
 
 
 const ImageGallery = lazy(() => import('react-image-gallery'));

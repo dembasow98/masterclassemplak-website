@@ -12,26 +12,8 @@ import {MdRealEstateAgent} from "react-icons/md";
 import {SiProtodotio} from "react-icons/si";
 import {MdPriceChange} from "react-icons/md";
 
-const Property = (
-    {
-        type,
-        isFavorite,
-        title,
-        description,
-        profileImage,
-        gallery,
-        location,
-        price,
-        reference,
-        createdAt,
-        updatedAt,
-        overview,
-        benefits,
-        details,
-        features,
-    }) => {
+const Property = ({type, isFavorite, title,description,profileImage, gallery,location, price, reference,createdAt,updatedAt,overview, benefits,details, features,}) => {
         
-
     //Get all the property details and store them in a variable
     const property = {
         type,
@@ -58,7 +40,7 @@ const Property = (
         setIsLiked(!isLiked);
     };
 
-    //image(image title) click handler
+    // Function to convert the title to a slug
     const slugify = (string) => {
         return string
             .toString()

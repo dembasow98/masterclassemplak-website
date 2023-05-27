@@ -1,13 +1,18 @@
-import React from 'react'
+import React, {lazy, Suspense} from 'react'
 
 import data from '../../../data/properties/data.json'
-import { Property } from '../../properties/forms'
+
+
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 //import a separator
 import separator from './../../../assets/images/separators/yellow/yel2.png'
+import Spinner from '../../common/loader/Spinner.jsx';
+
+
+const Property = lazy(() => import('./../../properties/forms/Property.jsx'));
 
 const Related = () => {
 
@@ -75,6 +80,7 @@ const Related = () => {
           <Slider {...settings}>
             {
               properties.map((property) => (
+                <Suspense fallback={<Spinner/>}>
                   <Property
                       key = {property?.id}
                       type = {property?.type}
@@ -93,6 +99,7 @@ const Related = () => {
                       details = {property?.details}
                       features = {property?.features}
                   />
+                  </Suspense>
               ))
             }
           </Slider>

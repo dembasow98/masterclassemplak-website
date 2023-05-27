@@ -1,32 +1,16 @@
-import React, {useState} from 'react';
+import React, {Suspense, lazy, useState} from 'react';
 import { Link } from 'react-router-dom';
-
-import Modal from "react-modal";
-
-import { Enquire } from '../../../common';
+import { Spinner } from '../../../common/index.js';
 
 
-const Image = ({ 
-  type,
-  isFavorite,
-  title,
-  description,
-  source,
-  gallery,
-  location,
-  price,
-  reference,
-  createdAt,
-  updatedAt,
-  overview,
-  benefits,
-  details,
-  features,
-  tags
- }) => {
+import Modal from 'react-modal';
+const Enquire = lazy(() => import('./../../../common/forms/Enquire.jsx'));
 
-   //Get all the property details and store them in a variable
-   const property = {
+
+const Image = ({ type,isFavorite,title,description,source,gallery,location,price,reference,createdAt,updatedAt,overview,benefits,details,features,tags}) => {
+
+  //Get all the property details and store them in a variable
+  const property = {
     type,
     isFavorite,
     title,
@@ -48,24 +32,16 @@ const Image = ({
   // Function to convert the title to a slug
   const slugify = (string) => {
     return string
-      .toString()
-      .toLowerCase()
-      .replace(/\s+/g, '-') // Replace spaces with -
-      .replace(/[^\w-]+/g, '') // Remove all non-word chars
-      .replace(/--+/g, '-') // Replace multiple - with single -
-      .replace(/^-+/, '') // Trim - from start of text
-      .replace(/-+$/, ''); // Trim - from end of text
-  };
+        .toString()
+        .toLowerCase()
+        .replace(/\s+/g, '-') // Replace spaces with -
+        .replace(/[^\w-]+/g, '') // Remove all non-word chars except -
+        .replace(/--+/g, '-') // Replace multiple - with single -
+        .replace(/^-+/, '') // Trim - from start of text
+        .replace(/-+$/, ''); // Trim - from end of text
+};
   
-  //Each clicked image will redirect to clicked image's detail page
-  const handleClick = () => {
-    //Add the the path
-    const path = `/properties/${slugify(title)}`;
-    //Redirect to the path
-    window.location.href = path;
-  };
-  //Handle the enquire button (modal popup)
-
+ 
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -95,7 +71,7 @@ const Image = ({
         to= {`/properties/${slugify(title)}`}  
         state = {property}
       >
-        <img src={source} alt={title} onClick={handleClick} className="w-full cursor-pointer h-[530px] md:h-[500px] lg:h-[540px] object-cover" />
+        <img src={source} alt={title} className="w-full cursor-pointer h-[530px] md:h-[500px] lg:h-[540px] object-cover" />
       </Link>
       <div className="flex left-0 items-center justify-center  right-0 px-4 w-full ">
         <div className="absolute top-10 w-fit max-w-full  mx-5 px-10  md:mx-10 md:px-20 flex items-center flex-col py-3 bg-gray-900 bg-opacity-25">
@@ -121,6 +97,7 @@ const Image = ({
           >
             ENQUIRE NOW!
           </button>
+          
           <Modal
             isOpen={modalIsOpen}
             onAfterOpen={afterOpenModal}
@@ -135,7 +112,9 @@ const Image = ({
             //stop the background from functioning when the modal is open
             ariaHideApp={false}
           >
-            <Enquire title={titleCase} isModal={true} handleCloseModal={closeModal} />
+            <Suspense fallback={<Spinner/>}>
+              <Enquire title={titleCase} isModal={true} handleCloseModal={closeModal} />
+            </Suspense>
           </Modal>
         </div>
         
