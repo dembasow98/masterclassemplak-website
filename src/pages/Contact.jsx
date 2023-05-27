@@ -31,7 +31,15 @@ const Contact = () => {
         <section className="flex flex-col px-8 py-8 md:flex-row justify-center md:justify-start md:items-start items-center">
           <div className="flex flex-col gap-8">
               <Suspense fallback={<Spinner />}>
-                <Card logo={phone} itemname="Phone" title = {contact.phone} content="Call us anytime" />
+                <Card logo={phone} itemname="Phone" 
+                title = {
+                  <div className="flex w-full items-center justify-center flex-col">
+                    <p className="text-center">{contact.phone}</p>
+                    <p className="font-medium">{contact.fax}</p>
+                  </div>
+                } 
+                  content="Call us anytime" 
+                />
               </Suspense>
               <Suspense fallback={<Spinner />}>
                 <Card logo={email} itemname="Email" title={contact.email} content="Send us an email" />
