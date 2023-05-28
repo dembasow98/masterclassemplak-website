@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='flex flex-col md:flex-row justify-center items-center text-sm font-sm text-gray-500 dark:text-gray-300 sm:text-center'> 
+        <div className='flex flex-col py-6  md:flex-row justify-center items-center text-sm font-sm text-gray-500 dark:text-gray-300 sm:text-center'> 
             <div className="flex flex-col items-center justify-center md:flex-row">
                 <div className="flex flex-col items-center justify-center">
                     <span className="text-gray-700 text-xl dark:text-gray-200">Follow Us</span>

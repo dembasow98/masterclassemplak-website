@@ -1,14 +1,96 @@
-import React from 'react'
+import React, {useState, useEffect, Suspense, lazy} from 'react';
+import {useLocation } from 'react-router-dom';
+import  Spinner  from './../components/common/loader/Spinner.jsx';
+
+const Comment = lazy(() => import("./../components/blog/form/Comment.jsx"));
+const Related = lazy(() => import("./../components/blog/similar/Related.jsx"));
+
+const Head = lazy(() => import("./../components/blog/view/Head.jsx"));
+const Route = lazy(() => import("./../components/common/route/Route.jsx"));
+const Gallery = lazy(() => import("./../components/common/gallery/Gallery.jsx"));
 
 const New = () => {
+
+  const { state } = useLocation();
+  //console.log(state);
+
+  //Get New details from the state
+  const {
+    //id,
+    title,
+    description,
+    banner,
+    createdAt,
+    updatedAt,
+    //author,
+    //avatar,
+    content1,
+    content2,
+    gallery,
+    tags } = state;
+
+  //console.log("From details:"+features);
+  //This happens starting from the middle breakpoint
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth > 768) {
+      setScroll(true);
+    }
+  }, [scroll]);
+
   return (
-    <div class="absolute">
-    <div class="absolute z-10"></div>
-    <div class="absolute z-20"></div>
-    <div class="absolute z-30"></div>
-  </div>
+    <main className="bg-black">
+      <Suspense fallback={<Spinner />}>
+        <Route component="News" breadcrumbs={title} />
+      </Suspense>
+      <Suspense fallback={<Spinner />}>
+        <Head
+          title={title}
+          tags={tags}
+          createdAt={createdAt}
+          updatedAt={updatedAt}
+        />
+      </Suspense>
+        <section className="w-full mt-4 md:px-10 flex flex-col md:flex-row md:items-start md:justify-start items-center justify-center">
+          <div className="w-full flex md:w-2/3 flex-col md:px-4 lg:px-6">
+            <div className='flex flex-col w-full border border-[#043334] mb-6 pb-4 rounded-xl md:items-start md:justify-start items-center justify-center'>
+                <div className="w-fit flex flex-col items-center justify-center">
+                    <img src={banner} alt={title} className="object-cover object-center" />
+                </div>
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                    <p className="text-md md:text-xl font-md md:font-bold text-gray-200">{description}</p>
+                </div>
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                    <p className="text-sm md:text-md font-sm md:font-md lg:font-bold text-gray-300">{content1}</p>
+                </div>
+                <div className="w-full p-4 flex flex-col items-center justify-center">
+                  <Suspense fallback={<Spinner />}>
+                    <Gallery images={gallery} />
+                  </Suspense>
+                </div>
 
-  )
-}
+                <div className="w-full flex flex-col items-center p-4 justify-center">
+                    <p className="text-sm md:text-md font-sm  md:font-md lg:font-bold text-gray-300">{content2}</p>
+                </div>
+            </div>
+            <div className="w-full flex flex-col items-center md:mt-4 px-3 justify-center">
+              <Suspense fallback={<Spinner />}>
+                <Comment title="Share Your Thoughts" />
+              </Suspense>
+            </div>
 
-export default New
+          </div>
+          <div className="w-full md:w-1/3 px-4 md:px-1 lg:px-2 xl:px-6 2xl:px-10 pb-6 items-center pjustify-center">
+            <Suspense fallback={<Spinner />}>
+              <Related />
+            </Suspense>
+          </div>
+
+        </section>
+
+    </main>
+  );
+};
+
+export default New;
