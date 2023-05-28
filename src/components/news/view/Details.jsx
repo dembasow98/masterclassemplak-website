@@ -1,5 +1,6 @@
-import React from 'react'
-import { Gallery } from '../../common'
+import React, {lazy, Suspense} from 'react'
+import Spinner from '../../common/loader/Spinner.jsx'
+const Gallery = lazy(()=>import("../gallery/Gallery.jsx"))
 
 
 
@@ -33,7 +34,9 @@ const Details = ({banner, tags, content1, content2 }) => {
 
       <div className="w-full p-4 flex flex-col lg:flex-row items-center justify-center border border-gray-700 bg-gray-800 rounded-md">
         <div className="w-full items-center justify-center">
-          <Gallery />
+          <Suspense fallback={<Spinner />} >
+            <Gallery />
+          </Suspense>
         </div>
       </div>
 

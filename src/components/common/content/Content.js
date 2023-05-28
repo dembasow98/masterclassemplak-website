@@ -15,7 +15,7 @@ const Content = () => {
         <Route path="/properties" element={<Properties />}/>
         <Route path="/properties/:slug" element={<Property />} />
         <Route path="/news" element={<News />} />
-        <Route path="/new/:slug" element={<New />} />
+        <Route path="/news/:slug" element={<New />} />
       </Routes>
   )
 }

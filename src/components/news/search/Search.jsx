@@ -24,7 +24,7 @@ const Search = () => {
             <div className="flex flex-col content-center justify-center p-4 ">
                 <div className = "w-full flex justify-center items-center">
                     <span className="w-full text-center text-xl sm:text-2xl md:text-3xl font-bold text-gray-700 dark:text-gray-200">
-                        Find your property in Türkiye
+                        Find Real Estate News
                     </span>
                 </div>
                 <div className="flex justify-center">
