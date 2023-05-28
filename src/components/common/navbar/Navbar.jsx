@@ -2,7 +2,7 @@ import React, {useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from 'react-router-dom'
 
-import logo from '../../../assets/images/logos/logo1.png'
+import logo from '../../../assets/images/logos/logo-light.png'
 
 
 
@@ -34,7 +34,7 @@ function Navbar() {
             <div className="flex items-center md:justify-between md:w-full ">
               <div className="flex-shrink-0 justify-center cursor-pointer">
                 <Link to="/">
-                  <img src={logo} alt="logo" className="w-24 md:w-28 lg:w-32" />
+                  <img src={logo} alt="logo" className="w-20 md:w-24 lg:w-24" />
                 </Link>
               </div>
               <div className="hidden md:block">
