@@ -40,7 +40,7 @@ const Topbar = () => {
           </div>
          
           <div className='BUY-ONLINE flex w-full  justify-end place-items-center'>
-            <button type="button" className="w-fit text-xs focus:outline-none text-white bg-red-800 hover:bg-red-900 focus:ring-4 focus:ring-red-300 font-medium rounded-lg md:text-sm px-5 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+            <button type="button" className="w-fit text-xs focus:outline-none text-white bg-red-800 hover:bg-red-900 focus:ring-4 focus:ring-red-300 font-medium rounded-lg md:text-sm px-2 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
               BUY ONLINE
             </button>
           </div>

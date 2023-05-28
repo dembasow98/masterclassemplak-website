@@ -10,7 +10,7 @@ import {FaInstagram} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer className="bg-white dark:bg-[#043334]">
-        <div className="flex flex-col items-center mx-6 py-3 justify-center">
+        <div className="flex flex-col items-center  py-3 justify-center">
             <div className="flex-shrink-0 justify-center">
                 <Link to="/">
                     <img src={logo} alt="logo" className=" w-42 h-36 " />
@@ -63,38 +63,35 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className="px-4 flex flex-col py-6 md:flex md:items-center md:justify-between">
-            <div className="flex flex-col justify-center items-center space-x-6 md:order-2">
-                <div className='flex flex-col md:flex-row justify-center items-center text-sm font-sm text-gray-500 dark:text-gray-300 sm:text-center'> 
-                    <div className="flex flex-col items-center justify-center md:flex-row md:space-y-0 md:space-x-6 md:mt-0">
-                        <div className="flex flex-col items-center justify-center space-y-2 px-10">
-                            <span className="text-gray-700 text-xl dark:text-gray-200">Follow Us</span>
-                            <div className='flex items-center justify-center gap-6 lg:gap-10 '>
-                                <div className='flex flex-col items-center justify-center space-y-2 px-6'>
-                                    <FaFacebookF className='w-10 h-10 text-gray-400'/>
-                                    <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
-                                        <a href="https://www.facebook.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Facebook</a>    
-                                    </span>
-                                </div>
-                                <div className='flex flex-col items-center justify-center space-y-2 px-6'>
-                                    <FaTwitter className='w-10 h-10 text-gray-400'/>
-                                    <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
-                                        <a href="https://www.twitter.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Twitter</a>    
-                                    </span>
-                                </div>
-                                <div className='flex flex-col items-center justify-center space-y-2 px-6'>
-                                    <FaInstagram className='w-10 h-10 text-gray-400' />
-                                    <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
-                                        <a href="https://www.instagram.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Instagram</a>    
-                                    </span>
-                                </div>
-                            </div>
+        <div className='flex flex-col md:flex-row justify-center items-center text-sm font-sm text-gray-500 dark:text-gray-300 sm:text-center'> 
+            <div className="flex flex-col items-center justify-center md:flex-row">
+                <div className="flex flex-col items-center justify-center">
+                    <span className="text-gray-700 text-xl dark:text-gray-200">Follow Us</span>
+                    <div className='flex items-center justify-center gap-6 lg:gap-10 '>
+                        <div className='flex flex-col items-center justify-center space-y-2 px-6'>
+                            <FaFacebookF className='w-10 h-10 text-gray-400'/>
+                            <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
+                                <a href="https://www.facebook.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Facebook</a>    
+                            </span>
+                        </div>
+                        <div className='flex flex-col items-center justify-center space-y-2 px-6'>
+                            <FaTwitter className='w-10 h-10 text-gray-400'/>
+                            <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
+                                <a href="https://www.twitter.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Twitter</a>    
+                            </span>
+                        </div>
+                        <div className='flex flex-col items-center justify-center space-y-2 px-6'>
+                            <FaInstagram className='w-10 h-10 text-gray-400' />
+                            <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
+                                <a href="https://www.instagram.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Instagram</a>    
+                            </span>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
+        
+        
         <div className="flex flex-col justify-center md:px-4 w-full bg-gray-900 py-4 items-center border-t border-gray-600">
             <span className="text-sm text-center font-medium text-gray-500 pb-2 dark:text-gray-300">
                 Copyright © 2023 <Link to="/" className='text-bold'>Master Class Property</Link>. All Rights Reserved.
