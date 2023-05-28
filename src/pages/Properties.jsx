@@ -17,7 +17,7 @@ const properties = data.properties;
 
 const Properties = () => {
     return (
-        <main className="w-full flex flex-col items-center justify-center dark:bg-gray-900">
+        <main className="w-full flex flex-col items-center justify-center bg-black">
             <Suspense fallback={<Spinner/>}>
                 <Banner title="PROPERTIES IN TÜRKİYE" image={banner} description="Find your dream home in Türkiye's wonderful cities" />
             </Suspense>

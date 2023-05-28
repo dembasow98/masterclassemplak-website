@@ -45,9 +45,9 @@ const Filter = () => {
   };
 
   return (
-    <section className="w-full flex justify-center items-center">
+    <section className="w-full flex justify-center bg-gray-900 items-center mt-5 mb-10">
       <div className = "w-full flex justify-center items-center">
-        <form onChange={handleFilterChange} className="w-full flex  flex-col bg-white dark:bg-gray-800 px-6 pt-4 pb-2 mb-6 rounded-lg shadow-md filter-shadow-inset">
+        <form onChange={handleFilterChange} className="w-full flex  flex-col bg-gray-900 px-6 pt-4  rounded-lg shadow-md filter-shadow-inset">
           <div className = "w-full flex justify-center pt-2 items-center">
             <span className="w-full text-center text-2xl font-bold text-gray-700 dark:text-gray-200">
               Find Your Appropriate Property
@@ -59,7 +59,7 @@ const Filter = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
             <div className="mb-4">
               <div className="relative">
-                <input placeholder="Reference ID"  type="text" name="referenceId" value={filterData?.referenceId} className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:border-gray-400 focus:shadow-outline" id="referenceId" />
+                <input placeholder="Reference ID"  type="text" name="referenceId" value={filterData?.referenceId} className="block appearance-none w-full text-gray-200 bg-gray-950 border border-gray-700 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:border-gray-700 focus:shadow-outline" id="referenceId" />
               </div>
             </div>
             <div className="mb-4">
@@ -68,7 +68,7 @@ const Filter = () => {
                       
                       value={filterData.city}
                       name="city"
-                      className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
+                      className="block appearance-none w-full text-gray-200 bg-gray-950 border border-gray-700  hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                         <option>City</option>
                         <option>All</option>
                         <option>Ankara</option>
@@ -90,7 +90,7 @@ const Filter = () => {
                         
                         value={filterData.type}
                         name="type"
-                        className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
+                        className="block appearance-none w-full text-gray-200 bg-gray-950 border border-gray-700 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                           <option>Type</option>
                           <option>All</option>
                           <option>Apartment</option>
@@ -111,7 +111,7 @@ const Filter = () => {
                         
                         value={filterData.minPrice}
                         name="minPrice"
-                        className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
+                        className="block appearance-none w-full bg-gray-950 border text-gray-200  border-gray-700 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                           <option>Minimum Price</option> 
                           <option>$3000</option>
                           <option>$4000</option>
@@ -130,7 +130,7 @@ const Filter = () => {
                         
                         value={filterData.maxPrice}
                         name="maxPrice"
-                        className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
+                        className="block appearance-none w-full text-gray-200 bg-gray-950 border border-gray-700 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                           <option>Maximum Price</option>
                           <option>$6000</option>
                           <option>$7000</option>
@@ -150,7 +150,7 @@ const Filter = () => {
                       <select 
                         value={filterData.bedrooms}
                         name="bedrooms"
-                        className="block appearance-none w-full bg-white dark:text-gray-200 dark:bg-gray-900 border-gray-400 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
+                        className="block appearance-none w-full text-gray-200 bg-gray-950 border border-gray-700 hover:border-gray-500 px-2 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="heating">
                           <option> Bedrooms</option>
                           <option>All</option>
                           <option>1</option>

@@ -44,16 +44,16 @@ const Blog = () => {
   }, [scroll]);
 
   return (
-    <main className="dark:bg-gray-900">
+    <main className="bg-black">
       <Suspense fallback={<Spinner />}>
         <Route component="Blogs" breadcrumbs={title} />
       </Suspense>
       <Suspense fallback={<Spinner />}>
         <Head
-            title={title}
-            tags={tags}
-            createdAt={createdAt}
-            updatedAt={updatedAt}
+          title={title}
+          tags={tags}
+          createdAt={createdAt}
+          updatedAt={updatedAt}
         />
       </Suspense>
         <section className="w-full mt-4 md:px-10 flex flex-col md:flex-row md:items-start md:justify-start items-center justify-center">
@@ -63,10 +63,10 @@ const Blog = () => {
                     <img src={banner} alt={title} className="object-cover object-center" />
                 </div>
                 <div className="w-full flex p-4 flex-col items-center justify-center">
-                    <p className="text-md md:text-xl font-md md:font-bold text-gray-900 dark:text-gray-100">{description}</p>
+                    <p className="text-md md:text-xl font-md md:font-bold text-gray-200">{description}</p>
                 </div>
                 <div className="w-full flex p-4 flex-col items-center justify-center">
-                    <p className="text-sm md:text-md font-sm md:font-md lg:font-bold text-gray-900 dark:text-gray-100">{content1}</p>
+                    <p className="text-sm md:text-md font-sm md:font-md lg:font-bold text-gray-300">{content1}</p>
                 </div>
                 <div className="w-full p-4 flex flex-col items-center justify-center">
                   <Suspense fallback={<Spinner />}>
@@ -75,7 +75,7 @@ const Blog = () => {
                 </div>
 
                 <div className="w-full flex flex-col items-center p-4 justify-center">
-                    <p className="text-sm md:text-md font-sm  md:font-md lg:font-bold text-gray-900 dark:text-gray-100">{content2}</p>
+                    <p className="text-sm md:text-md font-sm  md:font-md lg:font-bold text-gray-300">{content2}</p>
                 </div>
             </div>
             <div className="w-full flex flex-col items-center md:mt-4 px-3 justify-center">

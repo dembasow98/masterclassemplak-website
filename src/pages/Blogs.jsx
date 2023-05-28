@@ -19,7 +19,7 @@ const SideNews = lazy(()=>import("../components/news/card/SideNews.jsx"))
 const Blogs = () => {
 
     return (
-      <main className="bg-gray-100 dark:bg-gray-900">
+      <main className="bg-black">
           <Suspense fallback={<Spinner />}>
             <Banner 
               title = "MASTER CLASS PROPERTY BLOG" 

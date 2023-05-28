@@ -131,7 +131,7 @@ const Footer = () => {
         <div className="flex my-2 w-full justify-center items-center space-x-2">
             <img src={gr5} alt="visa" />
         </div>
-        <div className="px-4 py-6 bg-gray-100 dark:bg-gray-900 md:flex md:items-center md:justify-between">
+        <div className="px-4 py-6 bg-gray-900 md:flex md:items-center md:justify-between">
             <div className="flex flex-col justify-center items-center space-x-6 md:order-2">
                 <span className="text-sm text-center font-medium text-gray-500 dark:text-gray-300">
                     Copyright © 2023 <Link to="/">Master Class Emlak</Link>. All Rights Reserved.
@@ -151,7 +151,7 @@ const Footer = () => {
                 <div className="flex my-2  w-full justify-center items-center space-x-2">
                     <img src={yel1} alt="visa" />
                 </div>
-                <span className="text-sm font-bold text-gray-500 dark:text-gray-300 sm:text-center">
+                <span className="text-sm font-bold text-gray-200 sm:text-center">
                     Made with ❤️ by <a href="https://www.linkedin.com/in/demba-sow-95903a22a/" target='_blank' rel="noreferrer" className="hover:underline">Demba Sow</a>
                 </span>   
             </div>

@@ -21,7 +21,7 @@ const Testimonials = ({description}) => {
     };
   
     return (
-      <section className="w-full px-6 md:px-20 lg:px-36 xl:px-42 flex  flex-col justify-center items-center">   
+      <section className="w-full px-6 py-10 md:px-20 lg:px-36 xl:px-42 flex bg-gray-900 flex-col justify-center items-center">   
         <div className="w-full flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100">Testimonials</h1>
           <p className="text-gray-600 dark:text-gray-400 text-center">{description}</p>

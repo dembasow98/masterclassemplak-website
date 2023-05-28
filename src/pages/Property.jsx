@@ -34,7 +34,7 @@ const Property = () => {
   }, [scroll]);
 
   return (
-    <main className="bg-gray-100 mx-auto px-auto dark:bg-gray-900">
+    <main className="mx-auto px-auto bg-black">
       <Suspense fallback={<Spinner/>}>
         <Route component="Properties" breadcrumbs={title} />
       </Suspense>

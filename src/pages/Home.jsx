@@ -14,11 +14,11 @@ const Home = () => {
 
   const testimonalDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt luctus, nunc est lacinia nisl, nec ultricies nisl lorem eget nisl."
   return (
-    <main className="bg-gray-100 w-full dark:bg-gray-900">
+    <main className="w-full bg-black">
       <Suspense fallback={<Spinner/>}>
         <Banner />
       </Suspense>
-      <div className='px-4 md:px-6 pt-6 pb-10 '>
+      <div className='px-4 md:px-6 pb-10'>
         <Suspense fallback={<Spinner/>}>
           <Filter />
         </Suspense>

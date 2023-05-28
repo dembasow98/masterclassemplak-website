@@ -48,7 +48,7 @@ const BlogCard = ({id,
 
     return (
        
-        <div  className='flex flex-col  content-center justify-center sm:flex-row  md:flex-col lg:flex-row rounded-lg border border-gray-200  dark:bg-gray-800 dark:border-gray-700'>
+        <div  className='flex flex-col  content-center justify-center sm:flex-row  md:flex-col lg:flex-row rounded-lg border  bg-gray-900 border-gray-700'>
             <div className="flex w-full">
                 <Link 
                     to= {`/blogs/${slugify(title)}`}  
