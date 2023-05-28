@@ -52,9 +52,9 @@ const Consultancy = () => {
  
 
   return (
-    <section className="w-full mt-8 flex  justify-center items-center">
+    <section className="w-full mt-8 flex  justify-center  bg-gray-900 items-center">
       <div className = "w-full flex justify-center items-center">
-        <form className="w-full flex  flex-col bg-white  dark:bg-gray-800 p-6  rounded-lg shadow-md consultancy-shadow-inset">
+        <form className="w-full flex  flex-col  p-6  rounded-lg shadow-md consultancy-shadow-inset">
           <div className = "w-full flex justify-center pt-2 items-center">
             <span className="w-full text-center text-2xl font-bold text-gray-700 dark:text-gray-200">Contact us for Free Consultancy</span>
           </div>
@@ -65,7 +65,7 @@ const Consultancy = () => {
             <div className="relative">
               <input 
                   type="text"
-                  className="form-control w-full rounded-sm focus:ring-1 dark:text-gray-200 dark:bg-gray-900 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                  className="form-control w-full rounded-sm focus:ring-1 dark:text-gray-200 bg-black border border-gray-800 focus:ring-red-300 px-4 py-2 my-3 "
                   required
                   placeholder="First Name"
                   name="name"
@@ -77,7 +77,7 @@ const Consultancy = () => {
             <div className="relative">
               <input 
                   type="text"
-                  className="form-control w-full dark:text-gray-200 dark:bg-gray-900 rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                  className="form-control w-full dark:text-gray-200 bg-black border border-gray-800 rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3"
                   required
                   placeholder="Last Name"
                   name="surname"
@@ -88,7 +88,7 @@ const Consultancy = () => {
             <div className="relative">
                 <input
                     type="email"
-                    className="form-control w-full dark:text-gray-200 dark:bg-gray-900 rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                    className="form-control w-full dark:text-gray-200 bg-black border border-gray-800 rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3"
                     required
                     placeholder="Email"
                     name="email"
@@ -101,7 +101,7 @@ const Consultancy = () => {
                       inputStyle={{width: '100%', height: '100%', color: 'black',}}
                       country={'tr'}
                       placeholder="Phone"
-                      className="form-control   w-full text-black dark:text-gray-200 dark:bg-gray-900 h-10 rounded-sm border hover:focus:ring-1 focus:ring-red-300 bg-gray-200"
+                      className="form-control   w-full text-black border-gray-800 bg-black h-10 rounded-sm border hover:focus:ring-1 focus:ring-red-300"
                       name="phone"
                       required
                       value={phone}
@@ -114,7 +114,7 @@ const Consultancy = () => {
           <div className="gap-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full items-center">
             <div className=" flex w-full justify-center items-center">
                 <textarea
-                    className="form-control w-full dark:text-gray-200 dark:bg-gray-900 md:w-[600px] rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3 bg-gray-200"
+                    className="form-control w-full bg-black border text-gray-300 border-gray-800  md:w-[600px] rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3"
                     placeholder="Note"
                     name="note"
                     value={note}

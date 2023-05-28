@@ -53,7 +53,7 @@ const Property = ({type, isFavorite, title,description,profileImage, gallery,loc
     };
 
     return (
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-sm border rounded-lg shadow bg-gray-900 border-gray-700">
             <div className="relative">
                 <div className="absolute top-0 left-0 bg-blue-700 dark:bg-[#059669] text-white rounded-bl-lg py-1 px-2">{type}</div>
                     <button className="absolute top-0 right-0 m-1 p-2 rounded-full  hover:bg-gray-800 dark:bg-gray-700 border-gray-500">

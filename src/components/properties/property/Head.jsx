@@ -6,7 +6,7 @@ import {AiFillPrinter} from "react-icons/ai";
 
 const Head = ({title, description, price, reference, createdAt, updatedAt}) => {
   return (
-    <div className="flex flex-col items-center justify-center md:justify-between md- md:flex-row w-full py-4 shadow-gray-800 shadow-lg ">
+    <div className="flex flex-col items-center justify-center md:justify-between  md:flex-row w-full py-4 bg-gray-900 shadow-2xl ">
       <div className ="md:w-[60%]">
         <div className="flex w-full flex-row md:px-14 lg:px-18 px-4 sm:px-10 xl:px-24 justify-center md:justify-start items-center my-4">
           <p className=" text-center text-lg md:text-xl text-gray-900 dark:text-gray-300">{title} - {description}</p>

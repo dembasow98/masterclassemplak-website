@@ -7,7 +7,7 @@ const Card = ({banner, title, description, date} ) => {
 
   return (
     
-    <div class="flex rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border  border-gray-500 bg-gray-800 ">
+    <div class="flex rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border  border-gray-500 bg-gray-900">
         <div class="w-full md:w-1/3  grid place-items-center">
             <img src={banner} alt="tailwind logo" class="rounded-sm" />
         </div>

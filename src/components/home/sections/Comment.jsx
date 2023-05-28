@@ -3,7 +3,7 @@ import yel1 from '../../../assets/images/separators/yellow/yel1.png'
 
 const Comment = () => {
   return (
-    <section className="bg-gray-100 dark:bg-gray-900">
+    <section className="bg-gray-900 py-8">
         <div className="container  mx-auto ">
             <div className="w-full flex flex-col md:px-2 lg:px-10">
                 <div className="flex flex-col mb-5">
@@ -22,7 +22,7 @@ const Comment = () => {
                 </div>
                 
                 <div className="w-full flex ">
-                    <div className="bg-white dark:bg-gray-800 rounded shadow py-2">
+                    <div className="bg-gray-900 rounded shadow py-4">
                         <p className="text-gray-800 dark:text-gray-100 text-base px-6 mb-5">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 

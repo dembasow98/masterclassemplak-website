@@ -24,7 +24,7 @@ const Map = lazy(()=>import("./../components/contact/map/Map.jsx"));
 
 const Contact = () => {
     return (
-      <main className="w-full flex flex-col items-center justify-center dark:bg-gray-900">
+      <main className="w-full flex flex-col items-center justify-center bg-black">
         <Suspense fallback={<Spinner />}>
           <Banner title="CONTACT US" image={banner} description="Make all your questions answered" />
         </Suspense>
