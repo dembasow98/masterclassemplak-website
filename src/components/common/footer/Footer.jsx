@@ -50,13 +50,13 @@ const Footer = () => {
                             <a href="/contact" className="hover:underline">Contact</a>
                         </li>
                         <li className="mb-4">
-                            <Link to="www.twitter.com/masterclassproperty" target='_blank' className="hover:underline">Twitter</Link>
+                            <a href="https://www.facebook.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Facebook</a>    
                         </li>
                         <li className="mb-4">
-                            <Link to="www.facebook.com/masterclassproperty" target='_blank' className="hover:underline">Facebook</Link>
+                            <a href="https://www.twitter.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Twitter</a>    
                         </li>
                         <li className="mb-4">
-                            <Link to="www.instagram.com/masterclassproperty" target='_blank' className="hover:underline">Instagram</Link>
+                            <a href="https://www.intagram.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Instagram</a>    
                         </li>
                     </ul>
                 </div>
@@ -73,19 +73,19 @@ const Footer = () => {
                                 <div className='flex flex-col items-center justify-center space-y-2 px-6'>
                                     <FaFacebookF className='w-10 h-10 text-gray-400'/>
                                     <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
-                                        <Link to="www.facebook.com/masterclassproperty" target='_blank'> Facebook</Link>
+                                        <a href="https://www.facebook.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Facebook</a>    
                                     </span>
                                 </div>
                                 <div className='flex flex-col items-center justify-center space-y-2 px-6'>
                                     <FaTwitter className='w-10 h-10 text-gray-400'/>
                                     <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
-                                        <Link to="www.twitter.com/masterclassproperty" target='_blank'> Twitter</Link>
+                                        <a href="https://www.twitter.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Twitter</a>    
                                     </span>
                                 </div>
                                 <div className='flex flex-col items-center justify-center space-y-2 px-6'>
                                     <FaInstagram className='w-10 h-10 text-gray-400' />
                                     <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
-                                        <Link to="www.instagram.com/masterclassproperty" target='_blank'> Instagram</Link>
+                                        <a href="https://www.instagram.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Instagram</a>    
                                     </span>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="flex flex-col sm:flex-row justify-center md:px-4 w-full bg-gray-900 py-4 items-center border-t border-gray-600">
+        <div className="flex flex-col justify-center md:px-4 w-full bg-gray-900 py-4 items-center border-t border-gray-600">
             <span className="text-sm text-center font-medium text-gray-500 pb-2 dark:text-gray-300">
                 Copyright © 2023 <Link to="/" className='text-bold'>Master Class Property</Link>. All Rights Reserved.
             </span>
