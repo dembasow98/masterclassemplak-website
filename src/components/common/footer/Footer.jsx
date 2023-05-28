@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../../assets/images/logos/logo1.png'
+import logo from '../../../assets/images/logos/logo-light.png'
 import { Link } from 'react-router-dom'
 import yel2 from '../../../assets/images/separators/yellow/yel2.png'
 
