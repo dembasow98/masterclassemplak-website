@@ -65,13 +65,13 @@ const BlogCard = ({id,
                     </span>
                     
                     <div className="flex flex-col justify-start ">
-                    <p className="text-sm md:font-bold text-gray-900 dark:text-gray-100"><span className="text-green-700">Created: </span>{createdAt}</p>
+                    <p className="text-sm md:font-bold text-gray-100"><span className="text-green-700">Created: </span>{createdAt}</p>
                     {
-                        createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-900 dark:text-gray-100"><span className="text-green-700">Updated: </span>{updatedAt}</p>
+                        createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-100"><span className="text-green-700">Updated: </span>{updatedAt}</p>
                     }
                     </div>
                 </div>
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-white">
                     <Link
                         to= {`/blogs/${slugify(title)}`}  
                         state = {blog}
@@ -79,20 +79,20 @@ const BlogCard = ({id,
                         {title}
                     </Link>
                 </h2>
-                <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
+                <p className="mb-5 font-light text-gray-400">
                     {description}
                 </p>
                 <div className="flex  justify-between items-center">
                     <div className="flex items-center space-x-4">
                         <img className="w-7 h-7 rounded-full" src={avatar} alt={author} />
-                        <span className="font-medium dark:text-white">
+                        <span className="font-medium text-white">
                             {author}
                         </span>
                     </div>
                     <Link
                         to= {`/blogs/${slugify(title)}`}  
                         state = {blog}
-                        className="inline-flex items-center dark:text-green-600 font-medium text-primary-600 dark:text-primary-500 hover:underline"
+                        className="inline-flex items-center text-green-600 font-medium text-primary-600 dark:text-primary-500 hover:underline"
                         >
                             Read more
                         <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>

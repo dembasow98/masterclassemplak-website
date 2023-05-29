@@ -7,9 +7,9 @@
             "title": "First slide label",
             "description": "Some representative placeholder content for the first slide.",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "yalova",
+                "istanbul",
+                "property"
             ],
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
@@ -62,7 +62,7 @@
             "type":"Apartment",
             "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "gallery":[
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
+                "https://drive.google.com/file/d/1Vg5WdiJCnbCd5h17148oRdHPvu7ph-a9/view?usp=sharing",
                 "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
                 "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
                 "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",

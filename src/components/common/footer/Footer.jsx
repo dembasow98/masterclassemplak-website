@@ -9,7 +9,7 @@ import {FaInstagram} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-[#043334]">
+    <footer className="bg-[#043334]">
         <div className="flex flex-col items-center  py-3 justify-center">
             <div className="flex-shrink-0 justify-center">
                 <Link to="/">
@@ -23,9 +23,9 @@ const Footer = () => {
         <div className="p-6  items-center justify-center">
             <div className="flex w-full flex-row justify-between lg:justify-center px-6">
                 <div className='lg:px-10'>
-                    <h2 className="mb-6 text-sm font-semibold uppercase text-gray-300">Menu</h2>
+                    <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200">Menu</h2>
                 
-                    <ul className="grid md:grid-cols-3 md:gap-x-10  lg:grid-cols-5 text-gray-500 dark:text-gray-400">
+                    <ul className="grid md:grid-cols-3 md:gap-x-10  lg:grid-cols-5 text-gray-300">
                         <li className="mb-4">
                             <a href="/" className=" hover:underline">Home</a>
                         </li>
@@ -44,8 +44,8 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='lg:px-20'>
-                    <h2 className="mb-6 text-sm font-semibold uppercase text-gray-300">Help center</h2>
-                    <ul className="grid md:grid-cols-2 md:gap-x-10 lg:grid-cols-4 text-gray-500 dark:text-gray-400">
+                    <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200">Help center</h2>
+                    <ul className="grid md:grid-cols-2 md:gap-x-10 lg:grid-cols-4 text-gray-300">
                         <li className="mb-4">
                             <a href="/contact" className="hover:underline">Contact</a>
                         </li>
@@ -63,26 +63,26 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='flex flex-col py-6  md:flex-row justify-center items-center text-sm font-sm text-gray-500 dark:text-gray-300 sm:text-center'> 
+        <div className='flex flex-col pt-4 pb-6 md:flex-row justify-center items-center text-sm font-sm text-gray-300 sm:text-center'> 
             <div className="flex flex-col items-center justify-center md:flex-row">
                 <div className="flex flex-col items-center justify-center">
-                    <span className="text-gray-700 text-xl dark:text-gray-200">Follow Us</span>
+                    <span className="text-xl pb-4 text-gray-200">Follow Us</span>
                     <div className='flex items-center justify-center gap-6 lg:gap-10 '>
                         <div className='flex flex-col items-center justify-center space-y-2 px-6'>
-                            <FaFacebookF className='w-10 h-10 text-gray-400'/>
-                            <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
+                            <FaFacebookF className='w-10 h-10 text-gray-300'/>
+                            <span className=" hover:cursor-pointer hover:text-gray-100 font-md text-gray-300">
                                 <a href="https://www.facebook.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Facebook</a>    
                             </span>
                         </div>
                         <div className='flex flex-col items-center justify-center space-y-2 px-6'>
-                            <FaTwitter className='w-10 h-10 text-gray-400'/>
-                            <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
+                            <FaTwitter className='w-10 h-10 text-gray-300'/>
+                            <span className=" hover:cursor-pointer hover:text-gray-100 font-md text-gray-300">
                                 <a href="https://www.twitter.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Twitter</a>    
                             </span>
                         </div>
                         <div className='flex flex-col items-center justify-center space-y-2 px-6'>
-                            <FaInstagram className='w-10 h-10 text-gray-400' />
-                            <span className="text-gray-700 hover:cursor-pointer hover:text-gray-100 font-md dark:text-gray-300">
+                            <FaInstagram className='w-10 h-10 text-gray-300' />
+                            <span className=" hover:cursor-pointer hover:text-gray-100 font-md text-gray-300">
                                 <a href="https://www.instagram.com/masterclassproperty" target='_blank' rel='noopener noreferrer'>Instagram</a>    
                             </span>
                         </div>
@@ -93,7 +93,7 @@ const Footer = () => {
         
         
         <div className="flex flex-col justify-center md:px-4 w-full bg-gray-900 py-4 items-center border-t border-gray-600">
-            <span className="text-sm text-center font-medium text-gray-500 pb-2 dark:text-gray-300">
+            <span className="text-sm text-center font-medium pb-2 text-gray-300">
                 Copyright © 2023 <Link to="/" className='text-bold'>Master Class Property</Link>. All Rights Reserved.
             </span>
             <span className="text-sm font-bold text-gray-200 sm:text-center ">

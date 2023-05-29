@@ -7,10 +7,10 @@ const Comment = () => {
         <div className="container  mx-auto ">
             <div className="w-full flex flex-col md:px-2 lg:px-10">
                 <div className="flex flex-col mb-5">
-                    <h2 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-5">
+                    <h2 className="text-4xl font-bold text-center text-white mb-5">
                         Master Class Emlak
                     </h2>
-                    <p className="text-2xl font-bold italic text-gray-600 dark:text-gray-400 text-center">
+                    <p className="text-2xl font-bold italic text-gray-400 text-center">
                         The destination of your dream property
                     </p>
                     
@@ -21,7 +21,7 @@ const Comment = () => {
                 
                 <div className="w-full flex ">
                     <div className="w-full flex flex-col justify-center items-center rounded shadow py-4">
-                        <p className="text-gray-800 text-center dark:text-gray-100 text-base px-4 md:text-xl">
+                        <p className=" text-center text-gray-100 text-base px-4 md:text-xl">
                         Masterclass Property is a top-notch real estate company that sets the bar high in the industry. 
                         Their commitment to excellence is evident in every aspect of their operations. <br />
                         <br/> 

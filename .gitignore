@@ -35,3 +35,9 @@ GITHUB_SSH_KEY
 # Ignore GITHUB_SSH_KEY.pub
 GITHUB_SSH_KEY.pub
 ```
+
+
+```
+# Ignore the kubernetes.txt file
+kubernetes.txt
+```

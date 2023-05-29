@@ -7,7 +7,7 @@ const Info = ({title, banner, overview1, overview2, details}) => {
     <section className="w-full flex flex-col justify-center items-center bg-black">
         <div className="flex  flex-col md:px-10 bg-gray-900 px-6 pt-4 pb-2 m-4 md:mx-10 lg:mx-20 xl:mx-24 lg:mt-6 rounded-md shadow-md consultancy-shadow-inset">
             <div className = "w-full flex justify-center pt-2 items-center">
-                <span className="w-full m-4 text-center text-2xl md:text-3xl font-bold text-gray-700 dark:text-gray-200">
+                <span className="w-full m-4 text-center text-2xl md:text-3xl font-bold text-gray-200">
                     {title}
                 </span>
             </div>
@@ -16,7 +16,7 @@ const Info = ({title, banner, overview1, overview2, details}) => {
             </div>
             <div className="w-full flex flex-col justify-center items-center">
                 <div className = "flex justify-center items-center">
-                    <p className="text-gray-600 dark:text-gray-400 text-lg lg:text-xl  text-justify">
+                    <p className=" text-gray-400 text-lg lg:text-xl  text-justify">
                         {overview1}
                     </p>
                 </div>
@@ -24,7 +24,7 @@ const Info = ({title, banner, overview1, overview2, details}) => {
                     <img src = {banner} alt = "banner" className = "w-full h-full  rounded-xl "/>
                 </div>
                 <div className = "flex justify-center items-center">
-                    <p className="text-gray-600 dark:text-gray-400 text-md md:text-lg lg:text-xl  text-justify">
+                    <p className="text-gray-400 text-md md:text-lg lg:text-xl  text-justify">
                         {overview2}
                     </p>
                 </div>

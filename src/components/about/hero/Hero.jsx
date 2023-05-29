@@ -13,12 +13,12 @@ const Hero = ({fullname, title, image, presentation}) => {
                         <span className="bg-[#043334] py-4 px-2 text-gray-100 m-4 inline-block rounded-full items-center justify-center  uppercase font-semibold tracking-wide">
                             {fullname}
                         </span>
-                        <div className="ml-2 text-gray-600 dark:text-gray-200 uppercase font-semibold tracking-wider">
+                        <div className="ml-2 text-gray-200 uppercase font-semibold tracking-wider">
                             {title}
                         </div>  
                     </div>
             
-                    <div className="mt-1 dark:text-gray-300 ">
+                    <div className="mt-1 text-gray-300 ">
                         <span className="text-sm md:text-md lg:text-lg">
                             {presentation}
                         </span>

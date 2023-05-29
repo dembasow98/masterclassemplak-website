@@ -20,10 +20,10 @@ const Search = () => {
   return (
     <section className="w-full flex justify-center items-center">
       <div className = "w-full mx-4 md:mx-4 lg:mx-8 flex justify-center items-center">
-        <form className="w-full my-4 flex flex-col md:flex-row bg-white  dark:bg-gray-900 lg:p-3 rounded-lg shadow-md consultancy-shadow-inset">
+        <form className="w-full my-4 flex flex-col md:flex-row bg-gray-900 lg:p-3 rounded-lg shadow-md consultancy-shadow-inset">
             <div className="flex flex-col content-center justify-center p-4 ">
                 <div className = "w-full flex justify-center items-center">
-                    <span className="w-full text-center text-xl sm:text-2xl md:text-3xl font-bold text-gray-700 dark:text-gray-200">
+                    <span className="w-full text-center text-xl sm:text-2xl md:text-3xl font-bold text-gray-200">
                         Find your property in Türkiye
                     </span>
                 </div>
@@ -35,7 +35,7 @@ const Search = () => {
                 <div className="flex w-full h-full lg:h-fit  md:pt-2">
                     <input 
                         type="text"
-                        className="form-control px-2 w-full rounded-sm focus:ring-1 dark:text-gray-200 border border-gray-800 bg-gray-950 focus:ring-red-600 py-3 m-1"
+                        className="form-control px-2 w-full rounded-sm focus:ring-1 text-gray-200 border border-gray-800 bg-gray-950 focus:ring-red-600 py-3 m-1"
                         required
                         placeholder="Please write your search words"
                         name="name"
@@ -45,7 +45,7 @@ const Search = () => {
                 </div>
 
                 <div className = "flex w-full lg:h-fit">
-                    <button onClick={handleSearchSubmit} className="w-full bg-blue-500 mx-4 dark:bg-red-600  hover:bg-red-700 text-white py-3 m-1 font-bold rounded">
+                    <button onClick={handleSearchSubmit} className="w-full mx-4 bg-red-600  hover:bg-red-700 text-white py-3 m-1 font-bold rounded">
                         Search
                     </button>
                 </div>

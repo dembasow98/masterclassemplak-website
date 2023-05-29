@@ -55,8 +55,8 @@ const Property = ({type, isFavorite, title,description,profileImage, gallery,loc
     return (
         <div className="max-w-sm border rounded-lg shadow bg-gray-900 border-gray-700">
             <div className="relative">
-                <div className="absolute top-0 left-0 bg-blue-700 dark:bg-[#059669] text-white rounded-bl-lg py-1 px-2">{type}</div>
-                    <button className="absolute top-0 right-0 m-1 p-2 rounded-full  hover:bg-gray-800 dark:bg-gray-700 border-gray-500">
+                <div className="absolute top-0 left-0 bg-[#059669] text-white rounded-bl-lg py-1 px-2">{type}</div>
+                    <button className="absolute top-0 right-0 m-1 p-2 rounded-full  hover:bg-gray-800 bg-gray-700 border-gray-500">
                         <AiTwotoneHeart 
                             className={`w-5 h-5 fill-current ${isLiked ? "text-red-600" : "text-gray-400"}`}
                             onClick={handleLikeClick}
@@ -75,12 +75,12 @@ const Property = ({type, isFavorite, title,description,profileImage, gallery,loc
                         to= {`/properties/${slugify(title)}`}  
                         state = {property}
                     >
-                        <h5 className="mb-2 text-2xl dark:text-gray-300 font-bold">{title}</h5>
+                        <h5 className="mb-2 text-2xl text-gray-300 font-bold">{title}</h5>
                     </Link>
-                    <p className="mb-2 text-gray-600 dark:text-slate-400">{description}</p>
-                    <div className="flex justify-center items-center mb-2 dark:text-gray-500">
+                    <p className="mb-2 text-slate-400">{description}</p>
+                    <div className="flex justify-center items-center mb-2 text-gray-500">
                         <div className='ml-2 flex items-center  justify-center '>
-                            <div className = "flex items-center  justify-center w-8 h-8 mr-2 text-white bg-blue-700 dark:bg-green-500 rounded-full">
+                            <div className = "flex items-center  justify-center w-8 h-8 mr-2 text-whit bg-green-500 rounded-full">
                             <MdPriceChange />
                             </div>
                             <span className="text-gray-400">Price: </span>
