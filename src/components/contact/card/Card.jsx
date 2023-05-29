@@ -8,8 +8,9 @@ const Card = ({logo, itemname, title, content}) => {
             <span className="text-md md:text-xl lg:text-2xl font-medium uppercase text-green-400">{itemname}</span>
         </div>
         <div className="mt-4 mb-2 mx-4 items-center flex flex-col gap-2">
-          <span className="text-md md:text-xl lg:text-2x font-light text-black dark:text-gray-200">{title}</span>
-          <p className="mb-3 font-normal text-md sm:text-xl lg:text-2xl text-gray-500 dark:text-gray-400">
+          <span className="text-md md:text-xl lg:text-2x font-light text-gray-200">{title}</span>
+          
+          <p className="mb-3 font-normal text-md sm:text-xl lg:text-2xl text-gray-400">
             {content}
           </p>
         </div>
