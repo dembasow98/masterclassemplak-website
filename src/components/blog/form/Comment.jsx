@@ -31,9 +31,8 @@ const  Comment =({title}) =>{
   }
 
   //Google recaptcha
-    //const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
+    const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
-    const SITE_KEY = "6LfngbwkAAAAACV2WmeXRt9Pr951pXY-6xLMBpIZ";
 
 
     const recaptchaRef = useRef();

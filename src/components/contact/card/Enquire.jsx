@@ -37,11 +37,8 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
     // Your form submission logic here
   }
 
-  //Google recaptcha
-    //const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
-
-    const SITE_KEY = "6LfngbwkAAAAACV2WmeXRt9Pr951pXY-6xLMBpIZ";
-
+   //Get the site key from the .env file
+    const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
     const recaptchaRef = useRef(null);
     //const recaptchaValue = recaptchaRef.current.getValue();
@@ -54,6 +51,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
 
   return (
     <div className="flex flex-col w-full mb-8">
+        
         <div className="rounded-3xl bg-[#043334]" id="side-contact-us">
             {
                 isModal ? (
@@ -158,7 +156,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                                     //Add size
                                     size = "normal"
                                     //Add theme
-                                    //theme = "dark"
+                                    theme = "dark"
                                 />
                             </Suspense>
                         </div>
