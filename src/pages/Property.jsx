@@ -22,7 +22,7 @@ const Property = () => {
   //console.log("From details:"+features);
 
   //The titleCase is a span tag:
-  const titleCase = <span className="text-2xl font-bold text-gray-900 dark:text-gray-100">"Enquire About <br  /> This Property"</span>;
+  const titleCase = <span className="text-2xl font-bold text-gray-100">Enquire About <br  /> This Property</span>;
 
   //This happens starting from the middle breakpoint
   const [scroll, setScroll] = useState(false);

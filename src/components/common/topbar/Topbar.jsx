@@ -11,8 +11,8 @@ import Languages from '../../common/dropdown/Languages';
 
 const Topbar = () => {
   return (
-    <div className='flex w-full h-24 sm:h-22 md:h-16 lg:h-14 bg-white text-black dark:text-white dark:bg-gray-900  border-b dark:border-gray-300'>
-      <div className='flex flex-col md:flex-row w-full items-center justify-center '>
+    <div className='flex w-full h-24 sm:h-22 md:h-16 lg:h-14 text-white bg-gray-900  border-b border-gray-300'>
+      <div className='flex flex-col md:flex-row w-full items-center justify-center'>
 
         <div className='TOP-PART md:order-2 flex items-center justify-between md:justify-center w-full px-4 '>
           <div className='LEFT-PART flex flex-row p-2 gap-3'>
@@ -40,7 +40,7 @@ const Topbar = () => {
           </div>
          
           <div className='BUY-ONLINE flex w-full  justify-end place-items-center'>
-            <button type="button" className="w-fit text-xs focus:outline-none text-white bg-red-800 hover:bg-red-900 focus:ring-4 focus:ring-red-300 font-medium rounded-lg md:text-sm px-2 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+            <button type="button" className="w-fit text-xs focus:outline-none text-white  focus:ring-4 font-medium rounded-lg md:text-sm px-2 py-2.5 mr-2 bg-red-600 hover:bg-red-700 focus:ring-red-900">
               BUY ONLINE
             </button>
           </div>

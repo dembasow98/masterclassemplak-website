@@ -49,7 +49,7 @@ const Filter = () => {
       <div className = "w-full flex justify-center items-center">
         <form onChange={handleFilterChange} className="w-full flex  flex-col bg-gray-900 px-6 pt-4  rounded-lg shadow-md filter-shadow-inset">
           <div className = "w-full flex justify-center pt-2 items-center">
-            <span className="w-full text-center text-2xl font-bold text-gray-700 dark:text-gray-200">
+            <span className="w-full text-center text-2xl font-bold text-gray-200">
               Find Your Appropriate Property
             </span>
           </div>
@@ -100,7 +100,7 @@ const Filter = () => {
                           <option>Other</option>
                       </select>
                       <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                      <HiSelector className="dark:text-gray-100"/>
+                      <HiSelector className="text-gray-100"/>
                       </div>
                   </div>
               </div>
@@ -170,7 +170,7 @@ const Filter = () => {
                       </div>
                   </div>
                   <div className = "w-full flex justify-center items-center sm:w-full  pt-4">
-                    <button onClick={handleFilterSubmit} className="w-full bg-blue-500 mx-4 dark:bg-red-600  hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                    <button onClick={handleFilterSubmit} className="w-full mx-4 bg-red-600  hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
                       Search
                     </button>
                   </div>

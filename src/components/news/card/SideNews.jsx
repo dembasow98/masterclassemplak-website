@@ -12,7 +12,7 @@ const SideNews = () => {
   return (
     <div class="flex flex-col justify-start bg-news-paper pb-4 px-10 my-4 rounded-md">
         <div className='py-5'>
-            <p className="text-3xl lg:text-4xl font-bold text-gray-800 text-center dark:text-gray-200">
+            <p className="text-3xl lg:text-4xl font-bold text-center text-gray-200">
                 Latest News
             </p>
             <img src = {separator} alt = "separator" className = "w-full mx-auto py-2"/>

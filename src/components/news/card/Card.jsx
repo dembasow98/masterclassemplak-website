@@ -1,9 +1,45 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Card = ({banner, title, description, date} ) => {
+const Card = ({id,
+    title,
+    description,
+    banner,
+    createdAt,
+    updatedAt,
+    author,
+    avatar,
+    content1,
+    content2,
+    gallery,
+    tags} ) => {
 
-
+     //Get all the blog details and store them in a variable
+    const new_item = {
+        id,
+        title,
+        description,
+        banner,
+        createdAt,
+        updatedAt,
+        author,
+        avatar,
+        content1,
+        content2,
+        gallery,
+        tags
+    };
+    //image(image title) click handler
+    const slugify = (string) => {
+        return string
+            .toString()
+            .toLowerCase()
+            .replace(/\s+/g, '-') // Replace spaces with -
+            .replace(/[^\w-]+/g, '') // Remove all non-word chars except -
+            .replace(/--+/g, '-') // Replace multiple - with single -
+            .replace(/^-+/, '') // Trim - from start of text
+            .replace(/-+$/, ''); // Trim - from end of text
+    };
 
   return (
     
@@ -23,10 +59,13 @@ const Card = ({banner, title, description, date} ) => {
             </p>
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-row justify-end items-center">
-                    <p class="text-gray-200 text-xs md:text-sm lg:text-md">{date}</p>
+                    <p class="text-gray-200 text-xs md:text-sm lg:text-md">{createdAt}</p>
                 </div>
                 <div class="flex flex-row justify-end items-center">
-                <Link to="/news">
+                <Link 
+                    to= {`/news/${slugify(title)}`}  
+                    state = {new_item}
+                >
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         Read More
                     </button>

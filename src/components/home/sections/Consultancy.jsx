@@ -56,7 +56,7 @@ const Consultancy = () => {
       <div className = "w-full flex justify-center items-center">
         <form className="w-full flex  flex-col  p-6  rounded-lg shadow-md consultancy-shadow-inset">
           <div className = "w-full flex justify-center pt-2 items-center">
-            <span className="w-full text-center text-2xl font-bold text-gray-700 dark:text-gray-200">Contact us for Free Consultancy</span>
+            <span className="w-full text-center text-2xl font-bold text-gray-200">Contact us for Free Consultancy</span>
           </div>
           <div className="flex pb-4 justify-center">
             <img src={separator} alt="yel1" />
@@ -65,7 +65,7 @@ const Consultancy = () => {
             <div className="relative">
               <input 
                   type="text"
-                  className="form-control w-full rounded-sm focus:ring-1 dark:text-gray-200 bg-black border border-gray-800 focus:ring-red-300 px-4 py-2 my-3 "
+                  className="form-control w-full rounded-sm focus:ring-1 text-gray-200 bg-black border border-gray-800 focus:ring-red-300 px-4 py-2 my-3 "
                   required
                   placeholder="First Name"
                   name="name"
@@ -77,7 +77,7 @@ const Consultancy = () => {
             <div className="relative">
               <input 
                   type="text"
-                  className="form-control w-full dark:text-gray-200 bg-black border border-gray-800 rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3"
+                  className="form-control w-full text-gray-200 bg-black border border-gray-800 rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3"
                   required
                   placeholder="Last Name"
                   name="surname"
@@ -88,7 +88,7 @@ const Consultancy = () => {
             <div className="relative">
                 <input
                     type="email"
-                    className="form-control w-full dark:text-gray-200 bg-black border border-gray-800 rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3"
+                    className="form-control w-full text-gray-200 bg-black border border-gray-800 rounded-sm focus:ring-1 focus:ring-red-300 px-4 py-2 my-3"
                     required
                     placeholder="Email"
                     name="email"
@@ -132,7 +132,7 @@ const Consultancy = () => {
                   />
               </div>
                <div className = "w-full justify-end flex items-center">
-                <button onClick={handleConsultancySubmit} className="w-full py-4 bg-blue-500 dark:bg-red-600  hover:bg-red-700 text-white font-bold rounded">
+                <button onClick={handleConsultancySubmit} className="w-full py-4 bg-red-600  hover:bg-red-700 text-white font-bold rounded">
                   SEND
                 </button>
               </div>

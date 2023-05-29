@@ -31,7 +31,10 @@ const Gallery = ({images}) => {
           showThumbnails={true}
           showIndex={true}
           autoPlay={true}
-          slideDuration={500}
+          //Make the slide change every 0.5 second
+          slideInterval={100}
+          //Play button
+          
         />
       </Suspense>
     </div>

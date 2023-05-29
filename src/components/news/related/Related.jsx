@@ -74,7 +74,7 @@ const Related = () => {
   return (
     <section className="lg:mx-10 flex flex-col justify-center items-center">
         <div className = "w-full bg-real-estate px-10 pt-2 pb-10 rounded-lg justify-center items-center">
-            <p className="text-3xl lg:text-4xl font-bold text-gray-800 text-center dark:text-gray-200">
+            <p className="text-3xl lg:text-4xl font-bold  text-center text-gray-200">
                 Find your dream home in Türkiye
             </p>
             <img src = {separator} alt = "separator" className = "w-full mx-auto py-2" />
