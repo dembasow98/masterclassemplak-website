@@ -27,6 +27,16 @@ const Banner = () => {
 
   };
 
+   //TODO: Extract the image link from the google drive link shared link:
+   const extractImageGoogleDriveLink = (link) => {
+      const startIndex = link.indexOf("/d/") + 3; // Find the starting index of the ID
+      const endIndex = link.indexOf("/view"); // Find the ending index of the ID
+      const imageId = link.substring(startIndex, endIndex);
+      // Form the embed link of the image
+      const imageLink = `https://drive.google.com/uc?export=view&id=${imageId}`;
+      return imageLink;
+    };
+
  
   return (
     <div className="w-full pb-6 bg-[#043334] rounded-b-3xl">
@@ -40,7 +50,7 @@ const Banner = () => {
                 isFavorite = {property?.isFavorite}
                 title = {property?.title}
                 description = {property?.description}
-                source = {property?.source}
+                source = {extractImageGoogleDriveLink(property?.source)}
                 gallery = {property?.gallery}
                 location = {property?.location}
                 price = {property?.price}

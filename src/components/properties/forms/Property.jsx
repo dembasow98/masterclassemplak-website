@@ -12,7 +12,8 @@ import {MdRealEstateAgent} from "react-icons/md";
 import {SiProtodotio} from "react-icons/si";
 import {MdPriceChange} from "react-icons/md";
 
-const Property = ({type, isFavorite, title,description,profileImage, gallery,location, price, reference,createdAt,updatedAt,overview, benefits,details, features,}) => {
+const Property = ({type, isFavorite, title,description,profileImage, gallery,location, price, reference,createdAt,updatedAt,overview, benefits,details, features,floorPlan
+, apartmentsPlan, threeDPlan, moreInfo}) => {
         
     //Get all the property details and store them in a variable
     const property = {
@@ -30,6 +31,12 @@ const Property = ({type, isFavorite, title,description,profileImage, gallery,loc
         overview,
         benefits,
         details,
+        //More info:
+    
+        floorPlan,
+        apartmentsPlan,
+        threeDPlan,
+        moreInfo,
         //convert features to an array using json.stringify
         features: JSON.stringify(features)
     };
@@ -52,6 +59,16 @@ const Property = ({type, isFavorite, title,description,profileImage, gallery,loc
             .replace(/-+$/, ''); // Trim - from end of text
     };
 
+    //TODO: Extract the image link from the google drive link shared link:
+    const extractImageGoogleDriveLink = (link) => {
+        const startIndex = link.indexOf("/d/") + 3; // Find the starting index of the ID
+        const endIndex = link.indexOf("/view"); // Find the ending index of the ID
+        const imageId = link.substring(startIndex, endIndex);
+        // Form the embed link of the image
+        const imageLink = `https://drive.google.com/uc?export=view&id=${imageId}`;
+        return imageLink;
+    };
+
     return (
         <div className="max-w-sm border rounded-lg shadow bg-gray-900 border-gray-700">
             <div className="relative">
@@ -67,7 +84,7 @@ const Property = ({type, isFavorite, title,description,profileImage, gallery,loc
                         to= {`/properties/${slugify(title)}`}  
                         state = {property}
                     >
-                        <img className="rounded-t-lg" src={profileImage} alt={title} />
+                        <img className="rounded-t-lg" src={extractImageGoogleDriveLink(profileImage)} alt={title} />
                     </Link>
                 </div>
                 <div className="p-5">

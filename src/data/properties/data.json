@@ -3,20 +3,23 @@
         {
             "reference":"PTRSV-0001",
             "id": "1",
-            "source": "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-            "title": "First slide label",
-            "description": "Some representative placeholder content for the first slide.",
+            "source": "https://drive.google.com/file/d/18bqnqIvujyiP8uT9a69KAxbrLiIxM78I/view?usp=sharing",
+            "title": "YALOVA SUMMER HOUSES",
+            "description": "Project located in the middle of Yalova city centre and the sea side",
             "tags": [
                 "yalova",
-                "istanbul",
+                "turkiye",
                 "property"
             ],
+            "floorPlan": "https://drive.google.com/file/d/1pWC1UZjWZeEbhjn2eDwciiAjuFsAnf2y/view?usp=sharing",
+            "apartmentsPlan":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
+            "threeDPlan":"",
+            "moreInfo":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
             "price": "$ 1,000,000",
             "features":[
                 {
-                    
                     "name":"Bedrooms",
                     "value":"3"
                 },
@@ -25,7 +28,6 @@
                     "value":"2"
                 },
                 {
-                
                     "name":"Bathrooms",
                     "value":"2"
                 },
@@ -39,7 +41,6 @@
                     "value":"120m2"
                 },
                 {
-                
                     "name":"City",
                     "value":"Miami"
                 },
@@ -57,28 +58,54 @@
                 "lat": "25.761681",
                 "lng": "-80.191788"
             },
-            "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "benefits":"Key benefits of this property are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "details":"One can always consider the units in summer house for easy renting out options to the students as one of the biggest Public University of Marmara region is just 4 KM from the project. Moreover this project is a potential option for renting out to tourists as well.",
+            "benefits":"With Turkey’s biggest projects The Orhangazi Bridge and Istanbul-Izmir highway that brings more value to the region you can reach the city-centre of Istanbul by car within 45 minutes. and half an hour far from Sabiha Gökçen International Airport through which you can travel to any part of the world. Best prices are guranteed  for the investors and buyers so this project can bring a good deal of profit once the project the project is getting near to the completion.",
             "type":"Apartment",
-            "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "overview":"SUMMER HOUSE project is located in the middle of Yalova city centre and the sea side and only 400 meters above the sea level and consists of 2 blocks. This new projectprovides a relaxig atmosphere with pure oxygen to enhale while you enjoy your summer vacations in your summer house.",
             "gallery":[
-                "https://drive.google.com/file/d/1Vg5WdiJCnbCd5h17148oRdHPvu7ph-a9/view?usp=sharing",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
+                "https://drive.google.com/file/d/18bqnqIvujyiP8uT9a69KAxbrLiIxM78I/view?usp=sharing",
+                "https://drive.google.com/file/d/1n_IYHkknZy9Sp6tS_BRskNpoCCDjOrKD/view?usp=sharing",
+                "https://drive.google.com/file/d/18yqiFh1B7kJLPq0zuYQIUAZMhQLrFBdb/view?usp=sharing",
+                "https://drive.google.com/file/d/1vnbQzDb_7Cf8aBRqoZYi8mP5wbKoK7W8/view?usp=sharing",
+                "https://drive.google.com/file/d/1YTwOLLxWXOaoR80MmMJHlRVKuNOEGVCA/view?usp=sharing",
+                "https://drive.google.com/file/d/1zcDHf9j_F1cFOgoVVGmG1RzO-UStFoUH/view?usp=sharing",
+                "https://drive.google.com/file/d/13_3I31PToHL-S0YIljSDnsvUetJgw8Tv/view?usp=sharing",
+                "https://drive.google.com/file/d/1KOclDkzbdUsYZH6s86HbdtE9WncewM1F/view?usp=sharing",
+                "https://drive.google.com/file/d/1P4_4sTH_YPXFrZvoiP6N3HjLA4bTiCVB/view?usp=sharing",
+                "https://drive.google.com/file/d/1PJ2-yW0t5-VPvjZboatCPHzWp2luEwJ9/view?usp=sharing",
+                "https://drive.google.com/file/d/1UpXj-2eslyJKMsmnsg6aoYaFmK0LTCqK/view?usp=sharing",
+                "https://drive.google.com/file/d/1UGCV2LIiSJJDIN6ufwgp38ohf9JsmWWx/view?usp=sharing",
+                "https://drive.google.com/file/d/12ilflFihy1JrRLzPuBOggfNshF_VPhtM/view?usp=sharing",
+                "https://drive.google.com/file/d/11-U-yptPW9rWuWtfvrGbrofvoJqCkpTE/view?usp=sharing",
+                "https://drive.google.com/file/d/1bP5vkegRMABppcql0nkAMrb11x1feBsr/view?usp=sharing",
+                "https://drive.google.com/file/d/17-Iyhq1rCDs4QUD0DOHvqIj2BW1I5V2Q/view?usp=sharing",
+                "https://drive.google.com/file/d/1lmd1QLN8-FOpjjD_oD3mkC0ZOs3A31XL/view?usp=sharing",
+                "https://drive.google.com/file/d/1uuSVccGgN-e4C2OJBlIJdQLx_v_4nSBQ/view?usp=sharing",
+                "https://drive.google.com/file/d/1S9g83G9H4HhkAg4B2KtlRVsvXUpeQ98h/view?usp=sharing",
+                "https://drive.google.com/file/d/1YJmjqzQyxQnZ82LpFiwAtbJ4GD9zRiH4/view?usp=sharing",
+                "https://drive.google.com/file/d/1XWXU2cfgL1TGbEeZffFT-Sx5H_Pcn2Wb/view?usp=sharing",
+                "https://drive.google.com/file/d/1qEVJGbJXfWSdiVI-fIp31Hgk6xNI95VR/view?usp=sharing",
+                "https://drive.google.com/file/d/1Wsq9geIugFBvVpnuVV-wTnjGY74_nrXq/view?usp=sharing",
+                "https://drive.google.com/file/d/1mCHCpazev6N2IJeSnhGzLoB4zI9EpB5K/view?usp=sharing",
+                "https://drive.google.com/file/d/1YSOI4A7N4eshDskrKaIhok_uB0ht3r8C/view?usp=sharing",
+                "https://drive.google.com/file/d/1puK9gfksUWE42bqEb74uA62AWJ-Shv3c/view?usp=sharing"
+            ],
+            "videos":[
+                {
+                    "title": "",
+                    "description": "Description of Video 1",
+                    "videoId": "VIDEO_1_YOUTUBE_ID"
+                },
+                {
+                    "title": "Video 2",
+                    "description": "Description of Video 2",
+                    "videoId": "VIDEO_2_YOUTUBE_ID"
+                },
+                {
+                    "title": "Video 3",
+                    "description": "Description of Video 3",
+                    "videoId": "VIDEO_3_YOUTUBE_ID"
+                }
             ]
         },
         {
@@ -658,3 +685,4 @@
         }
     ]
 }
+

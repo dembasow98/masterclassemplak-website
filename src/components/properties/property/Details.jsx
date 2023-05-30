@@ -76,6 +76,7 @@ const Details = ({overview, features, benefits, details}) => {
         </div>
       </div>
       
+      
     </section>
   )
 }

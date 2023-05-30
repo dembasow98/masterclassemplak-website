@@ -47,8 +47,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
         //console.log("Captcha value:", value);
         setCaptcha(value);
     }
-
-
+    
   return (
     <div className="flex flex-col w-full mb-8">
         
