@@ -16,6 +16,8 @@ const properties = data.properties;
 
 
 const Properties = () => {
+
+
     return (
         <main className="w-full flex flex-col items-center justify-center bg-black">
             <Suspense fallback={<Spinner/>}>
@@ -45,6 +47,10 @@ const Properties = () => {
                                     overview = {property?.overview}
                                     benefits = {property?.benefits}
                                     details = {property?.details}
+                                    floorPlan = {property?.floorPlan}
+                                    apartmentsPlan = {property?.apartmentsPlan}
+                                    threeDPlan = {property?.threeDPlan}
+                                    moreInfo = {property?.moreInfo}
                                     features = {property?.features}
                                 />
                             </Suspense>

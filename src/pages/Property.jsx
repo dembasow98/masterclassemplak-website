@@ -10,6 +10,7 @@ const Route = lazy(() => import('./../components/common/route/Route.jsx'));
 const Enquire = lazy(() => import('./../components/common/forms/Enquire.jsx'));
 const Gallery = lazy(() => import('./../components/common/gallery/Gallery.jsx'));
 
+const Extra = lazy(() => import('./../components/properties/property/Extra.jsx'));
 
 
 const Property = () => {
@@ -18,7 +19,8 @@ const Property = () => {
   //console.log(state);
 
   //Get property details from the state
-  const { title, price, reference, createdAt, updatedAt, gallery, description, overview, features, benefits, details } = state;
+  const { title, price, reference, createdAt, updatedAt, gallery, description, overview, features, benefits, details,
+     floorPlan, apartmentsPlan, threeDPlan, moreInfo } = state;
   //console.log("From details:"+features);
 
   //The titleCase is a span tag:
@@ -32,6 +34,10 @@ const Property = () => {
       setScroll(true);
     }
   }, [scroll]);
+
+
+
+
 
   return (
     <main className="mx-auto px-auto bg-black">
@@ -54,6 +60,15 @@ const Property = () => {
             <Gallery images={gallery} />
           </Suspense>
           <Suspense fallback={<Spinner/>}>
+            <Extra
+              threeDPlan={threeDPlan}
+              floorPlan={floorPlan}
+              apartmentsPlan={apartmentsPlan}
+              moreInfo={moreInfo}
+            />
+         </Suspense>
+  
+          <Suspense fallback={<Spinner/>}>
             <Details
               overview={overview}
               //convert features to an array using json.parse
@@ -70,7 +85,8 @@ const Property = () => {
           <Suspense fallback={<Spinner/>}>
             <Enquire title={titleCase} isModal={false} />
           </Suspense>
-
+          
+          
         </div>
       </section>
     </main>
