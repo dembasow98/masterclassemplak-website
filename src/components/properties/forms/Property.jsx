@@ -13,7 +13,7 @@ import {SiProtodotio} from "react-icons/si";
 import {MdPriceChange} from "react-icons/md";
 
 const Property = ({type, isFavorite, title,description,profileImage, gallery,location, price, reference,createdAt,updatedAt,overview, benefits,details, features,floorPlan
-, apartmentsPlan, threeDPlan, moreInfo}) => {
+, apartmentsPlan, threeDPlan, moreInfo, videos}) => {
         
     //Get all the property details and store them in a variable
     const property = {
@@ -38,7 +38,10 @@ const Property = ({type, isFavorite, title,description,profileImage, gallery,loc
         threeDPlan,
         moreInfo,
         //convert features to an array using json.stringify
-        features: JSON.stringify(features)
+        features: JSON.stringify(features),
+
+        //Videos:
+        videos
     };
 
     const [isLiked, setIsLiked] = useState(false);

@@ -12,6 +12,10 @@ const Gallery = lazy(() => import('./../components/common/gallery/Gallery.jsx'))
 
 const Extra = lazy(() => import('./../components/properties/property/Extra.jsx'));
 
+const VideoGallery = lazy(() => import('./../components/common/videos/VideoGallery.jsx'));
+
+
+
 
 const Property = () => {
   
@@ -20,7 +24,7 @@ const Property = () => {
 
   //Get property details from the state
   const { title, price, reference, createdAt, updatedAt, gallery, description, overview, features, benefits, details,
-     floorPlan, apartmentsPlan, threeDPlan, moreInfo } = state;
+     floorPlan, apartmentsPlan, threeDPlan, moreInfo, videos} = state;
   //console.log("From details:"+features);
 
   //The titleCase is a span tag:
@@ -67,7 +71,11 @@ const Property = () => {
               moreInfo={moreInfo}
             />
          </Suspense>
-  
+         
+         <Suspense fallback={<Spinner/>}>
+            <VideoGallery videos = {videos}/>
+          </Suspense>
+
           <Suspense fallback={<Spinner/>}>
             <Details
               overview={overview}
@@ -77,6 +85,8 @@ const Property = () => {
               details={details}
             />
           </Suspense>
+
+          
         </div>
         <div 
           className="w-full flex flex-col items-center md:mt-4 md:w-1/3 justify-center"
