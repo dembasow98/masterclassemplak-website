@@ -16,17 +16,15 @@ const VideoGallery = ({ videos }) => {
   }
 
   return (
-    
-      <Carousel>
-        {videos.map((video, index) => (
-          <div key={index}>
-            <YouTube videoId={video.videoId} opts={opts} />
-            <h2>{video.title}</h2>
-            <p>{video.description}</p>
-          </div>
-        ))}
-      </Carousel>
-   
+    <Carousel>
+      {videos.map((video, index) => (
+        <div key={index}>
+          <YouTube videoId={video.videoId} opts={opts} />
+          <h2>{video.title}</h2>
+          <p>{video.description}</p>
+        </div>
+      ))}
+    </Carousel>
   );
 };
 

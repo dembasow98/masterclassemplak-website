@@ -18,6 +18,7 @@
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
             "price": "$ 1,000,000",
+            "arabic":"https://drive.google.com/file/d/1YHfcskMgk55eVVOlDLTzZiwmS33g6KcK/view?usp=sharing",
             "features":[
                 {
                     "name":"Bedrooms",
@@ -42,7 +43,7 @@
                 },
                 {
                     "name":"City",
-                    "value":"Miami"
+                    "value":"Yalova"
                 },
                 {
                     "name":"Garden",
@@ -58,6 +59,7 @@
                 "lat": "25.761681",
                 "lng": "-80.191788"
             },
+            
             "details":"One can always consider the units in summer house for easy renting out options to the students as one of the biggest Public University of Marmara region is just 4 KM from the project. Moreover this project is a potential option for renting out to tourists as well.",
             "benefits":"With Turkey’s biggest projects The Orhangazi Bridge and Istanbul-Izmir highway that brings more value to the region you can reach the city-centre of Istanbul by car within 45 minutes. and half an hour far from Sabiha Gökçen International Airport through which you can travel to any part of the world. Best prices are guranteed  for the investors and buyers so this project can bring a good deal of profit once the project the project is getting near to the completion.",
             "type":"Apartment",
@@ -106,17 +108,21 @@
         {
             "reference":"PTRSV-0002",
             "id": "2",
-            "source": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-            "title": "Second slide label",
-            "description": "Some representative placeholder content for the second slide.",
+            "source": "https://drive.google.com/file/d/1RME15ZqIWxb6Mh_tMpBRIoorICwmss3M/view?usp=sharing",
+            "title": "BEYTEPE YALOVA PROJECT",
+            "description": "Project located in the middle of Yalova city centre and the sea side",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "beytepe",
+                "yalova",
+                "turkiye"
             ],
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
             "price": "$ 2,000,000",
+            "floorPlan": "https://drive.google.com/file/d/1pWC1UZjWZeEbhjn2eDwciiAjuFsAnf2y/view?usp=sharing",
+            "apartmentsPlan":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
+            "threeDPlan":"http://emlakseyret360.com/beytturk/beyttepeyalova360/",
+            "moreInfo":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
             "features":[
                 {
                     
@@ -144,7 +150,7 @@
                 {
                 
                     "name":"City",
-                    "value":"Miami"
+                    "value":"Yalova"
                 },
                 {
                     "name":"Garden",
@@ -161,47 +167,96 @@
                 "lat": "25.761681",
                 "lng": "-80.191788"
             },
-            "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "benefits":"Key benefits of this property are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "details":"You will enjoy a warm living environment in Yalova with your family in Beytepe, your relations with you, neighbors will be strengthened with the neighborhood culture. A project you have never encountered before with a natural lifestyle inspired by nature... A unique combination of natural stone and wood, reflecting the unique harmony of brown and green, inspired by soil and forest... A completely different housing project. where you will enjoy a fascinating life with its large balconies...",
+            "benefits":"Beytepe exceeds your expectations for the lifestyle of your dreams. It also offers a unique investment opportunity by creating a new world with a life intertwined with nature, children's playgrounds, outdoor swimming pool, fitness center, sauna, walking track, basketball court, tennis court, social facilities and safe site life.",
             "type":"Apartment",
-            "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "overview":"Beytturk brings a new lifestyle to Yalova with its quality and experience. Inspired by the unique nature of Yalova, the Beytepe project is built on a 19,000 m2 area with 238 flats. The project draws attention with its perfectly designed architectural concept and social, cultural and sportive opportunities.",
                "gallery":[
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
+                "https://drive.google.com/file/d/1RME15ZqIWxb6Mh_tMpBRIoorICwmss3M/view?usp=sharing",
+                "https://drive.google.com/file/d/1tyU3O76g9Cwqq7wXaTDqBmT3z-JIW1Va/view?usp=sharing",
+                "https://drive.google.com/file/d/1-WTWijiAIiOf22IHL9_hHLx16YrGZMLw/view?usp=sharing",
+                "https://drive.google.com/file/d/1NLW5teY0eBYHPyDt9N4ZVRbtm_pboCl5/view?usp=sharing",
+                "https://drive.google.com/file/d/1XCd0MjmDbAJ3z_AAZHgZR8yJ4qZRyoxi/view?usp=sharing",
+                "https://drive.google.com/file/d/1v3KO1_bIpF_nLPWsAPWtS5Z-MPsszKJ9/view?usp=sharing",
+                "https://drive.google.com/file/d/15s4S4w2dfb26xzQIIWctKH-HlCY4n7ah/view?usp=sharing",
+                "https://drive.google.com/file/d/1cp9YACVKckB4mGMHT0edpFkPXOEtrcc6/view?usp=sharing",
+                "https://drive.google.com/file/d/1Opvg7Rh_qi2T3KgRE9MJYIDs3HQkQe5T/view?usp=sharing",
+                "https://drive.google.com/file/d/1fCGU5j7dQ9KGe0OOz3kU35ZzAaiC5ojq/view?usp=sharing",
+                "https://drive.google.com/file/d/1nvJAaT1BQjaI2BFXsONheXkGKjSGmhMY/view?usp=sharing",
+                "https://drive.google.com/file/d/1nh1p5m4EJVqaQo1qoQ83nYsH3RcSv2Za/view?usp=sharing",
+                "https://drive.google.com/file/d/1nTUMXfVDeUqemmFGjpYK_wYiIgFDGuwo/view?usp=sharing",
+                "https://drive.google.com/file/d/1FAN3ybDHOe9C_54D1BTGdUTnrIKBm56w/view?usp=sharing",
+                "https://drive.google.com/file/d/1lwxZ1wxyZVd-H8wE0-Xaqa8f5L6KKW7j/view?usp=sharing",
+                "https://drive.google.com/file/d/1is69XTtZrSKUyEohhYV-59h4e_nT5Cpz/view?usp=sharing",
+                "https://drive.google.com/file/d/1yNhXXbbHqHKINCatvqErzs2QXu2vyA1U/view?usp=sharing",
+                "https://drive.google.com/file/d/1Vy75kkt2cmuJxrFQldsPB6As8AXYf1h2/view?usp=sharing",
+                "https://drive.google.com/file/d/1E-SzIIuyPjPMef2lcDdqUsKi8HjL-FzX/view?usp=sharing",
+                "https://drive.google.com/file/d/1thEmA5gXDEJU0gxPWRrybbyXvFtny7HD/view?usp=sharing",
+                "https://drive.google.com/file/d/1RkJXegI6PCNvkSzE_Dd4nYERLF6J7wP0/view?usp=sharing",
+                "https://drive.google.com/file/d/1OE4P-Y4g-Kre6BSLkK0ySL1xLH9clWrA/view?usp=sharing",
+                "https://drive.google.com/file/d/1YSVvvSEXMgokLUQbEfogVuisiyehq4h0/view?usp=sharing",
+                "https://drive.google.com/file/d/1Qi405GixI2iFra3sf8F4zQxLuobxO0ON/view?usp=sharing",
+                "https://drive.google.com/file/d/1_m1F8Y7K8rjl1DEp_zcDK3IV-DSyaBF1/view?usp=sharing",
+                "https://drive.google.com/file/d/1t_Qi5asQZ3vywEe-Yp744EHhw_BprD-K/view?usp=sharing",
+                "https://drive.google.com/file/d/1sGFtlZuRww6lssZ2dOAoK4xK162PG3hD/view?usp=sharing",
+                "https://drive.google.com/file/d/1wPXn5xTwhBvbF81J2G1e_0x9EG3MaKne/view?usp=sharing",
+                "https://drive.google.com/file/d/1GfvXwrTtNjdCRVFmUpWsgSgwoy9NTC6X/view?usp=sharing",
+                "https://drive.google.com/file/d/1BDzhikDHpWF0TKHvwIObysZ4fQqbplPz/view?usp=sharing",
+                "https://drive.google.com/file/d/176uV-y5-mnjwJfUE1UOHdZXqFmEnDUXK/view?usp=sharing",
+                "https://drive.google.com/file/d/1R4qhAlQ40zVbN-3MU929E4XYedKnThv7/view?usp=sharing",
+                "https://drive.google.com/file/d/1yX9uk0v7bDM-6S3zjmH8ic-K9wsGBa86/view?usp=sharing",
+                "https://drive.google.com/file/d/16PbaMDnR_erCSAeqVrrG4ydENnEjERwT/view?usp=sharing",
+                "https://drive.google.com/file/d/12IWDeVLU22s9RbffloCxWCRWMZ_XYsYC/view?usp=sharing",
+                "https://drive.google.com/file/d/1TFbYReZu3EXrzMgMurEwtta0bkIpqypE/view?usp=sharing"
             ],
             "videos":[
                 {
-                    "title": "Yalova Summer House 1",
-                    "description": "Summer House branches",
-                    "videoId": "0wlT-55JaJU"
+                    "title": "Diş Çekim",
+                    "description": "Beytepe yalova branches",
+                    "videoId": "CAcwmfph4xo"
                 },
                 {
-                    "title": "Yalova Summer House 2",
-                    "description": "Summer house beaches and nature",
-                    "videoId": "0AbBlQag9VQ"
+                    "title": "360 Degree view",
+                    "description": "Beytepe yalova branches",
+                    "videoId": "sAxR1SyvP9M"
+                },
+                {
+                    "title": "Drone view",
+                    "description": "Beytepe yalova branches",
+                    "videoId": "JKuFvs-I2Po"
+                },
+                {
+                    "title": "Outside view short",
+                    "description": "Beytepe yalova branches",
+                    "videoId": "mGaWIdITyAc"
+                },
+                {
+                    "title": "Diş Çekim",
+                    "description": "Beytepe yalova branches",
+                    "videoId": "CAcwmfph4xo"
+                },
+                {
+                    "title": "Beytepe yalova IN ARABIC، أكبر مشروع في مدينة",
+                    "description": "Beytepe yalova branches",
+                    "videoId": "ceytOVpS29o"
+                },
+                {
+                    "title": "Yalova tanıtım logosuz",
+                    "description": "Beytepe yalova branches",
+                    "videoId": "Bfs5wqT4KWw"
+                },
+                {
+                    "title": "Top View",
+                    "description": "Beytepe yalova branches",
+                    "videoId": "Q1yvXwOdAEo"
                 }
             ]
         },
         {
             "reference":"PTRSV-0003",
             "id":"3",
-            "source": "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-            "title": "Third slide label",
+            "source": "https://drive.google.com/file/d/1BBt3UjrLK5BM7sZfGUG2YAjmNi1dE19P/view?usp=sharing",
+            "title": "MIA THERMAL VILLAS",
             "description": "Some representative placeholder content for the third slide.",
             "tags": [
                 "tag1",
@@ -238,7 +293,7 @@
                 {
                 
                     "name":"City",
-                    "value":"Miami"
+                    "value":"Yalova"
                 },
                 {
                     "name":"Garden",
@@ -255,39 +310,63 @@
                 "lat": "25.761681",
                 "lng": "-80.191788"
             },
-            "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "benefits":"Key benefits of this property are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "details":"There are 8 individually decorated rooms available for guests. Your bed comes with down comforters and premium bedding. There is free wireless Internet in the room. Bathrooms feature bathtubs or showers with rainfall showerheads, and hair dryers.",
+            "benefits":"Located in Termal, Mia Thermal Suits is in the mountains, within a 10-minute drive of Yalova Atatürk Mansion (Yürüyen Köşk) and Karaca Arboretum. This hotel is 5.4 mi (8.7 km) from Sea of Marmara and 5.5 mi (8.9 km) from Akrab Beach.",
             "type":"Apartment",
-            "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "overview":"Near Yalova Atatürk Mansion (Yürüyen Köşk) There is a market that serves meals to Mia Thermal Suites guests. Featured amenities include express check-out, a 24-hour front desk, and multilingual staff. For the convenience and comfort of our guests, free wireless Internet and barbecue grills are available.",
                "gallery":[
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
+                "https://drive.google.com/file/d/1BBt3UjrLK5BM7sZfGUG2YAjmNi1dE19P/view?usp=sharing",
+                "https://drive.google.com/file/d/1CQFr0O-6Ooy_NwfCOirmpVrQ7vA6wLQN/view?usp=sharing",
+                "https://drive.google.com/file/d/1Exsz1NZevnQwVlE-bL2q3oZZlcix67DD/view?usp=sharing",
+                "https://drive.google.com/file/d/1hOuyNZObGpnBy2hNwpQFaV2AZFNtBtn1/view?usp=sharing",
+                "https://drive.google.com/file/d/1SyqaJjCyEWJLM85JSVO_9c_2u4lmDEWx/view?usp=sharing",
+                "https://drive.google.com/file/d/12V6V6Xpuph7JmfeNuchNlYsSI3xRmQbU/view?usp=sharing",
+                "https://drive.google.com/file/d/1eAO3K6DdeXZMD0-B4YbiHZ2XllKc4Y4e/view?usp=sharing",
+                "https://drive.google.com/file/d/1FnvGrQrllVhyN8LA81z7gaUYcAIS1swl/view?usp=sharing",
+                "https://drive.google.com/file/d/1rGLSd17mUbiUm67ghAOOwY423_XjcrHF/view?usp=sharing",
+                "https://drive.google.com/file/d/1X0-IkDR8ts0EW0wSqMxH1MLOZp-vwtFV/view?usp=sharing",
+                "https://drive.google.com/file/d/1vzeZeZ_smZgxAmSPo9-X7CXbXabq1QXM/view?usp=sharing",
+                "https://drive.google.com/file/d/1IKasMbl5d6gcube-YABFsFNj9Km37a-u/view?usp=sharing",
+                "https://drive.google.com/file/d/1Rim3fgimtfFy7CDViINI_oJtR8FZFlgM/view?usp=sharing",
+                "https://drive.google.com/file/d/1MXIcLZZWJQiDDHS2ZOdOTJaMupFK8RVc/view?usp=sharing",
+                "https://drive.google.com/file/d/1Uyl5xf2eTG-ZgSblxFJGGzwXEoUITJ5H/view?usp=sharing",
+                "https://drive.google.com/file/d/1WJ9PXKXdkeim4ypRSCfl1Zt7Qe-seD60/view?usp=sharing"
             ],
             "videos":[
                 {
-                    "title": "Yalova Summer House 1",
+                    "title": "Mia Thermal tanitim 2",
                     "description": "Summer House branches",
-                    "videoId": "0wlT-55JaJU"
+                    "videoId": "An4oDoqAK4U"
                 },
                 {
-                    "title": "Yalova Summer House 2",
+                    "title": "Mia Thermal tanitim 2",
                     "description": "Summer house beaches and nature",
-                    "videoId": "0AbBlQag9VQ"
+                    "videoId": "LLgaLPhY8uc"
+                },
+                {
+                    "title": "Mia Thermal wide view",
+                    "description": "Summer House branches",
+                    "videoId": "3fqVe3ZhtxE"
+                },
+                {
+                    "title": "Mia Thermal PROJECT",
+                    "description": "Summer house beaches and nature",
+                    "videoId": "QeIJi9rPPtM"
+                },
+                {
+                    "title": "Mia Thermal REELS",
+                    "description": "Summer House branches",
+                    "videoId": "maSNmVer828"
+                },
+                {
+                    "title": "Mia Thermal Reels 2",
+                    "description": "Summer house beaches and nature",
+                    "videoId": "uDV93DGdWvI"
+                },
+                {
+                    "title": "Mia Thermal Reels 3",
+                    "description": "Summer house beaches and nature",
+                    "videoId": "GjHS3S07Cc0"
                 }
             ]
         },
@@ -332,7 +411,7 @@
                 {
                 
                     "name":"City",
-                    "value":"Miami"
+                    "value":"Yalova"
                 },
                 {
                     "name":"Garden",
@@ -426,7 +505,7 @@
                 {
                 
                     "name":"City",
-                    "value":"Miami"
+                    "value":"Yalova"
                 },
                 {
                     "name":"Garden",
@@ -521,7 +600,7 @@
                 {
                 
                     "name":"City",
-                    "value":"Miami"
+                    "value":"Yalova"
                 },
                 {
                     "name":"Garden",
@@ -615,7 +694,7 @@
                 {
                 
                     "name":"City",
-                    "value":"Miami"
+                    "value":"Yalova"
                 },
                 {
                     "name":"Garden",
@@ -709,7 +788,7 @@
                 {
                 
                     "name":"City",
-                    "value":"Miami"
+                    "value":"Yalova"
                 },
                 {
                     "name":"Garden",
