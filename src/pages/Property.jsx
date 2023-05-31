@@ -23,7 +23,7 @@ const Property = () => {
   //console.log(state);
 
   //Get property details from the state
-  const { title, price, reference, createdAt, updatedAt, gallery, description, overview, features, benefits, details,
+  const { title, gallery, description, overview, features, benefits, details,
      floorPlan, apartmentsPlan, threeDPlan, moreInfo, videos} = state;
   //console.log("From details:"+features);
 
