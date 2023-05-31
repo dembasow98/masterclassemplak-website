@@ -18,7 +18,6 @@ const New = () => {
   const {
     //id,
     title,
-    description,
     banner,
     createdAt,
     updatedAt,
@@ -26,6 +25,15 @@ const New = () => {
     //avatar,
     content1,
     content2,
+    content3,
+    content4,
+    content5,
+    content6,
+    content7,
+    content8,
+    content9,
+    content10,
+    content11,
     gallery,
     tags } = state;
 
@@ -38,7 +46,16 @@ const New = () => {
       setScroll(true);
     }
   }, [scroll]);
-
+ //TODO: Extract the image link from the google drive link shared link:
+ const extractImageGoogleDriveLink = (link) => {
+    const startIndex = link.indexOf("/d/") + 3; // Find the starting index of the ID
+    const endIndex = link.indexOf("/view"); // Find the ending index of the ID
+    const imageId = link.substring(startIndex, endIndex);
+    // Form the embed link of the image
+    const imageLink = `https://drive.google.com/uc?export=view&id=${imageId}`;
+    return imageLink;
+  };
+  
   return (
     <main className="bg-black">
       <Suspense fallback={<Spinner />}>
@@ -56,23 +73,68 @@ const New = () => {
           <div className="w-full flex md:w-2/3 flex-col md:px-4 lg:px-6">
             <div className='flex flex-col w-full border border-[#043334] mb-6 pb-4 rounded-xl md:items-start md:justify-start items-center justify-center'>
                 <div className="w-fit flex flex-col items-center justify-center">
-                    <img src={banner} alt={title} className="object-cover object-center" />
+                    <img src={extractImageGoogleDriveLink(banner)} alt={title} className="object-cover object-center" />
                 </div>
                 <div className="w-full flex p-4 flex-col items-center justify-center">
-                    <p className="text-md md:text-xl font-md md:font-bold text-gray-200">{description}</p>
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content1?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content1?.content}</p>
                 </div>
-                <div className="w-full flex p-4 flex-col items-center justify-center">
-                    <p className="text-sm md:text-md font-sm md:font-md lg:font-bold text-gray-300">{content1}</p>
-                </div>
+
+                
                 <div className="w-full p-4 flex flex-col items-center justify-center">
                   <Suspense fallback={<Spinner />}>
                     <Gallery images={gallery} />
                   </Suspense>
                 </div>
 
-                <div className="w-full flex flex-col items-center p-4 justify-center">
-                    <p className="text-sm md:text-md font-sm  md:font-md lg:font-bold text-gray-300">{content2}</p>
+
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content2?.title}</p>
+                  <p className="text-md md:text-xl text-gray-200">{content2?.content}</p>
                 </div>
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content3?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content3?.content}</p>
+                </div>
+
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content4?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content4?.content}</p>
+                </div>
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content5?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content5?.content}</p>
+                </div>
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content6?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content6?.content}</p>
+                </div>
+
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content7?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content7?.content}</p>
+                </div>
+
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content8?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content8?.content}</p>
+                </div>
+
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content9?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content9?.content}</p>
+                </div>
+
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content10?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content10?.content}</p>
+                </div>
+
+                <div className="w-full flex p-4 flex-col items-center justify-center">
+                  <p className="text-xl md:text-2xl font-md md:font-bold text-gray-200">{content11?.title}</p>
+                  <p className="text-md md:text-xl  text-gray-200">{content11?.content}</p>
+                </div>
+                
             </div>
             <div className="w-full flex flex-col items-center md:mt-4 px-3 justify-center">
               <Suspense fallback={<Spinner />}>
