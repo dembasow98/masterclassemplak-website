@@ -23,9 +23,9 @@ const Head = ({title, tags, createdAt, updatedAt}) => {
 
         <section className = "flex flex-row gap-y-1 justify-between  px-10 sm:px-20 items-center">
           <div className="">
-            <p className="text-sm md:font-bold text-gray-300 "><span className="text-green-700">Created: </span>{createdAt}</p>
+            <p className="text-sm md:font-bold text-gray-300 "><span className="text-[#043334]">Created: </span>{createdAt}</p>
             {
-              createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-900 "><span className="text-green-700">Updated: </span>{updatedAt}</p>
+              createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-900 "><span className="text-[#043334]">Updated: </span>{updatedAt}</p>
             }
           </div>
           <div className="flex  border rounded-md flex-col justify-center items-center px-4">

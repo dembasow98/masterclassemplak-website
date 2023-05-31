@@ -2,361 +2,398 @@
     "blogs": [
         {
             "id": "1",
-            "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(21).jpg",
+            "banner": "https://drive.google.com/file/d/1Rim3fgimtfFy7CDViINI_oJtR8FZFlgM/view?usp=sharing",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "First Blog Post",
-           
-            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+            "title": "The Prospects of Property Investment in Turkey",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+               
+                "realestate",
+                "istanbul",
+                "antalya",
+                "izmir",
+                "bursa",
+                "ankara"
+                
             ],
-            "content1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "content2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem upsem",
+            "content1":{
+                "title":"Introduction:",
+                "content":"When it comes to property investment, Turkey has emerged as a promising destination in recent years. With its vibrant economy, beautiful landscapes, and rich cultural heritage, Turkey offers a favorable environment for both local and international investors. In this blog post, we will explore the reasons why property investment in Turkey is gaining popularity and discuss the key factors that make it an attractive option for investors."
+            },
+            "content2":{
+                "title":"Growing Economy:",
+                "content":"Turkey's economy has experienced remarkable growth over the past decade, making it one of the fastest-growing economies in the world. The government's focus on infrastructure development, increased foreign investment, and a thriving tourism industry have contributed to this growth. A strong and stable economy creates a favorable environment for property investment, ensuring a potential increase in property values over time."
+            },
+            "content3":{
+                "title":"Affordable Real Estate:",
+                "content":"Compared to many other European countries, property prices in Turkey are relatively affordable. This affordability factor presents an excellent opportunity for investors looking to enter the market or expand their portfolio. Whether it's a luxury villa in the coastal regions, a city apartment, or a commercial property, there are options to suit various budgets and investment goals."
+            },
+            "content4":{
+                "title":"Tourism and Rental Potential:",
+                "content":"Turkey is a popular tourist destination, attracting millions of visitors each year. This thriving tourism industry provides excellent rental potential for property investors. From coastal resorts like Antalya and Bodrum to historical cities like Istanbul and Cappadocia, there is a high demand for short-term vacation rentals. Investing in properties that cater to tourists can yield attractive rental returns, especially during peak seasons."
+            },
+            "content5":{
+                "title":"Citizenship by Investment Program:",
+                "content":"Turkey's Citizenship by Investment Program has further enhanced its appeal to foreign investors. By investing in Turkish real estate with a minimum value threshold, investors can become eligible for Turkish citizenship. This program offers investors and their families a range of benefits, including visa-free travel to many countries and access to a vibrant and diverse culture."
+            },
+            "content6":{
+                "title":"Infrastructure Development:",
+                "content":"The Turkish government has been actively investing in infrastructure development, including transportation networks, healthcare facilities, and educational institutions. These developments enhance the overall quality of life and make Turkey an attractive place to live, work, and invest. Investors can leverage this infrastructure growth by targeting areas with upcoming projects, which often lead to increased property values and rental demand."
+            },
+            "content7":{
+                "title":"Cultural Heritage and Natural Beauty:",
+                "content":"Turkey's unique blend of Eastern and Western cultures, coupled with its breathtaking natural beauty, makes it an appealing destination for property investment. From ancient historical sites to stunning coastlines, Turkey offers a diverse range of landscapes and experiences. Properties in culturally significant areas or locations with natural beauty can have high demand among tourists, investors, and lifestyle buyers."
+            },
+            "content8":{
+                "title":"Conclusion:",
+                "content":"Property investment in Turkey presents an enticing opportunity for investors seeking favorable returns and long-term growth potential. With a growing economy, affordable real estate, thriving tourism, and government incentives, Turkey offers a compelling investment environment. However, as with any investment, it's essential to conduct thorough research, work with reputable agents, and consider factors such as location, market trends, and legal requirements. By making informed decisions, investors can capitalize on the prospects of property investment in Turkey and unlock the benefits of this dynamic market."
+            },
+            "content9":{
+                "title":"Note: ",
+                "content":"This is a sample blog post. Before publishing any content, it's important to conduct thorough research, verify information, and tailor the content to your specific audience and purpose."
+            },
+            "content10":{
+                "title":"",
+                "content":""
+            },
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
             "gallery":[
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(32).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(34).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(36).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(37).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(38).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(48).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(49).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(50).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(51).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(52).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(53).jpg"
+                "https://drive.google.com/file/d/1Rim3fgimtfFy7CDViINI_oJtR8FZFlgM/view?usp=sharing",
+                "https://drive.google.com/file/d/1MXIcLZZWJQiDDHS2ZOdOTJaMupFK8RVc/view?usp=sharing",
+                "https://drive.google.com/file/d/1Uyl5xf2eTG-ZgSblxFJGGzwXEoUITJ5H/view?usp=sharing",
+                "https://drive.google.com/file/d/1WJ9PXKXdkeim4ypRSCfl1Zt7Qe-seD60/view?usp=sharing"
             ]
         },
         {
             "id": "2",
-            "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg",
+            "banner": "https://drive.google.com/file/d/1hOuyNZObGpnBy2hNwpQFaV2AZFNtBtn1/view?usp=sharing",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Second Blog Post",
-            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+            "title": "Understanding the Current Real Estate Market in Turkey",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "property",
+                "turkiye",
+                "investment",
+                "realestate",
+                "istanbul",
+                "antalya"
+                
             ],
-            "content1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "content2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem upsem ident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "content1":{
+                "title":"Introduction:",
+                "content":"The real estate market in Turkey has been a topic of interest for both local and international investors. In this blog post, we will delve into the current state of the real estate market in Turkey, analyzing key trends, factors influencing the market, and providing insights for potential investors."
+            },
+            "content2":{
+                "title":"1. Market Overview:",
+                "content":"The Turkish real estate market has been experiencing steady growth over the years. Factors such as a growing economy, increasing demand for housing, and government incentives have contributed to the market's positive trajectory. Despite occasional fluctuations, the overall trend indicates a favorable market for property investment."
+            },
+        
+            "content3":{
+                "title":"2. Rising Property Values:",
+                "content":"Property values in Turkey have shown consistent growth, particularly in popular cities like Istanbul, Ankara, and Izmir. Factors such as limited supply, urbanization, and infrastructure development have led to increased demand, resulting in upward price movements. This rise in property values presents potential opportunities for investors looking to maximize their returns."
+            },
+            "content4":{
+                "title":"3. Foreign Investment:",
+                "content":"Turkey has been actively encouraging foreign investment in its real estate market. The government's efforts to simplify regulations and introduce citizenship programs have attracted foreign buyers. Additionally, favorable exchange rates and affordable property prices make Turkey an attractive destination for international investors seeking value for their investments."
+            },
+            "content5":{
+                "title":"4. Regional Variations:",
+                "content":"While the overall real estate market in Turkey is promising, it's essential to consider regional variations. Different cities and regions may experience varying levels of demand, growth rates, and market dynamics. Conducting thorough market research and seeking expert advice can help investors identify specific areas with high growth potential and investment opportunities."
+            },
+            "content6":{
+                "title":"5. Rental Market:",
+                "content":"Turkey's rental market is also thriving, fueled by domestic and international demand. The growing population, increasing urbanization, and a rising number of expatriates contribute to a strong rental market. Investors can explore rental opportunities in popular tourist destinations, student cities, and areas with high job prospects to generate steady rental income."
+            },
+            "content7":{
+                "title":"Conclusion:",
+                "content":"Turkey's unique blend of Eastern and Western cultures, coupled with its breathtaking natural beauty, makes it an appealing destination for property investment. From ancient historical sites to stunning coastlines, Turkey offers a diverse range of landscapes and experiences. Properties in culturally significant areas or locations with natural beauty can have high demand among tourists, investors, and lifestyle buyers."
+            },
+            "content8":{
+                "title":"Conclusion:",
+                "content":"The real estate market in Turkey continues to show promising signs of growth and investment potential. With a growing economy, rising property values, and government initiatives to attract foreign investment, the market offers opportunities for investors seeking long-term returns. However, it's crucial for investors to conduct thorough market analysis, assess regional variations, and work with reputable agents or advisors to make informed investment decisions."
+            },
+           
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
-            
-           
             "gallery":[
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(32).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(34).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(36).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(37).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(38).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(48).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(49).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(50).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(51).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(52).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(53).jpg"
+                "https://drive.google.com/file/d/1SyqaJjCyEWJLM85JSVO_9c_2u4lmDEWx/view?usp=sharing",
+                "https://drive.google.com/file/d/12V6V6Xpuph7JmfeNuchNlYsSI3xRmQbU/view?usp=sharing",
+                "https://drive.google.com/file/d/1eAO3K6DdeXZMD0-B4YbiHZ2XllKc4Y4e/view?usp=sharing",
+                "https://drive.google.com/file/d/1FnvGrQrllVhyN8LA81z7gaUYcAIS1swl/view?usp=sharing",
+                "https://drive.google.com/file/d/1rGLSd17mUbiUm67ghAOOwY423_XjcrHF/view?usp=sharing"
             ]
         },
         {
             "id":"3",
-            "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg",
+            "banner": "https://drive.google.com/file/d/1vzeZeZ_smZgxAmSPo9-X7CXbXabq1QXM/view?usp=sharing",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Third Blog Post",
+            "title": "Exploring the Hottest Cities for Real Estate Investment in 2023",
            
-            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "property",
+                "turkiye",
+                "investment",
+                "realestate"                
             ],
-            "content1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "content2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem upsem ident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "content1":{
+                "title":"Introduction:",
+                "content":"As the year 2023 unfolds, certain cities in Turkey are emerging as hotspots for real estate investment. In this blog post, we will highlight some of the trending cities that offer promising investment opportunities. Whether you are a seasoned investor or a first-time buyer, these cities provide a favorable environment for long-term growth and attractive returns."
+            },
+            "content2":{
+                "title":"1. Istanbul:",
+                "content":"Istanbul, the vibrant metropolis spanning Europe and Asia, continues to be a top destination for real estate investment. The city's strategic location, cultural significance, and ongoing infrastructure projects make it an attractive choice. Areas like Beylikduzu, Kadikoy, and Sisli are witnessing significant development and offer diverse options for investors, including residential, commercial, and mixed-use properties."
+            },
+            "content3":{
+                "title":"2. Antalya:",
+                "content":"Antalya, located on Turkey's Mediterranean coast, is renowned for its stunning beaches, historical sites, and a booming tourism industry. The city's popularity among both domestic and international tourists has led to a growing demand for vacation rentals and second homes. Investors can explore areas like Lara, Konyaalti, and Belek for lucrative opportunities in the tourism and hospitality sectors."
+            },
+            "content4":{
+                "title":"3. Izmir:",
+                "content":"Izmir, Turkey's third-largest city, is experiencing rapid urbanization and economic growth. Its strategic location, expanding infrastructure, and proximity to popular tourist destinations make it an attractive investment choice. Areas like Alsancak, Konak, and Bornova offer a mix of residential and commercial properties, catering to a diverse range of investment preferences."
+            },
+            "content5":{
+                "title":"4. Bursa:",
+                "content":"Bursa, known for its rich history and natural beauty, is becoming increasingly popular among investors. The city's well-developed industrial sector and proximity to Istanbul make it an appealing choice for those seeking affordable real estate options. Areas like Nilufer and Osmangazi offer potential for capital appreciation and rental income, particularly in residential and commercial segments."
+            },
+            "content6":{
+                "title":"5. Ankara:",
+                "content":"Ankara, the capital city of Turkey, offers a stable and mature real estate market. The city's strong economy, government institutions, and educational centers attract both local and international investors. Areas like Cankaya, Kavaklidere, and Gaziosmanpasa present opportunities for residential and commercial investments, including office spaces and student housing."
+            },
+            "content7":{
+                "title":"6. Yalova:",
+                "content":"Yalova, a small city located on the Marmara Sea, is emerging as a popular destination for real estate investment. The city's proximity to Istanbul and Bursa, along with its natural beauty, make it an attractive choice. Areas like Cinarcik, Termal, and Armutlu offer a mix of residential and commercial properties, including villas, apartments, and hotels."
+            },
+            "content8":{
+                "title":"7. Trabzon:",
+                "content":"Trabzon, a city on the Black Sea coast, is gaining popularity among investors. The city's strategic location, natural beauty, and ongoing infrastructure projects make it an attractive choice. Areas like Ortahisar, Yomra, and Akcaabat offer a mix of residential and commercial properties, including villas, apartments, and hotels."
+            },
+            "content9":{
+                "title":"8. Bodrum:",
+                "content":"Bodrum, a popular tourist destination on the Aegean coast, is becoming increasingly popular among investors. The city's natural beauty, vibrant culture, and growing tourism industry make it an attractive choice. Areas like Yalikavak, Turgutreis, and Gumusluk offer a mix of residential and commercial properties, including villas, apartments, and hotels."
+            },
+            "content10":{
+                "title":"Conclusion:",
+                "content":"Investing in real estate is a dynamic and rewarding endeavor, and these trending cities in Turkey provide exciting prospects for investors in 2023. Istanbul's allure as a global city, Antalya's thriving tourism industry, Izmir's urban growth, Bursa's affordability, and Ankara's stability all make them worth considering for investment opportunities. However, it's crucial to conduct thorough market research, understand local regulations, and seek professional guidance to make informed investment decisions that align with your goals and risk appetite."
+            },
+            "content11":{
+                "title":"Note: ",
+                "content":"These are sample blog posts. Before publishing any content, it's important to conduct thorough research, verify information, and tailor the content to your specific audience and purpose."
+            },
+
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
             
            
             "gallery":[
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(32).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(34).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(36).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(37).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(38).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(48).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(49).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(50).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(51).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(52).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(53).jpg"
+                "https://drive.google.com/file/d/1rGLSd17mUbiUm67ghAOOwY423_XjcrHF/view?usp=sharing",
+                "https://drive.google.com/file/d/1X0-IkDR8ts0EW0wSqMxH1MLOZp-vwtFV/view?usp=sharing",
+                "https://drive.google.com/file/d/1vzeZeZ_smZgxAmSPo9-X7CXbXabq1QXM/view?usp=sharing",
+                "https://drive.google.com/file/d/1IKasMbl5d6gcube-YABFsFNj9Km37a-u/view?usp=sharing",
+                "https://drive.google.com/file/d/1Rim3fgimtfFy7CDViINI_oJtR8FZFlgM/view?usp=sharing",
+                "https://drive.google.com/file/d/1MXIcLZZWJQiDDHS2ZOdOTJaMupFK8RVc/view?usp=sharing",
+                "https://drive.google.com/file/d/1Uyl5xf2eTG-ZgSblxFJGGzwXEoUITJ5H/view?usp=sharing"
             ]
         },
         {
             "id": "4",
-            "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(24).jpg",
+            "banner": "https://drive.google.com/file/d/1SyqaJjCyEWJLM85JSVO_9c_2u4lmDEWx/view?usp=sharing",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Fourth Blog Post",
+            "title": "Navigating Turkey with Ease: Essential Apps & Websites for Expats",
            
-            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "property",
+                "turkiye",
+                "investment",
+                "realestate",
+                "istanbul",
+                "antalya",
+                "izmir",
+                "bursa",
+                "ankara",
+                "trabzon",
+                "bodrum"
             ],
-            "content1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "content2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem upsemident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "content1":{
+                "title":"Introduction:",
+                "content":"Moving to a new country can be both exciting and overwhelming, especially when it comes to adapting to a new environment. In this blog post, we will explore a curated list of apps and websites that can greatly assist foreigners when relocating to Turkey. From language learning to transportation and cultural experiences, these digital tools will help expats settle in and make the most of their time in Turkey."
+            },
+            "content2":{
+                "title":"1. Duolingo:",
+                "content":"Duolingo is a free language learning app that offers courses in 38 languages, including Turkish. The app uses gamification to make learning fun and engaging. It also offers a variety of features, such as flashcards, quizzes, and audio recordings, to help users learn new words and phrases. Duolingo is available on iOS and Android devices. One of the first challenges when moving to a new country is language proficiency. Duolingo is a popular language learning app that offers Turkish language courses. Whether you're a beginner or looking to enhance your existing skills, Duolingo provides interactive lessons and exercises to help you communicate effectively with locals and immerse yourself in the Turkish culture."
+            },
+            "content3":{
+                "title":"2. Sahibinden:",
+                "content":"Finding a place to live is a priority for any expat. Sahibinden is a widely-used online platform for real estate and property rentals in Turkey. The website and mobile app allow you to search for apartments, houses, or commercial spaces based on your preferences and budget. With detailed descriptions, photos, and contact information, Sahibinden simplifies the process of finding your ideal accommodation."
+            },
+            "content4":{
+                "title":"3. Yemeksepeti:",
+                "content":"Yemeksepeti is a popular food delivery app that offers a wide range of restaurants and cuisines across Turkey. Whether you're craving traditional Turkish dishes or international flavors, this app allows you to explore nearby restaurants, check reviews, and conveniently order food for delivery or pickup. Yemeksepeti is a go-to resource for satisfying your taste buds while navigating the local culinary scene. "
+            },
+            "content5":{
+                "title":"4. Moovit:",
+                "content":"Public transportation is an integral part of daily life in Turkey. Moovit is a comprehensive app that provides real-time information and routes for buses, trams, metros, and ferries in major Turkish cities. With accurate schedules, live updates, and user-friendly navigation, Moovit ensures a smooth commute and helps expats get around the city hassle-free."
+            },
+            "content6":{
+                "title":"5. Getir:",
+                "content":"Getir is a popular delivery app that offers a wide range of products, including groceries, snacks, beverages, and household items. With a few taps, you can order your favorite products and have them delivered to your doorstep in minutes. Getir is available on iOS and Android devices. Getir is a convenient app that allows you to order groceries and other products for delivery. With a wide range of items and fast delivery, Getir is a great resource for expats who want to save time and avoid the hassle of going to the store."
+            },
+            "content7":{
+                "title":"6. BiTaksi:",
+                "content":"BiTaksi is a popular taxi app that allows you to book a taxi in seconds. With a few taps, you can request a ride and track your driver's location in real-time. BiTaksi is available on iOS and Android devices. BiTaksi is a convenient app that allows you to book a taxi in seconds. With a few taps, you can request a ride and track your driver's location in real-time. BiTaksi is available on iOS and Android devices."
+            },
+            "content8":{
+                "title":"7. Expat.com:",
+                "content":"Expat.com is a valuable online community and resource platform for expats moving to Turkey. It offers a wealth of information, forums, and articles related to living, working, and integrating into Turkish society. From visa procedures to cultural tips, Expat.com connects you with fellow expats and provides insights that can enhance your expat experience in Turkey."
+            },
+            "content9":{
+                "title":"8. Culture Trip:",
+                "content":"Exploring the rich cultural heritage of Turkey is a must for any expat. Culture Trip is a website and app that offers curated travel guides, articles, and recommendations for local attractions, hidden gems, and immersive experiences in various Turkish cities. From historical sites to vibrant markets and authentic dining, Culture Trip helps you discover the true essence of Turkey."
+
+            },
+            "content10":{
+                "title":"Conclusion:",
+                "content":"Moving to a new country comes with its own set of challenges, but with the right digital tools, navigating Turkey becomes much easier for expats. Whether it's learning the language, finding accommodation, ordering food, planning your commute, connecting with other expats, or immersing yourself in the local culture, these apps and websites provide invaluable support. Embrace technology and make the most of these resources to enhance your experience and create a smooth transition as you embark on your new journey in Turkey."
+            },
+            "content11":{
+                "title":"Note:",
+                "content":"It's recommended to verify the availability and reliability of these apps and websites at the time of reading and to explore other options based on personal preferences and specific needs."
+            },
+
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
             
             
             "gallery":[
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(32).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(34).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(36).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(37).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(38).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(48).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(49).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(50).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(51).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(52).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(53).jpg"
+                "https://drive.google.com/file/d/1hOuyNZObGpnBy2hNwpQFaV2AZFNtBtn1/view?usp=sharing",
+                "https://drive.google.com/file/d/1SyqaJjCyEWJLM85JSVO_9c_2u4lmDEWx/view?usp=sharing",
+                "https://drive.google.com/file/d/12V6V6Xpuph7JmfeNuchNlYsSI3xRmQbU/view?usp=sharing",
+                "https://drive.google.com/file/d/1eAO3K6DdeXZMD0-B4YbiHZ2XllKc4Y4e/view?usp=sharing",
+                "https://drive.google.com/file/d/1FnvGrQrllVhyN8LA81z7gaUYcAIS1swl/view?usp=sharing",
+                "https://drive.google.com/file/d/1rGLSd17mUbiUm67ghAOOwY423_XjcrHF/view?usp=sharing"
             ]
         },
         {
             "id": "5",
-            "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(25).jpg",
+            "banner": "https://drive.google.com/file/d/1Rim3fgimtfFy7CDViINI_oJtR8FZFlgM/view?usp=sharing",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Fifth Blog Post",
+            "title": "Unveiling Istanbul's Hidden Gems: The Most Valuable Residential Lands",
            
-            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "property",
+                "turkiye",
+                "izmir",
+                "bursa",
+                "ankara",
+                "trabzon",
+                "bodrum"
             ],
-            "content1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "content2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem upsemident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "content1":{
+                "title":"Introduction:",
+                "content":"Istanbul, a city that bridges Europe and Asia, is not only a cultural and historical hub but also a thriving real estate market. In this blog post, we will take a closer look at some of the most valuable residential lands in Istanbul. These areas are not only highly sought after by investors but also offer a high quality of life, making them ideal for those looking to settle down or make a sound real estate investment."
+            },
+            "content2":{
+                "title":"1. Beşiktaş:",
+                "content":"Situated on the European side of Istanbul, Beşiktaş is a prestigious neighborhood known for its rich history and stunning views of the Bosphorus. The district is home to upscale residential complexes, waterfront mansions, and luxury apartments. With its proximity to business districts, cultural attractions, and high-end shopping areas, Beşiktaş has become a prime location for both local and international buyers."
+            },
+            "content3":{
+                "title":"2. Şişli:",
+                "content":"Located in the heart of Istanbul, Şişli offers a vibrant city lifestyle combined with excellent transportation connections. This district boasts a mix of modern skyscrapers, historic buildings, and residential complexes. Şişli is known for its prestigious shopping malls, trendy cafes, and bustling commercial areas. The demand for residential properties in Şişli is consistently high due to its central location and diverse housing options."
+            },
+            "content4":{
+                "title":"3. Bebek:",
+                "content":"Nestled along the Bosphorus, Bebek is a picturesque neighborhood that exudes charm and elegance. This upscale area is known for its waterfront properties, luxurious villas, and spacious apartments. Bebek offers a peaceful and tranquil atmosphere while being in close proximity to the city center. Residents of Bebek enjoy stunning sea views, a vibrant social scene, and access to various amenities, making it a highly desirable location for luxury real estate."
+            },
+            "content5":{
+                "title":"4. Kadıköy:",
+                "content":"Located on the Asian side of Istanbul, Kadıköy is a dynamic district known for its rich cultural heritage and vibrant lifestyle. The area offers a mix of traditional and modern residential properties, catering to a diverse range of preferences. Kadıköy is a melting pot of art, entertainment, and culinary experiences, with a thriving food scene and bustling markets. The district's proximity to transportation hubs and its unique character make it an attractive choice for both investors and residents."
+            },
+            "content6":{
+                "title":"5. Beyoğlu:",
+                "content":"Beyoğlu is a cosmopolitan district that offers a unique blend of history and modernity. The area is home to a diverse range of residential properties, from historic buildings to modern apartments. Beyoğlu is known for its vibrant nightlife, trendy cafes, and cultural attractions. The district's central location and excellent transportation connections make it a popular choice for those looking to invest in Istanbul real estate."
+            },
+            "content7":{
+                "title":"Conclusion:",
+                "content":"Istanbul is a city of endless possibilities, and its residential lands reflect its rich tapestry of culture, history, and modernity. The areas mentioned above are just a glimpse into the diverse and valuable real estate offerings in Istanbul. Whether you're seeking a luxurious waterfront property, a central city apartment, or a culturally vibrant neighborhood, Istanbul has something to offer for every taste and investment objective. Explore these hidden gems and discover the exceptional residential lands that make Istanbul a truly remarkable city."
+            },
+            "content8":{
+                "title":"Disclaimer: ",
+                "content":"The value and availability of residential lands in Istanbul may vary over time. It is advisable to conduct thorough research and consult with real estate professionals to make informed investment decisions based on current market conditions."
+            },
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
             
             
             "gallery":[
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(32).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(34).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(36).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(37).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(38).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(48).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(49).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(50).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(51).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(52).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(53).jpg"
+                "https://drive.google.com/file/d/1vzeZeZ_smZgxAmSPo9-X7CXbXabq1QXM/view?usp=sharing",
+                "https://drive.google.com/file/d/1IKasMbl5d6gcube-YABFsFNj9Km37a-u/view?usp=sharing",
+                "https://drive.google.com/file/d/1Rim3fgimtfFy7CDViINI_oJtR8FZFlgM/view?usp=sharing",
+                "https://drive.google.com/file/d/1MXIcLZZWJQiDDHS2ZOdOTJaMupFK8RVc/view?usp=sharing",
+                "https://drive.google.com/file/d/1Uyl5xf2eTG-ZgSblxFJGGzwXEoUITJ5H/view?usp=sharing",
+                "https://drive.google.com/file/d/1WJ9PXKXdkeim4ypRSCfl1Zt7Qe-seD60/view?usp=sharing"
             ]
         },
         {
             "id": "6",
-            "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(26).jpg",
+            "banner": "https://drive.google.com/file/d/1hOuyNZObGpnBy2hNwpQFaV2AZFNtBtn1/view?usp=sharing",
             "author":"Demba Sow",
             "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Sixth Blog Post",
+            "title": "Unleashing the Potential: Real Estate Investment Returns in Turkey Compared to Other Investments",
            
-
-            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "property",
+                "turkiye",
+                "investment",
+                "realestate",
+                "istanbul",
+                "antalya",
+                "izmir"
             ],
-            "content1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "content2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem upsemident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "createdAt": "2018-01-01",
-            "updatedAt": "2018-01-01",
-            
-            
-            "gallery":[
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(32).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(34).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(36).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(37).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(38).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(48).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(49).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(50).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(51).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(52).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(53).jpg"
-            ]
-        },
-        {
-            "id": "7",
-            "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(27).jpg",
-            "author":"Demba Sow",
-            "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Seventh Blog Post",
-           
-            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
-            "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
-            ],
-            "content1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "content2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem upsem ident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "content1":{
+                "title":"Introduction:",
+                "content":"When it comes to investment opportunities, real estate has long been considered a lucrative option. In this blog post, we will delve into the comparison of real estate investment returns in Turkey with other popular investment avenues. Understanding the potential returns and benefits of real estate investments in Turkey can help investors make informed decisions and diversify their portfolios."
+            },
+            "content2":{
+                "title":"1. Real Estate vs. Stocks:",
+                "content":"Investing in real estate offers several advantages over stock market investments. Real estate is a tangible asset that provides stability and can generate steady cash flow through rental income. Additionally, real estate investments tend to be less volatile compared to stocks, making them a more secure long-term investment option. While stock market returns can fluctuate based on market conditions and economic factors, real estate investments in Turkey have demonstrated a consistent appreciation over time."
+            },
+            "content3":{
+                "title":"2. Real Estate vs. Bonds:",
+                "content":"Bonds are often regarded as safe investments with predictable returns. However, the returns from bonds may be relatively lower compared to real estate investments. Real estate investments have the potential to provide higher returns through a combination of rental income and property value appreciation. Furthermore, real estate investments offer the opportunity for leveraging, allowing investors to finance a portion of the property's cost and potentially amplify their returns."
+            },
+            "content4":{
+                "title":"3. Real Estate vs. Savings Accounts:",
+                "content":"Savings accounts provide a secure and easily accessible way to save money. However, the interest rates offered by savings accounts are typically lower than the returns from real estate investments. Real estate investments in Turkey have the potential to generate substantial returns over time, especially in high-demand areas or during periods of economic growth. Investing in real estate allows individuals to diversify their assets and potentially outperform the returns from traditional savings accounts."
+            },
+            "content5":{
+                "title":"4. Real Estate vs. Cryptocurrency:",
+                "content":"Cryptocurrency investments have gained popularity in recent years due to their high volatility and potential for significant returns. However, they also come with a higher level of risk and uncertainty. Real estate investments, on the other hand, offer stability and a tangible asset that can appreciate in value over time. While cryptocurrency investments may offer the possibility of quick gains, real estate investments in Turkey provide a more reliable and predictable long-term investment opportunity."
+            },
+            "content6":{
+                "title":"Conclusion:",
+                "content":"When comparing real estate investment returns in Turkey with other investment options, it becomes evident that real estate offers a unique set of advantages. With its potential for rental income, property appreciation, and long-term stability, real estate investments in Turkey can be a valuable addition to an investor's portfolio. While other investment avenues may have their own merits, the tangible nature of real estate and its ability to provide consistent returns make it a favorable choice for those seeking financial growth and wealth accumulation."
+            },
+            "content7":{
+                "title":"Note: ",
+                "content":"Investment decisions should be made based on individual risk tolerance, financial goals, and thorough market analysis. It is recommended to consult with a financial advisor or investment professional before making any investment decisions."
+            },
+          
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
             
-           
-            "gallery":[
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(32).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(34).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(36).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(37).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(38).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(48).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(49).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(50).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(51).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(52).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(53).jpg"
-            ]
-        },
-        {
-            "id": "8",
-            "banner": "https://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg",
-            "author":"Demba Sow",
-            "avatar":"https://dembasow98.github.io/images/das-about.jpg",
-            "title": "Eighth Blog Post",
-        
-            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
-            "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
-            ],
-            "content1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "content2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem upsem  ident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "createdAt": "2018-01-01",
-            "updatedAt": "2018-01-01",
             
-           
             "gallery":[
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(32).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(34).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(36).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(37).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(38).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(41).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(42).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(43).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(44).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(48).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(49).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(50).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(51).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(52).jpg",
-                "https://mdbootstrap.com/img/Photos/Slides/img%20(53).jpg"
+                "https://drive.google.com/file/d/1BBt3UjrLK5BM7sZfGUG2YAjmNi1dE19P/view?usp=sharing",
+                "https://drive.google.com/file/d/1CQFr0O-6Ooy_NwfCOirmpVrQ7vA6wLQN/view?usp=sharing",
+                "https://drive.google.com/file/d/1Exsz1NZevnQwVlE-bL2q3oZZlcix67DD/view?usp=sharing",
+                "https://drive.google.com/file/d/1hOuyNZObGpnBy2hNwpQFaV2AZFNtBtn1/view?usp=sharing",
+                "https://drive.google.com/file/d/1SyqaJjCyEWJLM85JSVO_9c_2u4lmDEWx/view?usp=sharing"
             ]
         }
+        
+        
     ]
 }

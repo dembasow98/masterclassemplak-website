@@ -11,6 +11,15 @@ const BlogCard = ({id,
     avatar,
     content1,
     content2,
+    content3,
+    content4,
+    content5,
+    content6,
+    content7,
+    content8,
+    content9,
+    content10,
+    content11,
     gallery,
     tags}) => {
     
@@ -27,6 +36,15 @@ const BlogCard = ({id,
         avatar,
         content1,
         content2,
+        content3,
+        content4,
+        content5,
+        content6,
+        content7,
+        content8,
+        content9,
+        content10,
+        content11,
         gallery,
         tags
     };
@@ -43,18 +61,26 @@ const BlogCard = ({id,
             .replace(/^-+/, '') // Trim - from start of text
             .replace(/-+$/, ''); // Trim - from end of text
     };
-
+  //TODO: Extract the image link from the google drive link shared link:
+  const extractImageGoogleDriveLink = (link) => {
+    const startIndex = link.indexOf("/d/") + 3; // Find the starting index of the ID
+    const endIndex = link.indexOf("/view"); // Find the ending index of the ID
+    const imageId = link.substring(startIndex, endIndex);
+    // Form the embed link of the image
+    const imageLink = `https://drive.google.com/uc?export=view&id=${imageId}`;
+    return imageLink;
+  };
 
 
     return (
        
         <div  className='flex flex-col  content-center justify-center sm:flex-row  md:flex-col lg:flex-row rounded-lg border  bg-gray-900 border-gray-700'>
-            <div className="flex w-full">
+            <div className="flex    ">
                 <Link 
                     to= {`/blogs/${slugify(title)}`}  
                     state = {blog}
                 >
-                <img className="w-full rounded-none" src = {banner} alt="Jese Leos avatar" />
+                <img className="max-w-[500px] max-h-[300px]  rounded-none" src = {extractImageGoogleDriveLink(banner)} alt="Jese Leos avatar" />
                 </Link>
             </div>
             <article className="flex flex-col p-6">
@@ -65,9 +91,9 @@ const BlogCard = ({id,
                     </span>
                     
                     <div className="flex flex-col justify-start ">
-                    <p className="text-sm md:font-bold text-gray-100"><span className="text-green-700">Created: </span>{createdAt}</p>
+                    <p className="text-sm md:font-bold text-gray-100"><span className="text-[#043334]">Created: </span>{createdAt}</p>
                     {
-                        createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-100"><span className="text-green-700">Updated: </span>{updatedAt}</p>
+                        createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-100"><span className="text-[#043334]">Updated: </span>{updatedAt}</p>
                     }
                     </div>
                 </div>
@@ -80,7 +106,7 @@ const BlogCard = ({id,
                     </Link>
                 </h2>
                 <p className="mb-5 font-light text-gray-400">
-                    {description}
+                    {content1?.content.substring(0, 200) + "..."}
                 </p>
                 <div className="flex  justify-between items-center">
                     <div className="flex items-center space-x-4">
