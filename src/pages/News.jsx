@@ -43,7 +43,6 @@ const News = () => {
                             key={index}
                             id={item.id}
                             title={item.title}
-                            description={item.description}
                             banner={item.banner}
                             createdAt={item.createdAt}
                             updatedAt={item.updatedAt}
@@ -51,6 +50,15 @@ const News = () => {
                             avatar={item.avatar}
                             content1={item.content1}
                             content2={item.content2}
+                            content3={item.content3}
+                            content4={item.content4}
+                            content5={item.content5}
+                            content6={item.content6}
+                            content7={item.content7}
+                            content8={item.content8}
+                            content9={item.content9}
+                            content10={item.content10}
+                            content11={item.content11}
                             gallery={item.gallery}
                             tags={item.tags}
                         />
