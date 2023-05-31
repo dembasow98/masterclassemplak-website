@@ -17,7 +17,7 @@
             "moreInfo":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
-            "price": "$ 1,000,000",
+            "price": "To Be Discussed",
             "arabic":"https://drive.google.com/file/d/1YHfcskMgk55eVVOlDLTzZiwmS33g6KcK/view?usp=sharing",
             "features":[
                 {
@@ -118,7 +118,7 @@
             ],
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
-            "price": "$ 2,000,000",
+            "price": "To Be Discussed",
             "floorPlan": "https://drive.google.com/file/d/1pWC1UZjWZeEbhjn2eDwciiAjuFsAnf2y/view?usp=sharing",
             "apartmentsPlan":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
             "threeDPlan":"http://emlakseyret360.com/beytturk/beyttepeyalova360/",
@@ -257,43 +257,42 @@
             "id":"3",
             "source": "https://drive.google.com/file/d/1BBt3UjrLK5BM7sZfGUG2YAjmNi1dE19P/view?usp=sharing",
             "title": "MIA THERMAL VILLAS",
-            "description": "Some representative placeholder content for the third slide.",
+            "description": "Mia Thermal Project for best property in Turkey",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "mia thermal",
+                "turkiye"
             ],
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
-            "price": "$ 3,000,000",
+            "price": "To Be Discussed",
             "features":[
                 {
                     
                     "name":"Bedrooms",
-                    "value":"3"
+                    "value":"yes"
                 },
                 {
                     "name":"Parking",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                 
                     "name":"Bathrooms",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                     "name":"Toilets",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                   
                     "name":"Area",
-                    "value":"120m2"
+                    "value":"To be discussed"
                 },
                 {
                 
                     "name":"City",
-                    "value":"Yalova"
+                    "value":"Istanbul"
                 },
                 {
                     "name":"Garden",
@@ -371,47 +370,52 @@
             ]
         },
         {
+           
             "reference":"PTRSV-0004",
             "id": "4",
-            "source": "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-            "title": "Fourth slide label",
-            "description": "Some representative placeholder content for the fourth slide.",
+            "source": "https://drive.google.com/file/d/1Q02qBQsgVDSwu4lEhVi9AlsCPygTKcL7/view?usp=sharing",
+            "title": "LAKE CITY PROJECT",
+            "description": "Lake city properties investment project",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "mia thermal",
+                "property",
+                "turkiye"
             ],
+            "floorPlan": "https://drive.google.com/file/d/1xLzRhx_nPYP7KOdbjEIS9MKVxJkQkCfh/view?usp=sharing",
+            "apartmentsPlan":"https://drive.google.com/file/d/1zkU_PgAtCgkFhMlqoI2lJVmpiAqb7eJ1/view?usp=sharing",
+            "threeDPlan":"http://emlakseyret360.com/beytturk/beyttepeyalova360/",
+            "moreInfo":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
-            "price": "$ 4,000,000",
+            "price": "To Be Discussed",
             "features":[
                 {
                     
                     "name":"Bedrooms",
-                    "value":"3"
+                    "value":"yes"
                 },
                 {
                     "name":"Parking",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                 
                     "name":"Bathrooms",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                     "name":"Toilets",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                   
                     "name":"Area",
-                    "value":"120m2"
+                    "value":"To be discussed"
                 },
                 {
                 
                     "name":"City",
-                    "value":"Yalova"
+                    "value":"Istanbul"
                 },
                 {
                     "name":"Garden",
@@ -433,74 +437,80 @@
             "type":"Apartment",
             "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                "gallery":[
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
-            ],
+                "https://drive.google.com/file/d/12Oa1tENydNCOmuE2no29yognwaKZ-vUD/view?usp=sharing",
+                "https://drive.google.com/file/d/1tUMWExBwnSC59rasULQe8JvQFhfDXq3-/view?usp=sharing",
+                "https://drive.google.com/file/d/1s3gVXO_YqscL3zDul3hJbiO8Wz10k2HQ/view?usp=sharing",
+                "https://drive.google.com/file/d/10EJ1SbHFxrxcNOKavA3VgbjzQmdSM2E2/view?usp=sharing",
+                "https://drive.google.com/file/d/1o0fh9dSIxHJ-mQo0KYcYpZoqInRyoarD/view?usp=sharing",
+                "https://drive.google.com/file/d/1pYgW8qUzu7zZSp8q3BBe2g7j9k71xrcx/view?usp=sharing",
+                "https://drive.google.com/file/d/1LCHORPhCtvB8l9hCZ2WvNeZHuGuLvr3Y/view?usp=sharing",
+                "https://drive.google.com/file/d/1QKNafCNd-grvK61mq5GZ7mj_7EB8jPX4/view?usp=sharing",
+                "https://drive.google.com/file/d/1myJUNUtCcdYq6f5FH5Fv9suupFOsMsHL/view?usp=sharing",
+                "https://drive.google.com/file/d/1091t0uu0u8ZvHQhUZkHE34OGtuEHGzcb/view?usp=sharing",
+                "https://drive.google.com/file/d/1wA2FTNa039quSCafNvwpkwfe6-b0yhjD/view?usp=sharing",
+                "https://drive.google.com/file/d/1Q02qBQsgVDSwu4lEhVi9AlsCPygTKcL7/view?usp=sharing",
+                "https://drive.google.com/file/d/1CxjTteGT9Q7lvm5lxkuS8Dw4Ai1uMNzJ/view?usp=sharing",
+                "https://drive.google.com/file/d/1LAzqbTfCV0fvVpSQEhyXjahINy1uO_Wb/view?usp=sharing",
+                "https://drive.google.com/file/d/1G6h_GA0HRE7hgayTLRKddeNPUMr_pLc5/view?usp=sharing"
+                            ],
             "videos":[
                 {
-                    "title": "Yalova Summer House 1",
-                    "description": "Summer House branches",
-                    "videoId": "0wlT-55JaJU"
+                    "title": "Lake City 1",
+                    "description": "Food and more",
+                    "videoId": "mj2YaCLUpU0"
                 },
                 {
-                    "title": "Yalova Summer House 2",
+                    "title": "Lake City 2",
+                    "description": "More Vlogging",
+                    "videoId": "Nfm4ACBShZo"
+                },
+                {
+                    "title": "Lake City 3",
                     "description": "Summer house beaches and nature",
-                    "videoId": "0AbBlQag9VQ"
+                    "videoId": "Nfm4ACBShZo"
                 }
             ]
         },
         {
             "reference":"PTRSV-0005",
             "id": "5",
-            "source": "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-            "title": "Fifth slide label",
-            "description": "Some representative placeholder content for the fifth slide.",
+            "source": "https://drive.google.com/file/d/1IHjEu6JG70ep-q1YIP5qaPGfk_7ezh6W/view?usp=sharing",
+            "title": "BEYTTURK ORMAN PROJECT",
+            "description": "Beytturk beautifull forest projects",
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "turkiye",
+                "beytturk",
+                "orman",
+                "forest",
+                "project",
+                "istanbul"
             ],
             "createdAt": "2018-01-01",
             "updatedAt": "2020-01-01",
-            "price": "$ 5,000,000",
+            "price": "To Be Discussed",
             "features":[
                 {
                     
                     "name":"Bedrooms",
-                    "value":"3"
+                    "value":"yes"
                 },
                 {
                     "name":"Parking",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                 
                     "name":"Bathrooms",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                     "name":"Toilets",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                   
                     "name":"Area",
-                    "value":"120m2"
+                    "value":"To be discussed"
                 },
                 {
                 
@@ -522,71 +532,70 @@
                 "lat": "25.761681",
                 "lng": "-80.191788"
             },
-            "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "benefits":"Key benefits of this property are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "details":"You can enjoy nature and sea view in our site where 209 residences with 5 floors and 4 floors with sea view and nature view are located in Beyttürk Orman. We meet. Nature lovers and sea lovers visit us in our studio where you can see our 1 + 0, 1 + 1 and 2 + 1 apartments. We welcome you to. Sea or nature? Just choose...",
+            "benefits":"EVERYTHING BETWEEN YOUR HANDS: \nA Few Steps from the Main Street, 10 Minutes to Schools, Hospitals, Industrial Sites and Shopping Malls Full of Cafes, Restaurants, Shops, Super Markets.\n GREEN AND BLUE MEETING IN THIS PROJECT:\n The most natural view of green and blue is in Beytturk FOREST… While breathing the clean air of the neighboring forest on the A side, a unique Sea of Marmara a privileged life awaits you.",
             "type":"Apartment",
-            "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "floorPlan": "https://drive.google.com/file/d/1xLzRhx_nPYP7KOdbjEIS9MKVxJkQkCfh/view?usp=sharing",
+            "apartmentsPlan":"https://drive.google.com/file/d/1zkU_PgAtCgkFhMlqoI2lJVmpiAqb7eJ1/view?usp=sharing",
+            "threeDPlan":"http://emlakseyret360.com/beytturk/beyttepeyalova360/",
+            "moreInfo":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
+            "overview":"Yalova is one of the most important and sophisticated touristic cities in Turkey. Yalova is one of the unique thermal springs located between Istanbul, Bursa and Kocaeli. It is the city where fresh air is found in the seaside and the wide forests surrounding you.",
                "gallery":[
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
+                "https://drive.google.com/file/d/1IHjEu6JG70ep-q1YIP5qaPGfk_7ezh6W/view?usp=sharing",
+                "https://drive.google.com/file/d/1SCdS5QSM3x3MiDI1Q6Yz4DY4wG0McDuC/view?usp=sharing",
+                "https://drive.google.com/file/d/19Pe79akkiM29XEICwnXdWxYVEIUZkHQx/view?usp=sharing",
+                "https://drive.google.com/file/d/13zah70ntCPXzq2mGT8DsZu9FM43EMheJ/view?usp=sharing",
+                "https://drive.google.com/file/d/1zn7QIoHKzno2immBvLWOUTF2E7Tio32H/view?usp=sharing",
+                "https://drive.google.com/file/d/1QGzASdJAG-Ek2Gl677iIrX_t7BDQq852/view?usp=sharing",
+                "https://drive.google.com/file/d/1v1-9orFGz9kek3JRI5At4wBUU-MSCjCY/view?usp=sharing",
+                "https://drive.google.com/file/d/1TAKpPd2zIamsw7FmV80R5DcYQwV5Gtlg/view?usp=sharing",
+                "https://drive.google.com/file/d/1nGzL8RdLL2EFEZYSA4-0zNSJj2FPc8CU/view?usp=sharing",
+                "https://drive.google.com/file/d/1Y1PWkLe_pxhHR2X_HRWeEPU1zBqsLXBO/view?usp=sharing",
+                "https://drive.google.com/file/d/1WmAm01s4zzYt0nnS8aQ7XVpFgy-N5uif/view?usp=sharing"
             ],
             "videos":[
                 {
-                    "title": "Yalova Summer House 1",
+                    "title": "BEYTTURK ORMAN PROJECT",
                     "description": "Summer House branches",
-                    "videoId": "0wlT-55JaJU"
+                    "videoId": "1MUpk4AlPUA"
                 },
                 {
-                    "title": "Yalova Summer House 2",
-                    "description": "Summer house beaches and nature",
-                    "videoId": "0AbBlQag9VQ"
+                    "title": "BEYTTURK ORMAN PROJECT",
+                    "description": "Beytturk Cinarık",
+                    "videoId": "CtsEIAQX23c"
                 }
             ]
         },
         {
             "reference":"PTRSV-0006",
             "id": "6",
-            "source": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-            "title": "Sixth slide label",
-            "description": "Some representative placeholder content for the sixth slide.",
+            "source": "https://drive.google.com/file/d/12IWDeVLU22s9RbffloCxWCRWMZ_XYsYC/view?usp=sharing",
+            "title": "BEYTEPE PROJECTS ",
+            "description": "Beytturk Projects for Best Investment in Turkey",
 
             "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
+                "byetturk",
+                "turkiye",
+                "yalova",
+                "istanbul"
             ],
             "createdAt": "2018-01-01",
             "updatedAt": "2018-01-01",
-            "price": "$ 5,000,000",
+            "price": "To Be Discussed",
             "features":[
                 {
                     
                     "name":"Bedrooms",
-                    "value":"3"
+                    "value":"yes"
                 },
                 {
                     "name":"Parking",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                 
                     "name":"Bathrooms",
-                    "value":"2"
+                    "value":"yes"
                 },
                 {
                     "name":"Toilets",
@@ -595,7 +604,7 @@
                 {
                   
                     "name":"Area",
-                    "value":"120m2"
+                    "value":"Huge"
                 },
                 {
                 
@@ -617,230 +626,66 @@
                 "lat": "25.761681",
                 "lng": "-80.191788"
             },
-            "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "benefits":"Key benefits of this property are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "details":"Beytepe transcends your aspirations for an idyllic lifestyle, surpassing all expectations. Uncover a unique investment opportunity as it weaves a new world immersed in nature, complete with children's playgrounds, an outdoor swimming pool, a fitness center, a sauna, hiking trails, basketball and tennis courts, social amenities, and a secure residential environment.",
+            "benefits":"Nestled in Termal, Yalova's most treasured region, Mia Termal boasts a breathtaking panorama and captivating architectural marvels. Life takes flight in this project, strategically located near major thoroughfares, elevating its prominence in the locale.",
             "type":"Apartment",
-            "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "floorPlan": "https://drive.google.com/file/d/1xLzRhx_nPYP7KOdbjEIS9MKVxJkQkCfh/view?usp=sharing",
+            "apartmentsPlan":"https://drive.google.com/file/d/1zkU_PgAtCgkFhMlqoI2lJVmpiAqb7eJ1/view?usp=sharing",
+            "threeDPlan":"http://emlakseyret360.com/beytturk/beyttepeyalova360/",
+            "moreInfo":"https://drive.google.com/file/d/1XasuLZNd5JIFX9qdcPsnIioX_9LSlPIo/view?usp=sharing",
+            "overview":"Discover a secure haven adorned with joy, comfort, and remarkable intricacies. Embrace an array of spacious apartment options, ranging from cozy to expansive, extending an inviting embrace to those seeking a blissful existence. Beytturk introduces a new way of life to Yalova, encompassing excellence and expertise. The extraordinary Beytepe project, inspired by Yalova's exceptional natural surroundings, encompasses 238 apartments across a sprawling 19,000 m2 area. The project shines through its meticulously crafted architectural design, complemented by an array of social, cultural, and sporting amenities.",
                "gallery":[
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
+                "https://drive.google.com/file/d/1RME15ZqIWxb6Mh_tMpBRIoorICwmss3M/view?usp=sharing",
+                "https://drive.google.com/file/d/1TFbYReZu3EXrzMgMurEwtta0bkIpqypE/view?usp=sharing",
+                "https://drive.google.com/file/d/12IWDeVLU22s9RbffloCxWCRWMZ_XYsYC/view?usp=sharing",
+                "https://drive.google.com/file/d/16PbaMDnR_erCSAeqVrrG4ydENnEjERwT/view?usp=sharing",
+                "https://drive.google.com/file/d/1yX9uk0v7bDM-6S3zjmH8ic-K9wsGBa86/view?usp=sharing",
+                "https://drive.google.com/file/d/1R4qhAlQ40zVbN-3MU929E4XYedKnThv7/view?usp=sharing",
+                "https://drive.google.com/file/d/176uV-y5-mnjwJfUE1UOHdZXqFmEnDUXK/view?usp=sharing",
+                "https://drive.google.com/file/d/1BDzhikDHpWF0TKHvwIObysZ4fQqbplPz/view?usp=sharing",
+                "https://drive.google.com/file/d/1GfvXwrTtNjdCRVFmUpWsgSgwoy9NTC6X/view?usp=sharing",
+                "https://drive.google.com/file/d/1wPXn5xTwhBvbF81J2G1e_0x9EG3MaKne/view?usp=sharing",
+                "https://drive.google.com/file/d/1sGFtlZuRww6lssZ2dOAoK4xK162PG3hD/view?usp=sharing",
+                "https://drive.google.com/file/d/1t_Qi5asQZ3vywEe-Yp744EHhw_BprD-K/view?usp=sharing",
+                "https://drive.google.com/file/d/1_m1F8Y7K8rjl1DEp_zcDK3IV-DSyaBF1/view?usp=sharing",
+                "https://drive.google.com/file/d/1Qi405GixI2iFra3sf8F4zQxLuobxO0ON/view?usp=sharing",
+                "https://drive.google.com/file/d/1YSVvvSEXMgokLUQbEfogVuisiyehq4h0/view?usp=sharing",
+                "https://drive.google.com/file/d/1RkJXegI6PCNvkSzE_Dd4nYERLF6J7wP0/view?usp=sharing",
+                "https://drive.google.com/file/d/1Vy75kkt2cmuJxrFQldsPB6As8AXYf1h2/view?usp=sharing",
+                "https://drive.google.com/file/d/1yNhXXbbHqHKINCatvqErzs2QXu2vyA1U/view?usp=sharing",
+                "https://drive.google.com/file/d/1nh1p5m4EJVqaQo1qoQ83nYsH3RcSv2Za/view?usp=sharing",
+                "https://drive.google.com/file/d/1v3KO1_bIpF_nLPWsAPWtS5Z-MPsszKJ9/view?usp=sharing"
             ],
             "videos":[
                 {
-                    "title": "Yalova Summer House 1",
+                    "title": "Beytepe Projects 1",
                     "description": "Summer House branches",
-                    "videoId": "0wlT-55JaJU"
+                    "videoId": "ytXRWZdlhXw"
                 },
                 {
-                    "title": "Yalova Summer House 2",
+                    "title": "Beytepe Projects 2",
                     "description": "Summer house beaches and nature",
                     "videoId": "0AbBlQag9VQ"
-                }
-            ]
-        },
-        {
-            "reference":"PTRSV-0007",
-            "id": "7",
-            "source": "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-            "title": "Seventh slide label",
-            "description": "Some representative placeholder content for the seventh slide.",
-            "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
-            ],
-            "createdAt": "2018-01-01",
-            "updatedAt": "2020-01-01",
-            "price": "$ 6,000,000",
-            "features":[
-                {
-                    
-                    "name":"Bedrooms",
-                    "value":"3"
                 },
                 {
-                    "name":"Parking",
-                    "value":"2"
-                },
-                {
-                
-                    "name":"Bathrooms",
-                    "value":"2"
-                },
-                {
-                    "name":"Toilets",
-                    "value":"2"
-                },
-                {
-                  
-                    "name":"Area",
-                    "value":"120m2"
-                },
-                {
-                
-                    "name":"City",
-                    "value":"Yalova"
-                },
-                {
-                    "name":"Garden",
-                    "value":"yes"
-                },
-                {
-                 
-                    "name":"Pool",
-                    "value":"yes"
-                }
-            ],
-            
-            "map" : {
-                "lat": "25.761681",
-                "lng": "-80.191788"
-            },
-            "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "benefits":"Key benefits of this property are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "type":"Apartment",
-            "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-               "gallery":[
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
-            ],
-            "videos":[
-                {
-                    "title": "Yalova Summer House 1",
+                    "title": "Beytepe Projects 3",
                     "description": "Summer House branches",
-                    "videoId": "0wlT-55JaJU"
+                    "videoId": "-ftU1Sj8VLA"
                 },
                 {
-                    "title": "Yalova Summer House 2",
+                    "title": "Beytepe Projects 4 ",
                     "description": "Summer house beaches and nature",
-                    "videoId": "0AbBlQag9VQ"
-                }
-            ]
-        },
-        {
-            "reference":"PTRSV-0008",
-            "id": "8",
-            "source": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-            "title": "Eighth slide label",
-            "description": "Some representative placeholder content for the eighth slide.",
-            "tags": [
-                "tag1",
-                "tag2",
-                "tag3"
-            ],
-            "createdAt": "2018-01-01",
-            "updatedAt": "2018-01-01",
-            "price": "$ 7,000,000",
-            "features":[
-                {
-                    
-                    "name":"Bedrooms",
-                    "value":"3"
+                    "videoId": "7YDNKJpBH7M"
                 },
                 {
-                    "name":"Parking",
-                    "value":"2"
-                },
-                {
-                
-                    "name":"Bathrooms",
-                    "value":"2"
-                },
-                {
-                    "name":"Toilets",
-                    "value":"2"
-                },
-                {
-                  
-                    "name":"Area",
-                    "value":"120m2"
-                },
-                {
-                
-                    "name":"City",
-                    "value":"Yalova"
-                },
-                {
-                    "name":"Garden",
-                    "value":"yes"
-                },
-                {
-                 
-                    "name":"Pool",
-                    "value":"yes"
-                }
-            ],
-            
-            "map" : {
-                "lat": "25.761681",
-                "lng": "-80.191788"
-            },
-            "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "benefits":"Key benefits of this property are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "type":"Apartment",
-            "overview":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-               "gallery":[
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/10/09/02/27/lake-192990_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2016/09/19/07/01/lake-1679708_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg",
-                "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg"
-            ],
-            "videos":[
-                {
-                    "title": "Yalova Summer House 1",
+                    "title": "Beytepe Projects 5",
                     "description": "Summer House branches",
-                    "videoId": "0wlT-55JaJU"
-                },
-                {
-                    "title": "Yalova Summer House 2",
-                    "description": "Summer house beaches and nature",
-                    "videoId": "0AbBlQag9VQ"
+                    "videoId": "AilFbfL8R_c"
                 }
+                
             ]
         }
+        
     ]
 }
 
