@@ -52,10 +52,10 @@ const Property = () => {
         <Head
           title={title}
           description={description}
-          price={price}
-          reference={reference}
-          createdAt={createdAt}
-          updatedAt={updatedAt}
+          //price={price}
+          //reference={reference}
+          //createdAt={createdAt}
+          //updatedAt={updatedAt}
         />
       </Suspense>
       <section className="w-full md:px-14 lg:px-18 px-4 sm:px-10 xl:px-24 flex flex-col md:flex-row md:items-start md:justify-start items-center justify-center">
@@ -71,7 +71,7 @@ const Property = () => {
               moreInfo={moreInfo}
             />
          </Suspense>
-         
+
          <Suspense fallback={<Spinner/>}>
             <VideoGallery videos = {videos}/>
           </Suspense>
