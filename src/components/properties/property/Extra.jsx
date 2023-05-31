@@ -13,13 +13,16 @@ const Extra = ({threeDPlan, floorPlan, apartmentsPlan, moreInfo}) => {
     //Form the url
      //TODO: Extract the image link from the google drive link shared link:
      const extractItemGoogleDriveLink = (link) => {
-
-        const startIndex = link.indexOf("/d/") + 3; // Find the starting index of the ID
-        const endIndex = link.indexOf("/view"); // Find the ending index of the ID
-        const itemId = link.substring(startIndex, endIndex);
-        // Form the embed link of the image
-        const itemLink = `https://drive.google.com/uc?export=view&id=${itemId}`;
-        return itemLink;
+        //Perform the following steps only if the link contains :"https://drive.google.com"
+        if (link.includes('https://drive.google.com')) {
+            const startIndex = link.indexOf("/d/") + 3; // Find the starting index of the ID
+            const endIndex = link.indexOf("/view"); // Find the ending index of the ID
+            const itemId = link.substring(startIndex, endIndex);
+            // Form the embed link of the image
+            const itemLink = `https://drive.google.com/uc?export=view&id=${itemId}`;
+            return itemLink;
+        }
+        return link;
     };
 
     const openLink = (itemLink) => {
@@ -30,30 +33,7 @@ const Extra = ({threeDPlan, floorPlan, apartmentsPlan, moreInfo}) => {
   return (
     <div className="w-full px-6 rounded-lg my-3 flex flex-col gap-6 md:flex-row border border-gray-800 bg-gray-900 items-center justify-center">
         
-        {/* <button 
-            onClick={() => handleButtonClick(threeDPlan)}
-            className="w-full md:w-2/3 py-2 px-2 bg-blue-800 hover:bg-blue-600 text-white font-bold text-lg rounded-md mt-4 mb-2"
-            >
-            3D Tour
-        </button>
-        <button 
-            onClick={() => handleButtonClick(floorPlan)}
-            className="w-full md:w-2/3 py-2 px-2 bg-blue-800 hover:bg-blue-600 text-white font-bold text-lg rounded-md mt-4 mb-2"
-            >
-            Floor Plan
-        </button>
-        <button 
-            onClick={() => handleButtonClick(apartmentsPlan)}
-            className="w-full md:w-2/3 py-2 px-2 bg-blue-800 hover:bg-blue-600 text-white font-bold text-lg rounded-md mt-4 mb-2"
-            >
-            Appartments Plan
-        </button>
-        <button 
-            onClick={() => handleButtonClick(moreInfo)}
-            className="w-full md:w-2/3 py-2 px-2 bg-blue-800 hover:bg-blue-600 text-white font-bold text-lg rounded-md mt-4 mb-2"
-            >
-            More info
-        </button> */}
+        
         {
             threeDPlan && (
                 <button 
