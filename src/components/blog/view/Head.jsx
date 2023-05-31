@@ -25,7 +25,7 @@ const Head = ({title, tags, createdAt, updatedAt}) => {
           <div className="">
             <p className="text-sm md:font-bold text-gray-300 "><span className="text-[#043334]">Created: </span>{createdAt}</p>
             {
-              createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-900 "><span className="text-[#043334]">Updated: </span>{updatedAt}</p>
+              createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-300 "><span className="text-[#043334]">Updated: </span>{updatedAt}</p>
             }
           </div>
           <div className="flex  border rounded-md flex-col justify-center items-center px-4">

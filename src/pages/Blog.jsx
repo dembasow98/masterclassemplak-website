@@ -76,8 +76,8 @@ const Blog = () => {
         <section className="w-full mt-4 md:px-10 flex flex-col md:flex-row md:items-start md:justify-start items-center justify-center">
           <div className="w-full flex md:w-2/3 flex-col md:px-4 lg:px-6">
             <div className='flex flex-col w-full border border-[#043334] mb-6 pb-4 rounded-xl md:items-start md:justify-start items-center justify-center'>
-                <div className="w-fit flex flex-col items-center justify-center">
-                    <img src={extractImageGoogleDriveLink(banner)} alt={title} className="object-cover object-center" />
+                <div className="w-full flex flex-col items-center justify-center">
+                    <img src={extractImageGoogleDriveLink(banner)}  alt={title} className="object-cover object-center w-full max-h-[400px]" />
                 </div>
                 
                 <div className="w-full flex p-4 flex-col items-center justify-center">
@@ -94,7 +94,7 @@ const Blog = () => {
                   <p className="text-md md:text-xl  text-gray-200">{content3?.content}</p>
                 </div>
 
-                <div className="w-full p-4 flex flex-col items-center justify-center">
+                <div className="w-full h-[900px] p-4 flex flex-col items-center justify-center">
                   <Suspense fallback={<Spinner />}>
                     <Gallery images={gallery} />
                   </Suspense>

@@ -46,8 +46,7 @@ const Gallery = ({images}) => {
           autoPlay={true}
           //Make the slide change every 0.5 second
           slideInterval={100}
-          //Play button
-          
+          lazyLoad={true}
         />
       </Suspense>
     </div>
