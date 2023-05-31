@@ -42,7 +42,7 @@ const Blogs = () => {
                       <BlogCard 
                         key = {blog?.id}
                         title = {blog?.title}
-                        description = {blog?.description}
+                
                         banner = {blog?.banner}
                         createdAt = {blog?.createdAt}
                         updatedAt = {blog?.updatedAt}
@@ -50,6 +50,15 @@ const Blogs = () => {
                         avatar={blog?.avatar}
                         content1={blog?.content1}
                         content2={blog?.content2}
+                        content3={blog?.content3}
+                        content4={blog?.content4}
+                        content5={blog?.content5}
+                        content6={blog?.content6}
+                        content7={blog?.content7}
+                        content8={blog?.content8}
+                        content9={blog?.content9}
+                        content10={blog?.content10}
+                        content11={blog?.content11}
                         gallery={blog?.gallery}
                         tags = {blog?.tags}
                       />

@@ -60,17 +60,21 @@ const Property = () => {
       </Suspense>
       <section className="w-full md:px-14 lg:px-18 px-4 sm:px-10 xl:px-24 flex flex-col md:flex-row md:items-start md:justify-start items-center justify-center">
         <div className="w-full flex flex-col items-center md:w-2/3 justify-center">
-          <Suspense fallback={<Spinner/>}>
-            <Gallery images={gallery} />
+          <div className="w-full h-[850px] flex flex-col items-center justify-start ">
+            <Suspense fallback={<Spinner/>}>
+              <Gallery images={gallery} />
+            </Suspense>
+          </div>
+          <div className="w-full pb-4 flex">
+            <Suspense fallback={<Spinner/>}>
+              <Extra
+                threeDPlan={threeDPlan}
+                floorPlan={floorPlan}
+                apartmentsPlan={apartmentsPlan}
+                moreInfo={moreInfo}
+              />
           </Suspense>
-          <Suspense fallback={<Spinner/>}>
-            <Extra
-              threeDPlan={threeDPlan}
-              floorPlan={floorPlan}
-              apartmentsPlan={apartmentsPlan}
-              moreInfo={moreInfo}
-            />
-         </Suspense>
+         </div>
 
          <Suspense fallback={<Spinner/>}>
             <VideoGallery videos = {videos}/>

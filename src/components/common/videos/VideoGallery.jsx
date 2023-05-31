@@ -19,7 +19,9 @@ const VideoGallery = ({ videos }) => {
     <Carousel>
       {videos.map((video, index) => (
         <div key={index}>
-          <YouTube videoId={video.videoId} opts={opts} />
+          <YouTube videoId={video.videoId} opts={opts} 
+             
+           />
           <h2>{video.title}</h2>
           <p>{video.description}</p>
         </div>
