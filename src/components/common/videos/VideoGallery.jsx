@@ -1,40 +1,27 @@
 import React from 'react';
 import YouTube from 'react-youtube';
-import videos from './videos.json'; // Import the videos JSON file
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const VideoGallery = () => {
-  const [currentVideoIndex, setCurrentVideoIndex] = React.useState(0);
-  const currentVideo = videos[currentVideoIndex];
+const VideoGallery = ({ videos }) => {
 
   const opts = {
     height: '360',
     width: '640',
   };
 
-  const nextVideo = () => {
-    const newIndex = currentVideoIndex + 1;
-    if (newIndex < videos.length) {
-      setCurrentVideoIndex(newIndex);
-    }
-  };
-
   return (
-    <div>
-      <div className="flex justify-center mb-4">
-        <YouTube videoId={currentVideo.videoId} opts={opts} />
-      </div>
-      <h2 className="text-center text-2xl font-bold mb-2">{currentVideo.title}</h2>
-      <p className="text-center mb-4">{currentVideo.description}</p>
-      <div className="flex justify-center">
-        <button
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          onClick={nextVideo}
-        >
-          Next Video
-        </button>
-      </div>
-    </div>
+    <Carousel>
+      {videos.map((video, index) => (
+        <div key={index}>
+          <YouTube videoId={video.videoId} opts={opts} />
+          <h2>{video.title}</h2>
+          <p>{video.description}</p>
+        </div>
+      ))}
+    </Carousel>
   );
 };
+
 
 export default VideoGallery;

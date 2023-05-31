@@ -51,6 +51,7 @@ const Properties = () => {
                                     apartmentsPlan = {property?.apartmentsPlan}
                                     threeDPlan = {property?.threeDPlan}
                                     moreInfo = {property?.moreInfo}
+                                    videos = {property?.videos}
                                     features = {property?.features}
                                 />
                             </Suspense>
