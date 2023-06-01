@@ -1,4 +1,4 @@
-import React, { useState, useRef, Suspense } from "react";
+import React, { useState } from "react";
 
 //React phone input
 import PhoneInput from 'react-phone-input-2'
@@ -7,10 +7,10 @@ import 'react-phone-input-2/lib/style.css'
 import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 
 //Google recaptcha
-import ReCAPTCHA from "react-google-recaptcha";
+//import ReCAPTCHA from "react-google-recaptcha";
 
 import {IoCloseSharp} from "react-icons/io5";
-import Spinner from "../loader/Spinner";
+//import Spinner from "../loader/Spinner";
 
 
 const  Enquire =({title, isModal, handleCloseModal}) =>{
@@ -20,7 +20,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [note, setNote] = useState("");
-  const [captcha, setCaptcha] = useState("");
+  //const [captcha, setCaptcha] = useState("");
 
   function handleSubmit(event) {
 
@@ -29,23 +29,23 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
       name,
       email,
       phone,
-      note,
-      captcha,
+      note
+      //captcha,
     });
     // Your form submission logic here
   }
 
   //Google recaptcha
-    const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
+    // const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
 
-    const recaptchaRef = useRef();
-    //const recaptchaValue = recaptchaRef.current.getValue();
+    // const recaptchaRef = useRef();
+    // //const recaptchaValue = recaptchaRef.current.getValue();
 
-    const captchaOnChange = (value) => {
-        console.log("Captcha value:", value);
-        setCaptcha(value);
-    }
+    // const captchaOnChange = (value) => {
+    //     console.log("Captcha value:", value);
+    //     setCaptcha(value);
+    // }
 
 
   return (
@@ -143,7 +143,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                             onChange={(e) => setNote(e.target.value)}
                         ></textarea>
                     </div>
-                    <div className="form-group w-full flex justify-center my-2 items-center">
+                    {/* <div className="form-group w-full flex justify-center my-2 items-center">
                         <Suspense fallback = {<Spinner/>}>                  
                             <ReCAPTCHA
                                 //inputStyle={{width: '100%', height: '100%'}}
@@ -157,7 +157,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                                 theme = "dark"
                             />
                          </Suspense>
-                    </div>
+                    </div> */}
                     <div className="form-group flex w-full my-2">
                         <button
                             type="submit"
