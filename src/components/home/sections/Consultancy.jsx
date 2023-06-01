@@ -1,11 +1,11 @@
-import React, {useState, useRef} from "react";
+import React, {useState} from "react";
 import separator from "../../../assets/images/separators/yellow/yel3.png";
 
 //React phone input
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 //Google recaptcha
-import ReCAPTCHA from "react-google-recaptcha";
+//import ReCAPTCHA from "react-google-recaptcha";
 
 
 
@@ -17,7 +17,7 @@ const Consultancy = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [note, setNote] = useState("");
-  const [captcha, setCaptcha] = useState("");
+  //const [captcha, setCaptcha] = useState("");
 
   function handleConsultancySubmit(event) {
 
@@ -27,23 +27,23 @@ const Consultancy = () => {
       email,
       phone,
       note,
-      captcha,
+      //captcha,
     });
     // Your form submission logic here
   }
 
   //Google recaptcha
-  const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
+  // const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
 
 
-  const recaptchaRef = useRef(null);
-  //const recaptchaValue = recaptchaRef.current.getValue();
+  // const recaptchaRef = useRef(null);
+  // //const recaptchaValue = recaptchaRef.current.getValue();
 
-  const captchaOnChange = (value) => {
-    console.log("Captcha value:", value);
-    setCaptcha(value);
-  }
+  // const captchaOnChange = (value) => {
+  //   console.log("Captcha value:", value);
+  //   setCaptcha(value);
+  // }
 
 
 
@@ -120,7 +120,7 @@ const Consultancy = () => {
                     onChange={(e) => setNote(e.target.value)}
                 ></textarea>
               </div>
-              <div className="justify-center flex items-center">
+              {/* <div className="justify-center flex items-center">
                   <ReCAPTCHA
                     ref = {recaptchaRef}
                     sitekey = {SITE_KEY}
@@ -129,7 +129,7 @@ const Consultancy = () => {
                     theme="dark"
                     size = "normal"
                   />
-              </div>
+              </div> */}
                <div className = "w-full justify-end flex items-center">
                 <button onClick={handleConsultancySubmit} className="w-full py-4 bg-red-600  hover:bg-red-700 text-white font-bold rounded">
                   SEND

@@ -1,12 +1,12 @@
-import React, { useState, useRef, lazy, Suspense } from "react";
+import React, { useState } from "react";
 
 import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 
 
 
-import Spinner from "../../common/loader/Spinner.jsx";
+//import Spinner from "../../common/loader/Spinner.jsx";
 //Google recaptcha
-const ReCAPTCHA = lazy(() => import("react-google-recaptcha"));
+//const ReCAPTCHA = lazy(() => import("react-google-recaptcha"));
 
 
 const  Comment =({title}) =>{
@@ -15,7 +15,7 @@ const  Comment =({title}) =>{
   const [email, setEmail] = useState("");
   //const [phone, setPhone] = useState("");
   const [note, setNote] = useState("");
-  const [captcha, setCaptcha] = useState("");
+  //const [captcha, setCaptcha] = useState("");
 
   function handleSubmit(event) {
 
@@ -25,23 +25,23 @@ const  Comment =({title}) =>{
       email,
       //phone,
       note,
-      captcha,
+      //captcha,
     });
     // Your form submission logic here
   }
 
   //Google recaptcha
-    const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
+    // const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
 
 
-    const recaptchaRef = useRef();
-    //const recaptchaValue = recaptchaRef.current.getValue();
+    // const recaptchaRef = useRef();
+    // //const recaptchaValue = recaptchaRef.current.getValue();
 
-    const captchaOnChange = (value) => {
-        console.log("Captcha value:", value);
-        setCaptcha(value);
-    }
+    // const captchaOnChange = (value) => {
+    //     console.log("Captcha value:", value);
+    //     setCaptcha(value);
+    // }
 
 
   return (
@@ -96,7 +96,7 @@ const  Comment =({title}) =>{
                         ></textarea>
                     </div>
                     <div className = "w-full flex flex-col lg:flex-row  sm:gap-3 md:gap-4">
-                    <div className="form-group w-full flex justify-center my-2 items-center">
+                    {/* <div className="form-group w-full flex justify-center my-2 items-center">
                         <Suspense fallback={<Spinner/>}>         
                             <ReCAPTCHA
                                 //inputStyle={{width: '100%', height: '100%'}}
@@ -110,7 +110,7 @@ const  Comment =({title}) =>{
                                 theme = "dark"
                             />
                          </Suspense>
-                    </div>
+                    </div> */}
                     <div className="form-group flex w-full my-2 lg:my-4 lg:mx-6 lg:px-6">
                         <button
                             type="submit"
