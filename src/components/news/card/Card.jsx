@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 const Card = ({id,
     title,
-    description,
     banner,
     createdAt,
     updatedAt,
@@ -11,6 +10,15 @@ const Card = ({id,
     avatar,
     content1,
     content2,
+    content3,
+    content4,
+    content5,
+    content6,
+    content7,
+    content8,
+    content9,
+    content10,
+    content11,
     gallery,
     tags} ) => {
 
@@ -18,7 +26,6 @@ const Card = ({id,
     const new_item = {
         id,
         title,
-        description,
         banner,
         createdAt,
         updatedAt,
@@ -26,7 +33,21 @@ const Card = ({id,
         avatar,
         content1,
         content2,
+        content3,
+
+        content4,
+        content5,
+        content6,
+
+        content7,           
+
+        content8,
+        content9,
+        content10,
+        content11,
+
         gallery,
+
         tags
     };
     //image(image title) click handler
@@ -49,14 +70,6 @@ const Card = ({id,
         </div>
         <div class="w-full md:w-2/3 flex flex-col space-y-2 p-3">
             <h3 class="font-black text-gray-200 sm:text-sm md:text-md lg:text-xl">{title}</h3>
-            <p class="md:text-sm lg:text-md text-gray-300 text-base">
-                
-
-                {
-                    description &&
-                    description.length > 100?description.substring(0, 100) + '...':description
-                }
-            </p>
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-row justify-end items-center">
                     <p class="text-gray-200 text-xs md:text-sm lg:text-md">{createdAt}</p>
@@ -65,8 +78,8 @@ const Card = ({id,
                 <Link 
                     to= {`/news/${slugify(title)}`}  
                     state = {new_item}
-                >
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                > 
+                    <button class="bg-[#043334] hover:bg-[#026567] text-white font-bold py-2 px-4 text-sm rounded">
                         Read More
                     </button>
                 </Link>
