@@ -9,11 +9,11 @@ const Head = ({title, tags, createdAt, updatedAt}) => {
           <div className="flex w-full flex-row md:px-14 lg:px-18 px-4 sm:px-10 xl:px-24 justify-center md:justify-start items-center">
             <p className=" text-center text-lg md:text-xl text-gray-300">{title}</p>
           </div>
-          <div className="flex w-full flex-row md:px-14 lg:px-18 sm:px-10 xl:px-24 justify-center md:justify-start items-center my-4">
+          <div className="w-full grid grid-cols-2 gap-4 md:px-14 lg:px-18 sm:px-10 xl:px-24 justify-center md:justify-start items-center my-4">
               {tags.map((tag) => (
                   <span
                   key={tag}
-                  className="inline-block px-2 py-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-300 rounded-full"
+                  className="flex items-center justify-center py-1 mr-2 text-sm font-semibold text-gray-400 bg-gray-700  rounded-full"
                   >
                   #{tag}
                   </span>
@@ -23,9 +23,9 @@ const Head = ({title, tags, createdAt, updatedAt}) => {
 
         <section className = "flex flex-row gap-y-1 justify-between  px-10 sm:px-20 items-center">
           <div className="">
-            <p className="text-sm md:font-bold text-gray-300 "><span className="text-[#043334]">Created: </span>{createdAt}</p>
+            <p className="text-sm md:font-bold text-gray-300 "><span className="text-gray-400">Created: </span>{createdAt}</p>
             {
-              createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-300 "><span className="text-[#043334]">Updated: </span>{updatedAt}</p>
+              createdAt !== updatedAt && <p className="text-sm md:font-bold text-gray-300 "><span className="text-gray-400">Updated: </span>{updatedAt}</p>
             }
           </div>
           <div className="flex  border rounded-md flex-col justify-center items-center px-4">

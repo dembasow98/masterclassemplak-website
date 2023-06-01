@@ -1,46 +1,46 @@
 {
     "testimonials": [
         {
-            "fullName": "John Doe",
+            "fullName": "Berat Onur Ersen",
             "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
-            "countryCode": "US",
-            "countryName": "United States"
+            "content": "I had the pleasure of working with Master Class Property on the sale of my home, and I couldn't be happier with the experience. Their team of professionals was knowledgeable, responsive, and dedicated to getting the best possible outcome for me. They provided valuable guidance throughout the entire process, and thanks to their expertise, I was able to sell my property quickly and at a great price. I highly recommend Master Class Property for anyone looking for exceptional real estate services.",
+            "countryCode": "TR",
+            "countryName": "Turkiye"
         },
         {
-            "fullName": "James Bond",
+            "fullName": "Mohmoud Ahmed",
             "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
-            "countryCode": "GB",
-            "countryName": "United Kingdom"
+            "content": "Master Class Property helped me find my dream home, and I couldn't be more grateful for their assistance. From the initial consultation to the final closing, their agents were attentive, understanding, and went above and beyond to meet my specific needs and preferences. They guided me through the entire home buying process with professionalism and expertise, making it a stress-free experience. If you're looking for a reliable real estate agency that truly cares about their clients, Master Class Property is the one to choose.",
+            "countryCode": "EG",
+            "countryName": "Egypt"
         },
         {
-            "fullName": "Bill Gates",
+            "fullName": "Arslan Sarıdemir",
             "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
-            "countryCode": "US",
-            "countryName": "United States"
+            "content": "As a property investor, I've worked with several real estate agencies, but none have impressed me as much as Master Class Property. Their team has an in-depth understanding of the market and an extensive network of industry contacts, which helped me find lucrative investment opportunities. They provided thorough market analysis, strategic advice, and negotiated excellent deals on my behalf. Master Class Property has become my go-to agency for all my real estate investments, and I highly recommend them to fellow investors.",
+            "countryCode": "TR",
+            "countryName": "Turkiye"
         },
         {
-            "fullName":"Steve Jobs",
+            "fullName":"Mohamad Zemmouri",
             "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
-            "countryCode": "US",
-            "countryName": "United States"
+            "content": "Master Class Property managed the rental of my property, and I couldn't be happier with their services. Their team was efficient, reliable, and ensured that my property was occupied by responsible tenants. They handled all the paperwork, tenant screening, and property maintenance with utmost professionalism, allowing me to have peace of mind and focus on other aspects of my life. I highly recommend Master Class Property to property owners looking for a trusted and competent rental management agency.",
+            "countryCode": "LB",
+            "countryName": "Lebanon"
         },
         {
-            "fullName": "Mark Zuckerberg",
+            "fullName": "Mohamed Elsayed",
             "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
-            "countryCode": "US",
-            "countryName": "United States"
+            "content": "I recently enlisted Master Class Property to help me with property valuation, and I was thoroughly impressed with their expertise and attention to detail. Their valuation report was comprehensive, accurate, and provided valuable insights into the current market trends. They took the time to understand my goals and objectives and provided me with personalized recommendations to maximize the value of my property. Master Class Property is the perfect choice for anyone seeking reliable property valuation services.",
+            "countryCode": "AE",
+            "countryName": "Emirates"
         },
         {
-            "fullName": "Elon Musk",
+            "fullName": "Temim bin Hamad",
             "profilePicture": "https://www.w3schools.com/howto/img_avatar.png",
-            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem. Sed euismod, nisl nec ultricies lacinia, nunc est aliquam nisl, eu aliquet nisl nunc eget lorem.",
-            "countryCode": "US",
-            "countryName": "United States"
+            "content":"Property exceeded my expectations when it came to selling my commercial property. Their team's market knowledge, marketing strategies, and negotiation skills were exceptional. They showcased my property effectively, attracting a wide range of potential buyers. Throughout the process, they kept me informed and provided regular updates, ensuring a smooth and successful transaction. I am incredibly grateful to Master Class Property and highly recommend their services to anyone in need of a reliable and results-driven real estate agency.",
+            "countryCode": "QA",
+            "countryName": "Qatar"
         }
     ]
 }

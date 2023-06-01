@@ -12,7 +12,7 @@ const Filter = lazy(() => import("./../components/common/search/Filter.jsx"));
 
 const Home = () => {
 
-  const testimonalDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt luctus, nunc est lacinia nisl, nec ultricies nisl lorem eget nisl."
+  const testimonalDescription = "Look what our clients say about us."
   return (
     <main className="w-full bg-black">
       <Suspense fallback={<Spinner/>}>

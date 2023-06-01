@@ -9,6 +9,16 @@ const news = data.news
 
 
 const SideNews = () => {
+    //TODO: Extract the image link from the google drive link shared link:
+ const extractImageGoogleDriveLink = (link) => {
+    const startIndex = link.indexOf("/d/") + 3; // Find the starting index of the ID
+    const endIndex = link.indexOf("/view"); // Find the ending index of the ID
+    const imageId = link.substring(startIndex, endIndex);
+    // Form the embed link of the image
+    const imageLink = `https://drive.google.com/uc?export=view&id=${imageId}`;
+    return imageLink;
+  };
+  
   return (
     <div class="flex flex-col justify-start bg-news-paper pb-4 px-10 my-4 rounded-md">
         <div className='py-5'>
@@ -23,7 +33,7 @@ const SideNews = () => {
                     return (
                         <Card 
                             key={index} 
-                            banner={item.banner}
+                            banner={extractImageGoogleDriveLink(item.banner)}
                             title={item.title}
                             description={item.description}
                             date={item.date}

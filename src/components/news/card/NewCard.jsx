@@ -84,8 +84,7 @@ const NewCard = ({id,
             <p class="md:text-sm lg:text-md text-gray-300 text-base">
         
                 {content1?.content.substring(0, 200) + "..."}
-    
-               
+
             </p>
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-row justify-end items-center">

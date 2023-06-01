@@ -75,12 +75,12 @@ const BlogCard = ({id,
     return (
        
         <div  className='flex flex-col  content-center justify-center sm:flex-row  md:flex-col lg:flex-row rounded-lg border  bg-gray-900 border-gray-700'>
-            <div className="flex    ">
+            <div className="flex items-center justify-center">
                 <Link 
                     to= {`/blogs/${slugify(title)}`}  
                     state = {blog}
                 >
-                <img className="max-w-[500px] max-h-[300px]  rounded-none" src = {extractImageGoogleDriveLink(banner)} alt="Jese Leos avatar" />
+                <img className="w-[400px] h-[300px] lg:max-w-[500px] lg:max-h-[300px]  rounded-none" src = {extractImageGoogleDriveLink(banner)} alt="Jese Leos avatar" />
                 </Link>
             </div>
             <article className="flex flex-col p-6">
