@@ -1,4 +1,4 @@
-import React, { useState, useRef, Suspense, lazy} from "react";
+import React, { useState} from "react";
 
 //React phone input
 import PhoneInput from 'react-phone-input-2'
@@ -8,12 +8,12 @@ import 'react-phone-input-2/lib/style.css'
 
 import {IoCloseSharp} from "react-icons/io5";
 
-import { Spinner } from "../../common";
+//import { Spinner } from "../../common";
 import yel2 from "../../../assets/images/separators/yellow/yel2.png";
 
 //Google recaptcha
 // Lazy load the ReCAPTCHA component
-const LazyReCAPTCHA = lazy(() => import('react-google-recaptcha'));
+//const LazyReCAPTCHA = lazy(() => import('react-google-recaptcha'));
 
 const  Enquire =({title, isModal, handleCloseModal}) =>{
 
@@ -22,7 +22,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [note, setNote] = useState("");
-  const [captcha, setCaptcha] = useState("");
+  //const [captcha, setCaptcha] = useState("");
 
   function handleSubmit(event) {
 
@@ -32,21 +32,18 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
       email,
       phone,
       note,
-      captcha,
+      //captcha,
     });
     // Your form submission logic here
   }
 
    //Get the site key from the .env file
-    const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
+    // const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
-    const recaptchaRef = useRef(null);
+    // const recaptchaRef = useRef(null);
     //const recaptchaValue = recaptchaRef.current.getValue();
 
-    const captchaOnChange = (value) => {
-        //console.log("Captcha value:", value);
-        setCaptcha(value);
-    }
+   
     
   return (
     <div className="flex flex-col w-full mb-8">
@@ -145,7 +142,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                         ></textarea>
                     </div>
                     <div className="w-full flex flex-col xl:flex-row justify-center gap-4 items-center">
-                        <div className="form-group  w-[200px] xl:w-full items-cover  flex justify-center my-4 items-center">
+                        {/* <div className="form-group  w-[200px] xl:w-full items-cover  flex justify-center my-4 items-center">
                            <Suspense fallback={<Spinner/>}>
                                 <LazyReCAPTCHA
                                     ref = {recaptchaRef}
@@ -158,7 +155,7 @@ const  Enquire =({title, isModal, handleCloseModal}) =>{
                                     theme = "dark"
                                 />
                             </Suspense>
-                        </div>
+                        </div> */}
                         <div className="form-group flex w-full mb-2">
                             <button
                                 type="submit"
